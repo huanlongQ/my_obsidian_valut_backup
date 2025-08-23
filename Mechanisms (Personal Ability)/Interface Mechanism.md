@@ -1,0 +1,2 @@
+you need interface. you need direct interface to some specific things rather than get vague concept. 
+like in high school, you do some specific summary from problems, and in this circumstance the summary is exactly the interface. 

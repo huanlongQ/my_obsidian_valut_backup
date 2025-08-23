@@ -1,0 +1,27 @@
+/* ---
+   PART 1: DEFINE YOUR CUSTOM FONT FROM THE TTF FILE
+   --- */
+   @font-face {
+    /* This is the custom name we will use for your font inside Obsidian. */
+    font-family: 'CustomYaHei';
+  
+    /* This tells Obsidian where to find the font file.
+       IMPORTANT: Replace 'YaHei.ttf' with the EXACT name of your file.
+       The '../fonts/' part tells it to go up one level from the snippets folder
+       and then into the fonts folder.
+    */
+    src: url('../fonts/msyhbd.ttf');
+  }
+  
+  
+  /* ---
+     PART 2: APPLY THE FONTS TO YOUR NOTES
+     --- */
+  body {
+    /* This sets the font priority. It will try Times New Roman first.
+       For any characters that Times New Roman doesn't have (like Chinese characters),
+       it will fall back to the next font in the list, which is our custom YaHei.
+       The final 'serif' is a last-resort generic font.
+    */
+    font-family: "Times New Roman", 'CustomYaHei', serif !important;;
+  }

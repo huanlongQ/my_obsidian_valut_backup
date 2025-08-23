@@ -1,0 +1,10 @@
+*.png
+*.jpg
+*.jpeg
+
+
+.trash/*
+.obsidian/cache
+zzzhe_Archive/*
+zzzhe_Attachments/*
+LOG/*

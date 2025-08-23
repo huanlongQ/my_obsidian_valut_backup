@@ -1,0 +1,21 @@
+{
+  "todoPageName": "todo",
+  "showChecked": false,
+  "showAllTodos": false,
+  "showOnlyActiveFile": false,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "page",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "new->old",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "",
+  "lookAndFeel": "classic",
+  "_collapsedSections": [
+    "__Personal Ability - Mechanisms/Reading, Learning and Neuroscience Mechanism.md",
+    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
+    "LOG/_log2025.md",
+    "LOG/log2025.md"
+  ],
+  "_hiddenTags": []
+}

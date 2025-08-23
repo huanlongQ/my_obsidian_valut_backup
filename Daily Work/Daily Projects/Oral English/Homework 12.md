@@ -1,0 +1,3 @@
+I run. I run for 2~3 kilometers everyday. this gives me high quality sleep and i appreciate it a lot. 
+
+WWI is a complicate theme and i would like to focus on the social mindset of the US. from the perspective of American people, they sacrifice a lot in WWI but earned little. tens of thousands of soldiers died in Eurpoe while American took a nobody role(compare with their sacrifice) at the final peace meeting. this makes American angry. Actually, the US is not keen on interfering the Europe. they believe in individualism in the international community. it was their morality that pushed them onto the land of Europe. the consequence of WWI even promoted the individual opinion in the US. 

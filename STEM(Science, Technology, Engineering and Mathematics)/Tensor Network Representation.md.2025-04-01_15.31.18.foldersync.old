@@ -1,0 +1,80 @@
+The key feature of Tensor Network Representation is to ***reduce the complexity of quantum problem***  $O(e^{ \text{Scale} }) \to O(\text{Poly}(\text{Scale}))$ . 
+* Examples: **Matrix Product State, Tree TN, projected entangled pair state**
+	![[Pasted image 20250328133712.png]]
+
+# 1. Matrix Product State (MPS)
+Thank MPS, I have learnt the trick of **tensor diagram**. 
+## 2.1 Theory of MPS
+The normal form of a quantum state: 
+$$
+∣\Psi⟩=\sum_{i_1​,i_2​,…,i_N}​​C_{i_1​,i_2​,…,i_N}​​​∣i_1​⟩∣i_2​⟩⋯∣i_N​⟩
+$$
+while the MPS is: 
+$$
+∣\Psi⟩=\sum_{i1​,i2​,…,iN}A^{[1]}_{i_1} ​A^{[2]}_{i_{2}}​ \dots|i_{1},i_{2},i_{3}\dots\rangle
+$$
+$A^{[k]}_{i_{k}}$ is a group of  $D_{k-1}\times D_{k}$  matrix, $D_{k}$ is bond dimension. Bond dimension controls the amount of entanglement MPS can capture. 
+The translation from MPS to normal quantum states is just contraction law of tensor: 
+$$
+C_{i_{1}i_{2}i_{3}\dots} = \Pi_{i_{1}i_{2}i_{3}\dots} A^{[1]}_{i_{1}}A^{[2]}_{i_{2}}\dots
+$$
+**Efficiency:**
+The efficiency of MPS, from exp complexity to poly, owe to **sparsity*** nature of quantum states, AKA **Area Law**.
+The scale of Hilbert space is reduced from $O(d^{N})$ to $O(NdD^{2})$ Where $d$ is the **local dimension** of a lattice state. 
+- physical meaning of bond dimensions
+	if bond dim is 0, then there would be no entanglement at all. the more bond dim we have, the more entanglement we get. 
+	
+	![[Screenshot_2025_0331_231605.jpg]]
+	![[Screenshot_2025_0331_232735.jpg]]
+	gapped ＝ localization ＝ area law
+	gapless ＝ thermalization ＝ volumn law
+	
+
+
+
+
+
+
+## 2.2 TEBD and TDVP: Schrodinger Eq under MPS representation
+
+* **Time Evolving Block Decimation: Trotter Decomposion of propagatior + SVD + Truncation 
+![[Pasted image 20250329193614.png]]
+![[Pasted image 20250328141712.png]]
+This method is genius, totally genius. It shows an art of alignment. 
+
+
+## 2.3 Orthogonalization and Canonical Forms of MPS
+Normally, we use singular value decomposition (**SVD**) or QR decomposition to orthogonalize a MPS. If we add a truncation process, this means **depressing storage**. 
+![[Pasted image 20250329171011.png]]**Canonical Form:**
+MPS is a non-unique representation of quantum states. Thus we need canonical forms to confirm a certain state. 
+orthogonalization method like SVD and QR is used to establish a canonical form from a casual arranged(or any) MPS. o
+![[Pasted image 20250329172816.png]]
+
+## 2.4 DMRG Density Matrix Renormalization Group
+[DMRG 的原理](https://zhuanlan.zhihu.com/p/1920278979)
+[[拉格朗日的忧郁, 一只冰牙喵](https://www.zhihu.com/people/li-hui-53-72)](https://www.zhihu.com/question/426281684)
+DMRG is worked only for ground state calculation primarily. It's also a iterative convergence algorithm. 
+DMRG sweep the MPS iteratively, choosing ground state in every blocked local tensor states. Effective Hamiltonian is constructed from MPO(Matrix Product Operator) representation of the overall Hamiltonian. 
+
+## 2.5 MPO in DMRG (Matrix Product Operator)
+MPO is constructed by a **finite states automaton(有限状态机)** normally. 
+[密度矩阵重整化群中哈密顿量的MPO构造方法](https://zhuanlan.zhihu.com/p/686289388)
+![[Pasted image 20250330152954.png]]
+**DMRG** $H_{\text{eff}}:$ As you should know, if a state is the ground state of a quantum system, this $H_{\text{eff}}$ would be just a identify mapping for the 2-site MPS. 
+![[Pasted image 20250330172436.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

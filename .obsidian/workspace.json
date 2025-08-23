@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "51bd0ebd8e9e9c5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "36f73a39ec8dc956",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9800e7d6d5e79da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reading, Learning and Neuroscience Mechanism"
+            }
+          },
+          {
+            "id": "76c62ad6f2b67057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git, version control"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "25612326f71a16e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b8054f80b9e7cf7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "843a5c458ca9cd9c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "65aa45eb981185e8",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "ac1ac67e52770075",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "649e00f7f30986a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "git remote",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295.5
+  },
+  "right": {
+    "id": "815a15c9dc18b47b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae7ae68ce8077e19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df245aad925e559f",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "ab9037833a02aceb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "__LOG/_log2025.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _log2025"
+            }
+          },
+          {
+            "id": "e74302f55ce31896",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2b242514ec690db1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ec9a22842693fdb9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "STEM(Science, Technology, Engineering and Mathematics/EECS Category(Electronic Engineering and Computer Science)/Coding/coding.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of coding"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 369.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": false,
+      "excel:Create Excel File": true,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian42-brat:BRAT": true,
+      "custom-sort:Toggle custom sorting": true
+    }
+  },
+  "active": "843a5c458ca9cd9c",
+  "lastOpenFiles": [
+    "LOG/log2025.md",
+    "non-Daily Work/教培项目/云的希 canvas.canvas",
+    "non-Daily Work/教培项目/云的大希.md",
+    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
+    "zzzhe_Attachments/Pasted image 20250823202833.png",
+    "zzzhe_Attachments/Pasted image 20250823201433.png",
+    "zzzhe_Attachments/Pasted image 20250823201043.png",
+    "zzzhe_Attachments/d9712bf88a923e49b29300bbd79748e 1.jpg",
+    "zzzhe_Attachments/52e9ffa75598625d45884d7060e4d8f 2.jpg",
+    "zzzhe_Attachments/badce27b1832b8061c7e2ffbb9474a4 1.jpg",
+    "zzzhe_Attachments/badce27b1832b8061c7e2ffbb9474a4.jpg",
+    "zzzhe_Attachments/d9712bf88a923e49b29300bbd79748e.jpg",
+    "zzzhe_Attachments/52e9ffa75598625d45884d7060e4d8f 1.jpg",
+    "zzzhe_Attachments/52e9ffa75598625d45884d7060e4d8f.jpg",
+    "Untitled.base",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Time Complexity.md",
+    "Phys/Characterization Methods/Neutron Scattering.md",
+    "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
+    "Mechanisms (Personal Ability)/Interface Mechanism.md",
+    "Mechanisms (Personal Ability)/Mechanism of Life.md",
+    "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
+    "sortspec.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/DeepSeek R1 report.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/DeepSeek V3 report.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/Kimi K2 report.md",
+    "Phys",
+    "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
+    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/cmd, powershell and linux - Command Line Interface(CLI).md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)/fft (fast fourier transformation).md",
+    "non-Daily Work/_重要文件/pku documentations.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/types.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Numerical Optimization/non-differentiable optimization problem.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)/fast_sqrt.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Numerical Optimization",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Forums on Programing and Coding.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/conda.md",
+    "_non-Daily Work/李强公司实习/李强公司cpp学习.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)",
+    "non-STEM/_Good Books",
+    "non-STEM/_Good People",
+    "_Daily Work/云的辅导/2025春•物理_八年级_下册_北师大.pdf",
+    "_Daily Work/云的辅导/2024 初三上开学考物理试卷（3套）-定稿.pdf",
+    "_Daily Work/云的辅导/2023北京北师大附中初三（上）开学考物理试卷-定稿.pdf",
+    "my_first_canvas.canvas"
+  ]
+}

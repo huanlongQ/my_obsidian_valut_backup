@@ -1,0 +1,1 @@
+Gradually, I figured out how to understand a strategic affair. first you should understand the shape of the war, then you should know tactics in detail, like first A does this and then B does this and then A does this, like cards game. then you got the whole understanding. 

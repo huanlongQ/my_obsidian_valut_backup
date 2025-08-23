@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"93a948f6cf6e5997","type":"file","file":"zzzhe_Attachments/52e9ffa75598625d45884d7060e4d8f 2.jpg","x":-758,"y":380,"width":954,"height":960},
+		{"id":"f8cd622e00165b79","type":"file","file":"zzzhe_Attachments/Pasted image 20250823201043.png","x":240,"y":500,"width":312,"height":260},
+		{"id":"efbedb21b61d9e4f","type":"file","file":"zzzhe_Attachments/Pasted image 20250823202833.png","x":240,"y":1080,"width":312,"height":211},
+		{"id":"58d3147d3f287cca","type":"file","file":"zzzhe_Attachments/Pasted image 20250823201433.png","x":240,"y":800,"width":312,"height":228},
+		{"id":"5ad9af0650759979","type":"file","file":"zzzhe_Attachments/d9712bf88a923e49b29300bbd79748e 1.jpg","x":-758,"y":1600,"width":938,"height":685},
+		{"id":"bf23236a6ce8a02c","type":"text","text":"电表读书估读法: \n1) 十分位电表刻度, 向下估读一位. \n2) 非十分位电表刻度, 不向下估读","x":242,"y":1915,"width":250,"height":165},
+		{"id":"7e7b30472ba4627b","type":"text","text":"控制变量法问题: \n自变量的存在依赖于实验组和对照组. ","x":242,"y":1780,"width":250,"height":98},
+		{"id":"fd2a370695e4d9d6","type":"file","file":"zzzhe_Attachments/badce27b1832b8061c7e2ffbb9474a4 1.jpg","x":-758,"y":-480,"width":954,"height":792},
+		{"id":"3b958415c7cf36bf","type":"text","text":"4, 7 两个小问\n6)小问在放屁. ","x":260,"y":-180,"width":180,"height":80}
+	],
+	"edges":[
+		{"id":"e1cda0e5f923a5b8","fromNode":"3b958415c7cf36bf","fromSide":"left","toNode":"fd2a370695e4d9d6","toSide":"right"},
+		{"id":"335a1aeb4006657f","fromNode":"f8cd622e00165b79","fromSide":"left","toNode":"93a948f6cf6e5997","toSide":"right"},
+		{"id":"35ce0842f6b448e6","fromNode":"58d3147d3f287cca","fromSide":"left","toNode":"93a948f6cf6e5997","toSide":"right"},
+		{"id":"5ec5e4ad69ffbc0f","fromNode":"efbedb21b61d9e4f","fromSide":"left","toNode":"93a948f6cf6e5997","toSide":"right"},
+		{"id":"1d893162b63661c1","fromNode":"7e7b30472ba4627b","fromSide":"left","toNode":"5ad9af0650759979","toSide":"right"},
+		{"id":"3c4ade9bd12f8615","fromNode":"bf23236a6ce8a02c","fromSide":"left","toNode":"5ad9af0650759979","toSide":"right"}
+	]
+}

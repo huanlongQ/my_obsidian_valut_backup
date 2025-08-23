@@ -1,0 +1,2 @@
+- [CrystalDiskInfo download \| SourceForge.net](https://sourceforge.net/projects/crystaldiskinfo/) 
+- [‎Gemini - 硬件监测](https://g.co/gemini/share/ca1eed023c7c) 
