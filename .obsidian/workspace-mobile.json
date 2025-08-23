@@ -25,14 +25,14 @@
             "id": "39aafdb36186784e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "LOG/mobilephone port.md",
-                "mode": "source",
-                "source": false
+                "aFile": "LOG/mobilephone port.md",
+                "bFile": "LOG/mobilephone port.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "mobilephone port"
+              "icon": "git-pull-request",
+              "title": "Diff: mobilephone port"
             }
           }
         ],
@@ -186,6 +186,7 @@
   },
   "active": "39aafdb36186784e",
   "lastOpenFiles": [
+    "LOG/mobilephone port.md",
     "sortspec.md",
     "conflict-files-obsidian-git.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",

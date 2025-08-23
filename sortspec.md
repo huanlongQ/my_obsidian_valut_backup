@@ -1,13 +1,1 @@
----
-sorting-spec: |-
-  LOG
-  Mechanisms (Personal Ability)
-  Daily Work
-  non-Daily Work
-  Phys
-  STEM(Science, Technology, Engineering and Mathematics)
-  non-STEM
-  zzzhe_Archive
-  zzzhe_Attachments
-  sortspec
----
+还是不知道为什么git 
