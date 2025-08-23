@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Obsidian Settings",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Markson and PKM",
       "path": "non-STEM/_Good People/Markson and PKM.md"
-    },
-    {
-      "basename": "Pasted image 20250813181453",
-      "path": "zzzhe_Attachments/Pasted image 20250813181453.png"
     }
   ],
   "omittedPaths": [],
