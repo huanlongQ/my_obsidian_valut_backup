@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "LOG/mobilephone port.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "mobilephone port"
             }
           }
         ],
@@ -184,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96b9493fa98708da",
+  "active": "39aafdb36186784e",
   "lastOpenFiles": [
     "sortspec.md",
     "conflict-files-obsidian-git.md",
