@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "Stack Mechanism ⭐"
             }
-          },
-          {
-            "id": "d8f537150d08c617",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git, version control"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,8 +218,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df245aad925e559f",
+  "active": "c578d895481c2827",
   "lastOpenFiles": [
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
     "LOG/log2025.md",
     "Mechanisms (Personal Ability)/Mechanism of Life.md",
     "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
@@ -245,7 +232,6 @@
     "non-STEM/_Good Essaies/How to Observe an Industry - A Framwork to do Industry Analysis.md",
     "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/Tensor Network Representation (General).md",
     "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
     "non-STEM/Books and Courses/Finance and Economics/八次危机.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/cmd, powershell and linux - Command Line Interface(CLI).md",
     "non-Daily Work/教培项目/云的希 canvas.canvas",
