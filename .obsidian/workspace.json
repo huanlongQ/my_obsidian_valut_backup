@@ -67,14 +67,14 @@
             "id": "38fda4db17a8da64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/community-plugins.json",
+                "bFile": ".obsidian/community-plugins.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "diff",
+              "title": "Diff: community-plugins.json"
             }
           }
         ],
@@ -226,8 +226,19 @@
               "icon": "lucide-list",
               "title": "Outline of coding"
             }
+          },
+          {
+            "id": "3b3ca681ca4e9744",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -245,11 +256,13 @@
       "excel:Create Excel File": true,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian42-brat:BRAT": true,
-      "custom-sort:Toggle custom sorting": true
+      "custom-sort:Toggle custom sorting": true,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "38fda4db17a8da64",
+  "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
+    "README.md",
     "LOG/log2025.md",
     "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
     "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
@@ -257,7 +270,6 @@
     "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
     "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
     "Mechanisms (Personal Ability)/Interface Mechanism.md",
-    "README.md",
     "non-STEM/_Good Essaies/How to Observe an Industry - A Framwork to do Industry Analysis.md",
     "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/Tensor Network Representation (General).md",
     "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model.md",
