@@ -1,4 +1,6 @@
 - [‎Gemini - CMD Git 入门指南](https://g.co/gemini/share/5270797f61b5)
+- [Gemini - Git Line Endings and Filename Errors](https://g.co/gemini/share/3ac13b269887) 
+* [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html) 
 
 # `git` conceptions
 
@@ -234,6 +236,7 @@ git push -u origin main
 # `git config settings`
 
 * [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html) 
+*  [Gemini - Git Line Endings and Filename Errors](https://g.co/gemini/share/3ac13b269887)
 
 ```powershell
 //alias
@@ -246,6 +249,7 @@ git config --global alias.st status
 git config --global init.defaultBranch main
 git config --global http.proxy http://<proxy-server>:<port> //127.0.0.1:1080
 git config --global https.proxy https://<proxy-server>:<port>
+git config --global core.longpaths true // give validity to long name files
 ```
 
 # `git` version control 
@@ -454,12 +458,12 @@ git config --global https.proxy https://<proxy-server>:<port>
 | **从别处恢复单个文件**   | `git checkout <source_branch> -- <file>` | `git restore --source=<source_branch> <file>` |
 | **解决合并冲突**      | `git checkout --ours/--theirs -- <file>` | (无直接替代，仍使用 `checkout`)                        |
 
-| 功能           | `git checkout` (旧)                          | `git switch` (新)           | `git restore` (新)                            | 备注                     |
-| ------------ | ------------------------------------------- | -------------------------- | -------------------------------------------- | ---------------------- |
-| **切换分支**     | `git checkout branch-name`                  | `git switch branch-name`   | 不适用                                          | **推荐使用 `git switch`**  |
-| **创建并切换分支**  | `git checkout -b new-branch`                | `git switch -c new-branch` | 不适用                                          | **推荐使用 `git switch`**  |
-| **丢弃未暂存的修改** | `git checkout -- file.txt`                  | 不适用                        | `git restore file.txt`                       | **推荐使用 `git restore`** |
-| **将暂存区文件撤销** | **`git checkout HEAD -- file.txt`** $\star$ | 不适用                        | **`git restore --staged file.txt`** $\star$  | **推荐使用 `git restore`** |
+| 功能           | `git checkout` (旧)                          | `git switch` (新)           | `git restore` (新)                           | 备注                     |
+| ------------ | ------------------------------------------- | -------------------------- | ------------------------------------------- | ---------------------- |
+| **切换分支**     | `git checkout branch-name`                  | `git switch branch-name`   | 不适用                                         | **推荐使用 `git switch`**  |
+| **创建并切换分支**  | `git checkout -b new-branch`                | `git switch -c new-branch` | 不适用                                         | **推荐使用 `git switch`**  |
+| **丢弃未暂存的修改** | `git checkout -- file.txt`                  | 不适用                        | `git restore file.txt`                      | **推荐使用 `git restore`** |
+| **将暂存区文件撤销** | **`git checkout HEAD -- file.txt`** $\star$ | 不适用                        | **`git restore --staged file.txt`** $\star$ | **推荐使用 `git restore`** |
 
 # `git` and GitHub
 

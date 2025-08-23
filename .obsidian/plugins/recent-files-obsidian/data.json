@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "log2025",
+      "path": "LOG/log2025.md"
+    },
+    {
+      "basename": "实习项目内容-李强公司",
+      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
+    },
+    {
+      "basename": "Reading, Learning and Neuroscience Mechanism",
+      "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
+    },
+    {
+      "basename": "Mechanism of Life",
+      "path": "Mechanisms (Personal Ability)/Mechanism of Life.md"
+    },
+    {
+      "basename": "Stack Mechanism ⭐",
+      "path": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md"
+    },
+    {
+      "basename": "Vocabulary Mechanism",
+      "path": "Mechanisms (Personal Ability)/Vocabulary Mechanism.md"
+    },
+    {
+      "basename": "Interface Mechanism",
+      "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
+    },
+    {
+      "basename": "README.md",
+      "path": "README.md.md"
+    },
+    {
+      "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
+      "path": "non-STEM/_Good Essaies/How to Observe an Industry - A Framwork to do Industry Analysis.md"
+    },
+    {
+      "basename": "Tensor Network Representation (General)",
+      "path": "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/Tensor Network Representation (General).md"
+    },
+    {
+      "basename": "tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model",
+      "path": "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model.md"
+    },
+    {
       "basename": "Git, version control",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md"
     },
     {
-      "basename": "log2025",
-      "path": "LOG/log2025.md"
+      "basename": "八次危机",
+      "path": "non-STEM/Books and Courses/Finance and Economics/八次危机.md"
+    },
+    {
+      "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/cmd, powershell and linux - Command Line Interface(CLI).md"
     },
     {
       "basename": "云的希 canvas",
@@ -19,10 +67,6 @@
     {
       "basename": "云的大希",
       "path": "non-Daily Work/教培项目/云的大希.md"
-    },
-    {
-      "basename": "Reading, Learning and Neuroscience Mechanism",
-      "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
     },
     {
       "basename": "badce27b1832b8061c7e2ffbb9474a4 1",
@@ -61,22 +105,6 @@
       "path": "Phys/Characterization Methods/Neutron Scattering.md"
     },
     {
-      "basename": "Stack Mechanism ⭐",
-      "path": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md"
-    },
-    {
-      "basename": "Interface Mechanism",
-      "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
-    },
-    {
-      "basename": "Mechanism of Life",
-      "path": "Mechanisms (Personal Ability)/Mechanism of Life.md"
-    },
-    {
-      "basename": "Vocabulary Mechanism",
-      "path": "Mechanisms (Personal Ability)/Vocabulary Mechanism.md"
-    },
-    {
       "basename": "sortspec",
       "path": "sortspec.md"
     },
@@ -91,14 +119,6 @@
     {
       "basename": "Kimi K2 report",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/Kimi K2 report.md"
-    },
-    {
-      "basename": "实习项目内容-李强公司",
-      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
-    },
-    {
-      "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/cmd, powershell and linux - Command Line Interface(CLI).md"
     },
     {
       "basename": "fft (fast fourier transformation)",
@@ -179,26 +199,6 @@
     {
       "basename": "Reading Suggestions of DeepH",
       "path": "Phys/AI4Science Paradigm/DeepH typical ML; ML as optim/Reading Suggestions of DeepH.md"
-    },
-    {
-      "basename": "QT学习和使用",
-      "path": "non-Daily Work/李强公司实习/QT学习和使用.md"
-    },
-    {
-      "basename": "Python Environment Configuration",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Details/Python Environment Configuration.md"
-    },
-    {
-      "basename": "Thread, Process and Concurrency,Parallelization",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Hardware/Thread, Process and Concurrency,Parallelization.md"
-    },
-    {
-      "basename": "5 good habit in Python",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Details/5 good habit in Python.md"
-    },
-    {
-      "basename": "酱紫君",
-      "path": "non-STEM/_Good People/酱紫君.md"
     }
   ],
   "omittedPaths": [],

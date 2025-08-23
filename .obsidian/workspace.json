@@ -13,6 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Mechanisms (Personal Ability)/Mechanism of Life.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mechanism of Life"
+            }
+          },
+          {
+            "id": "c578d895481c2827",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stack Mechanism ⭐"
+            }
+          },
+          {
+            "id": "5216a7ecd0dd2a83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
                 "mode": "source",
                 "source": false
@@ -22,21 +50,35 @@
             }
           },
           {
-            "id": "76c62ad6f2b67057",
+            "id": "4e5347c24020f7fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
+                "file": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git, version control"
+              "title": "实习项目内容-李强公司"
+            }
+          },
+          {
+            "id": "38fda4db17a8da64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LOG/log2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "log2025"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -88,12 +130,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git remote",
+                "query": "tdvp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -208,10 +250,22 @@
   },
   "active": "843a5c458ca9cd9c",
   "lastOpenFiles": [
+    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
+    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
+    "Mechanisms (Personal Ability)/Mechanism of Life.md",
+    "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
+    "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
+    "Mechanisms (Personal Ability)/Interface Mechanism.md",
+    "README.md.md",
+    "non-STEM/_Good Essaies/How to Observe an Industry - A Framwork to do Industry Analysis.md",
     "LOG/log2025.md",
+    "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/Tensor Network Representation (General).md",
+    "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
+    "non-STEM/Books and Courses/Finance and Economics/八次危机.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/cmd, powershell and linux - Command Line Interface(CLI).md",
     "non-Daily Work/教培项目/云的希 canvas.canvas",
     "non-Daily Work/教培项目/云的大希.md",
-    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
     "zzzhe_Attachments/Pasted image 20250823202833.png",
     "zzzhe_Attachments/Pasted image 20250823201433.png",
     "zzzhe_Attachments/Pasted image 20250823201043.png",
@@ -226,28 +280,17 @@
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Time Complexity.md",
     "Phys/Characterization Methods/Neutron Scattering.md",
-    "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
-    "Mechanisms (Personal Ability)/Interface Mechanism.md",
-    "Mechanisms (Personal Ability)/Mechanism of Life.md",
-    "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
     "sortspec.md",
     "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/DeepSeek R1 report.md",
     "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/DeepSeek V3 report.md",
     "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/Kimi K2 report.md",
     "Phys",
     "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
-    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/cmd, powershell and linux - Command Line Interface(CLI).md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)/fft (fast fourier transformation).md",
     "non-Daily Work/_重要文件/pku documentations.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/types.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Numerical Optimization/non-differentiable optimization problem.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)/fast_sqrt.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Numerical Optimization",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Forums on Programing and Coding.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/conda.md",
-    "_non-Daily Work/李强公司实习/李强公司cpp学习.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)",
     "non-STEM/_Good Books",
     "non-STEM/_Good People",
