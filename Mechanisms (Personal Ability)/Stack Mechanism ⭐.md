@@ -42,5 +42,3 @@ maybe it should be called **pipeline** sometimes.
 - 在stack mechanism的每一层stack中, 其工作资源来源有AI与具体知识内容如书籍、论坛、个人主页等的种类之分. 
 	**内容三一模型**的工具型内容中, 切不可忽略AI之外的**书籍**(Manual, Handbook, Documentation)、**论坛**(Forums, Stack of ..., BBS)、**个人主页**等内容来源. [[Reading, Learning and Neuroscience Mechanism|@Reading, Learning and Neuroscience Mechanism]]  
 ![[Pasted image 20250813181453.png]] 
-
-

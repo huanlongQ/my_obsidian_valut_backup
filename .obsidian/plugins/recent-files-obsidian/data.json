@@ -1,20 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md"
     },
     {
       "basename": "log2025",
       "path": "LOG/log2025.md"
-    },
-    {
-      "basename": "实习项目内容-李强公司",
-      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
-    },
-    {
-      "basename": "Reading, Learning and Neuroscience Mechanism",
-      "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
     },
     {
       "basename": "Mechanism of Life",
@@ -23,6 +15,18 @@
     {
       "basename": "Stack Mechanism ⭐",
       "path": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md"
+    },
+    {
+      "basename": "Reading, Learning and Neuroscience Mechanism",
+      "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
+    },
+    {
+      "basename": "实习项目内容-李强公司",
+      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Vocabulary Mechanism",
@@ -43,10 +47,6 @@
     {
       "basename": "tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model",
       "path": "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model.md"
-    },
-    {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md"
     },
     {
       "basename": "八次危机",
