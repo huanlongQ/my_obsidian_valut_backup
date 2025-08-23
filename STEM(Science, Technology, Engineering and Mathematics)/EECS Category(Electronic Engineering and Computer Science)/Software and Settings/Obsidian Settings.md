@@ -381,3 +381,4 @@ or use `'-' + 'Tab'`
 # Git in obsidian
 
 [Managing your personal access tokens - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) 
+[Git Plugin Obsidian Android : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/zj5629/git_plugin_obsidian_android/) 
