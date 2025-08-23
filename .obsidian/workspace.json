@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOG/log2025.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log2025"
+              "title": "README"
             }
           }
         ],
@@ -248,17 +248,17 @@
       "custom-sort:Toggle custom sorting": true
     }
   },
-  "active": "843a5c458ca9cd9c",
+  "active": "38fda4db17a8da64",
   "lastOpenFiles": [
+    "LOG/log2025.md",
     "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
     "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
     "Mechanisms (Personal Ability)/Mechanism of Life.md",
     "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
     "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
     "Mechanisms (Personal Ability)/Interface Mechanism.md",
-    "README.md.md",
+    "README.md",
     "non-STEM/_Good Essaies/How to Observe an Industry - A Framwork to do Industry Analysis.md",
-    "LOG/log2025.md",
     "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/Tensor Network Representation (General).md",
     "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",

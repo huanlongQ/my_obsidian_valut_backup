@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "log2025",
       "path": "LOG/log2025.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Interface Mechanism",
       "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
-    },
-    {
-      "basename": "README.md",
-      "path": "README.md.md"
     },
     {
       "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
