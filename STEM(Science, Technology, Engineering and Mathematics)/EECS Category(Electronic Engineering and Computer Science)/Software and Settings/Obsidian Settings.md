@@ -24,6 +24,7 @@
 	- **tried `.css` file but failed.** 
 	- Custom File Explorer sorting
 	- File Hider
+	- Git
 	- etc
 	 
 	![[Pasted image 20250724213730.png|578]] 
@@ -375,3 +376,8 @@ or use `'-' + 'Tab'`
         return output;
     }, options: "mA", description: "N x N identity matrix"},
 ]
+```
+
+# Git in obsidian
+
+[Managing your personal access tokens - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) 
