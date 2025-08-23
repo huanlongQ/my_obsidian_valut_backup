@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
+                "file": "LOG/mobilephone port.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack Mechanism ⭐"
+              "title": "mobilephone port"
             }
           }
         ],
@@ -218,12 +218,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c578d895481c2827",
+  "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
+    "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
+    "LOG/mobilephone port.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
     "LOG/log2025.md",
     "Mechanisms (Personal Ability)/Mechanism of Life.md",
-    "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
     "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
     "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
     "README.md",
@@ -259,7 +260,6 @@
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)/fft (fast fourier transformation).md",
     "non-Daily Work/_重要文件/pku documentations.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/types.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Numerical Optimization/non-differentiable optimization problem.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Numerical Optimization",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)",
     "non-STEM/_Good Books",
