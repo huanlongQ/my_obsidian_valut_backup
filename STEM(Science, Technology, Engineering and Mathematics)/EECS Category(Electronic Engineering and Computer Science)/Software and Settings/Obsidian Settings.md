@@ -380,6 +380,8 @@ or use `'-' + 'Tab'`
 
 # Git to sync obsidian
 
+**to ensure stability, donot open obsidian and git sync in mobile end if not needed.** 
+
 ## git sync on mobile end
 
 specify author name and author email. 
