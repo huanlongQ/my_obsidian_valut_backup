@@ -384,7 +384,7 @@ or use `'-' + 'Tab'`
 
 ## git sync on mobile end
 
-specify author name and author email. 
+specify author name and author email.  
 
 ## git plugin on pc end
 
