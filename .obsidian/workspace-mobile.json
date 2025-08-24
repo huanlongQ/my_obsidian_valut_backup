@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOG/mobilephone port.md",
+                "file": "LOG/log2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mobilephone port"
+              "title": "log2025"
             }
           }
         ]
@@ -170,8 +170,23 @@
   },
   "active": "d00d00f50929098d",
   "lastOpenFiles": [
+    "LOG/mobilephone port - 2025.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
+    "LOG/log2025.md",
     "LOG/mobilephone port.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/vpn.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/SIM SMS card.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/OCR.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/Nice Websites or Institutions.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/Hardware of computer science.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/Edu mail.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/Credit Card.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM",
+    "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Mathematical Analysis.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Group Theory.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Extremely High Dimensionality.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)",
     "LOG",
     "sortspec.md",
     "/sortspec.md",
