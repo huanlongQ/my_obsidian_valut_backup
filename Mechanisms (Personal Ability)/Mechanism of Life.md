@@ -12,11 +12,3 @@
 		Mr. 是 Mister 的缩写, Mister 源自 Master, 所以，从词源学的角度看，**Master** 可以被认为是 "Mr." 最终的“词根”或起源词。
 	在这个机制下, 需要设立一恶搞$\mathbf{Mine \ Set}$, 在Mine Set内工作进行选矿, 知道出现优质idea. 
 
-# Sus-point
-
-Sus-point means suspicious or suspectable point in learning and doing things that you can see but do not want to figure. 
-well, for debuging, `the magic you are looking for is in the work you are avoiding.` 
-
-- [[实习项目内容-李强公司|@实习项目内容-李强公司]] 
-	在李强公司做的[华为矩形反射谱需求]项目中, 我尝试非polynomial chirp modulation function时, 发现输出的loss数值与nomalized spectrum plot不一致, 这是一个sus-point. 
-	- 最终我们发现问题在于我的可视化阶段将chirp modulation function固定设置为了polynomial性质, 只改变`coeffs:np.ndarray`传参没有意义.  [[Stack Mechanism ⭐|@Stack Mechanism ⭐]]
