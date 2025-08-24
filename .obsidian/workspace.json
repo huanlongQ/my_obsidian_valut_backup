@@ -34,8 +34,23 @@
               "icon": "lucide-file",
               "title": "实习项目内容-李强公司"
             }
+          },
+          {
+            "id": "27eb80fb0a0e9177",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LOG/log2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "log2025"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,12 +234,12 @@
   },
   "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
+    "LOG/mobilephone port.md",
+    "conflict-files-obsidian-git.md",
     "LOG/log2025.md",
     "sortspec.md",
-    "conflict-files-obsidian-git.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
     "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
-    "LOG/mobilephone port.md",
     "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
     "Mechanisms (Personal Ability)/Mechanism of Life.md",
