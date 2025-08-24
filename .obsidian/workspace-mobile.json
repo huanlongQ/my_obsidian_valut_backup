@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
+                "file": "LOG/mobilephone port.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Settings"
+              "title": "mobilephone port"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "d00d00f50929098d",
   "lastOpenFiles": [
-    "LOG/mobilephone port.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
+    "LOG/mobilephone port.md",
     "LOG",
     "sortspec.md",
     "/sortspec.md",
