@@ -467,7 +467,7 @@ git config --global core.longpaths true // give validity to long name files
 | **将暂存区文件撤销**                                                 | **`git checkout HEAD -- file.txt`** $\star$ | 不适用                        | **`git restore --staged file.txt`** $\star$ | **推荐使用 `git restore`**   |
 | **重新提交一个新的commit以覆盖掉不好的上一个commit, 新commit与前数两个版本的commit一致**. | 不适用                                         | 不适用                        | 不适用                                         | `git revert <commit_id>` |
 
-# `git` and GitHub
+# `git` and GitHub 
 
 - [Gemini - Git 与 GitHub 仓库连接指南, 包括credentials manager, multi remote push](https://g.co/gemini/share/42fd27030128)
 
