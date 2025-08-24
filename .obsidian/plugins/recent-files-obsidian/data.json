@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "sortspec.md"
+    },
+    {
       "basename": "mobilephone port",
       "path": "LOG/mobilephone port.md"
     },
@@ -21,10 +29,6 @@
       "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
     },
     {
-      "basename": "sortspec",
-      "path": "sortspec.md"
-    },
-    {
       "basename": "Stack Mechanism ⭐",
       "path": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Reading, Learning and Neuroscience Mechanism",
       "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Vocabulary Mechanism",
