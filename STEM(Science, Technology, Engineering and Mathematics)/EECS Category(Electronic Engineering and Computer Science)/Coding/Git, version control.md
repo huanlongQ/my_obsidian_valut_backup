@@ -248,8 +248,8 @@ git config --global alias.st status
 
 //settings
 git config --global init.defaultBranch main
-git config --global http.proxy http://<proxy-server>:<port> //127.0.0.1:1080
-git config --global https.proxy https://<proxy-server>:<port>
+git config --global http.proxy socks5://127.0.0.1:1080 //127.0.0.1:1080
+git config --global https.proxy socks5://127.0.0.1:1080
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 git config --global core.longpaths true // give validity to long name files
