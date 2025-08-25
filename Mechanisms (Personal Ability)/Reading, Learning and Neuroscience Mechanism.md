@@ -16,7 +16,7 @@
 	[[Markson and PKM|@Markson]]倾情推荐, 有点意思, 是某种成功学? 
 - [ ] Book Social Engineering: 如何处理形形色色的人际关系、曾仕强中国式管理
 - [ ] Book in English: ***The Wealth of Nations***、***Out of Control*** 、Chinese Security Policy√、
-- [ ] zhihu&bilibili: Iris Pan√、酱紫君、持续低墒√、Markson√, CodeCrafter, PiKaChu
+- [ ] zhihu&bilibili: Iris Pan√、酱紫君、持续低墒√、Markson√, CodeCrafter, PiKaChu, pk这里有个不错的信息我还没看。
 - [ ] Phys:  [对称性与光谱](https://www.zhihu.com/pin/1939449556896053205?native=1&scene=share&share_code=WB2j14Ujz5yh&utm_psn=1939985685084890488)
 # Reading Mechanism 
 
