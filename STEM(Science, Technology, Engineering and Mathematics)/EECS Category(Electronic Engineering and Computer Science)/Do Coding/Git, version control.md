@@ -234,7 +234,7 @@ git push -u origin main
 | `git merge <branch>`           | 将一个分支的更改合并到当前分支。        |
 |                                |                         |
 
-# `git config settings`
+# `git config settings` 
 
 * [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html) 
 *  [Gemini - Git Line Endings and Filename Errors](https://g.co/gemini/share/3ac13b269887)

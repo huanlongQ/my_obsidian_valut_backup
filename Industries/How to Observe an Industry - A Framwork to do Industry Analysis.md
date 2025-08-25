@@ -1,6 +1,14 @@
 - [Gemini - 行业寿命分析框架](https://g.co/gemini/share/1070c4df5a11) 
 - Logistic Curvature of an Industry 行业的逻辑斯蒂曲线
 - 诺基亚与苹果、电动车与汽车、相机与手机、京东与美饿, 都可以在这套框架下进行分析. 
+- [施一公姚期智的选择令我佩服，物理巅峰已过转行计算机\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1vw81zCErA?-Arouter=story&buvid=XX818818DFA1E422E14EC5881868902E71808&from_spmid=tm.recommend.0.0&is_story_h5=false&mid=tIdkLPsQhRT8dMqmEuXvxA%3D%3D&plat_id=163&share_from=ugc&share_medium=android&share_plat=android&share_session_id=8a72daae-68bd-4f7c-88a3-d8a39eeea8e0&share_source=WEIXIN&share_tag=s_i&spmid=main.ugc-video-detail-vertical.0.0&timestamp=1755129955&unique_k=ysXh9Bq&up_id=348446182&vd_source=2d7b3aad1405a7dcc993d28d1bbd8fd6) **to be visionary.** 
+
+-  Alibaba Cloud王坚的洞见很有见地. 当你拥有一双腿、一辆自行车、一辆轿车、一架飞机和一只火箭时, 你对交通的理解必然是不一样的. 
+	- 在云计算领域, 事情当然是这样的. 由于Alibaba Cloud的存在, 小微企业开发的Bottleneck明显变化. 
+	- 在AI时代, 真正重要的究竟是哪些能力? 
+		- 战术领域: 环境搭建, 节点控制, 工作流栈etc. 
+		- 战略领域: 眼光? 是的, 或许是眼光, 是taste. Maybe it's **行业报告**? 现在, 我认为可能是行业报告? 
+		  那么, 进一步地, 怎么读行业报告就是我应当关心的核心问题了. 
 
 # Chat with Gemini 
 

@@ -8,49 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7462e9bc2699f867",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LOG/mobilephone port - 2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "mobilephone port - 2025"
-            }
-          },
-          {
-            "id": "816a9165013e8d4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git, version control"
-            }
-          },
-          {
-            "id": "4af1fbbb71002f93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "实习项目内容-李强公司"
-            }
-          },
-          {
             "id": "70e317c1763fd4f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mechanisms (Personal Ability)/Interface Mechanism.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interface Mechanism"
+            }
+          },
+          {
+            "id": "ace2160139802ce1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +34,23 @@
               "icon": "lucide-file",
               "title": "log2025"
             }
+          },
+          {
+            "id": "662ea0461e2aedef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "non-STEM/_Good Essaies/Kelvin Kelly.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kelvin Kelly"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +70,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -126,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git ",
+                "query": "profi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -258,25 +244,38 @@
   },
   "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
-    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
+    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
+    "non-STEM/_Good Essaies/Kelvin Kelly.md",
+    "non-STEM/_Good Essaies/Untitled.md",
+    "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md",
+    "Mechanisms (Personal Ability)/Interface Mechanism.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/深度学习里有哪些神奇有趣的现象.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/如何约束一个神经网络的并行子模块之间能够学习不同的特征.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/语言速度问题 pybind python+cpp.md",
+    "Daily Work/美国政治与公共政策论文/gemini 报告.md",
+    "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
     "LOG/log2025.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Coding/Git, version control.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/C++ Details/C++ notes .cpp&.py counterpart.md",
+    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
+    "non-STEM/_Good Essaies/如何判断一个人有真的数学研究天赋.md",
+    "non-STEM/_Good Essaies/男人的快乐有多简单？.md",
+    "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
+    "Mechanisms (Personal Ability)/Mechanism of Life.md",
+    "Industries/光子芯片.md",
+    "Industries/sortspec.md",
+    "Industries/specsort.md",
+    "sortspec.md",
+    "Industries",
+    "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md",
+    "LOG/mobilephone port - 2025.md",
+    "non-STEM/_Good Videos/三和大神是如何产生的.md",
+    "non-STEM/_Good Videos",
     "zzzhe_Attachments/Pasted image 20250825110321.png",
     "zzzhe_Attachments/e7c6f74f80bc14e24a6b6a2932fbfe8.png",
-    "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/Nice Websites or Institutions.md",
-    "LOG/mobilephone port - 2025.md",
-    "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
     "zzzhe_Attachments/Pasted image 20250824180028.png",
-    "Mechanisms (Personal Ability)/Mechanism of Life.md",
-    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
-    "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
-    "zzzhe_Archive/_日志_2.md",
-    "zzzhe_Archive/_Finished Tasks.md",
-    "zzzhe_Archive/Coding.md",
-    "zzzhe_Archive/Archived Books.md",
     "zzzhe_Archive",
-    "zzzhe_Attachments/_Rubbish.md",
-    "zzzhe_Attachments/resume.md",
     "zzzhe_Attachments/Pasted image 20250823202833.png",
     "zzzhe_Attachments/Pasted image 20250823201433.png",
     "zzzhe_Attachments/Pasted image 20250823201043.png",
@@ -284,26 +283,14 @@
     "zzzhe_Attachments/Pasted image 20250815152647.png",
     "zzzhe_Attachments/Pasted image 20250813181453.png",
     "zzzhe_Attachments/Pasted image 20250813160655.png",
-    "zzzhe_Attachments/Pasted image 20250517214720.png.md",
     "zzzhe_Attachments/CursorFreeVIP_1.10.02_windows.exe",
     "zzzhe_Attachments",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
-    "Phys/DQPT(Dynamic Quantum Phase Transition)/DQPT Deep Research Report.md",
-    "Phys/Characterization Methods/Neutron Scattering.md",
-    "README.md",
-    "sortspec.md",
-    "conflict-files-obsidian-git.md",
-    "Mechanisms (Personal Ability)/Interface Mechanism.md",
-    "non-STEM/_Good Essaies/How to Observe an Industry - A Framwork to do Industry Analysis.md",
-    "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/Tensor Network Representation (General).md",
     "non-Daily Work/教培项目/云的希 canvas.canvas",
     "Untitled.base",
     "Phys",
     "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Numerical Optimization",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)",
-    "non-STEM/_Good Books",
-    "non-STEM/_Good People",
     "my_first_canvas.canvas"
   ]
 }
