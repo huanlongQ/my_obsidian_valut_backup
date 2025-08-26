@@ -1,36 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
-      "path": "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md"
+      "basename": "Zen",
+      "path": "Mechanisms (Personal Ability)/Zen.md"
     },
     {
-      "basename": "实习项目内容-李强公司",
-      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
-    },
-    {
-      "basename": "Interface Mechanism",
-      "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
+      "basename": "sortspec",
+      "path": "Mechanisms (Personal Ability)/sortspec.md"
     },
     {
       "basename": "log2025",
       "path": "LOG/log2025.md"
     },
     {
-      "basename": "Obsidian Settings",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md"
-    },
-    {
       "basename": "Kelvin Kelly",
       "path": "non-STEM/_Good Essaies/Kelvin Kelly.md"
     },
     {
-      "basename": "mobilephone port - 2025",
-      "path": "LOG/mobilephone port - 2025.md"
+      "basename": "PiKaChu345 on bilibili",
+      "path": "non-STEM/_Good People/PiKaChu345 on bilibili.md"
+    },
+    {
+      "basename": "AI-LLM tools",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/AI-LLM tools.md"
+    },
+    {
+      "basename": "Interface Mechanism",
+      "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
+    },
+    {
+      "basename": "Zen of Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
     },
     {
       "basename": "Reading, Learning and Neuroscience Mechanism",
       "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/sortspec.md"
+    },
+    {
+      "basename": "实习项目内容-李强公司",
+      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
+    },
+    {
+      "basename": "itertools",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/itertools.md"
+    },
+    {
+      "basename": "Obsidian Settings",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md"
+    },
+    {
+      "basename": "matplotlib",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/matplotlib.md"
+    },
+    {
+      "basename": "functools",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/functools.md"
+    },
+    {
+      "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
+      "path": "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md"
+    },
+    {
+      "basename": "mobilephone port - 2025",
+      "path": "LOG/mobilephone port - 2025.md"
     },
     {
       "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
@@ -39,10 +75,6 @@
     {
       "basename": "sortspec",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md"
-    },
-    {
-      "basename": "Zen of Coding",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
     },
     {
       "basename": "深度学习里有哪些神奇有趣的现象",
@@ -167,38 +199,6 @@
     {
       "basename": "Pasted image 20250823201433",
       "path": "zzzhe_Attachments/Pasted image 20250823201433.png"
-    },
-    {
-      "basename": "Pasted image 20250823202833",
-      "path": "zzzhe_Attachments/Pasted image 20250823202833.png"
-    },
-    {
-      "basename": "Pasted image 20250823201043",
-      "path": "zzzhe_Attachments/Pasted image 20250823201043.png"
-    },
-    {
-      "basename": "52e9ffa75598625d45884d7060e4d8f 2",
-      "path": "zzzhe_Attachments/52e9ffa75598625d45884d7060e4d8f 2.jpg"
-    },
-    {
-      "basename": "Pasted image 20250604113843",
-      "path": "zzzhe_Attachments/Pasted image 20250604113843.png"
-    },
-    {
-      "basename": "Time Complexity",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Time Complexity.md"
-    },
-    {
-      "basename": "DeepSeek R1 report",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/DeepSeek R1 report.md"
-    },
-    {
-      "basename": "DeepSeek V3 report",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/DeepSeek V3 report.md"
-    },
-    {
-      "basename": "Kimi K2 report",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/Kimi K2 report.md"
     }
   ],
   "omittedPaths": [],
