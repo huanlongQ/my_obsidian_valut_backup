@@ -72,6 +72,7 @@ or use `'-' + 'Tab'`
     // Math mode
     {trigger: "mk", replacement: "$$0$", options: "tA"},
     {trigger: "dm", replacement: "$$\n\\begin{align}\n$0\n\\end{align}\n$$", options: "tAw"},
+    {trigger: "tag", replacement: "\\tag{$0}", options: "mA"},
     {trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
 
     // Dashes
@@ -376,17 +377,3 @@ or use `'-' + 'Tab'`
         return output;
     }, options: "mA", description: "N x N identity matrix"},
 ]
-```
-
-# Git to sync obsidian
-
-**to ensure stability, donot open obsidian and git sync in mobile end if not needed.** 
-
-## git sync on mobile end
-
-specify author name and author email.  
-
-## git plugin on pc end
-
-[Managing your personal access tokens - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) 
-[Git Plugin Obsidian Android : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/zj5629/git_plugin_obsidian_android/) 

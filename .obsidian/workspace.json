@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "non-Daily Work/李强公司实习/津镭光电 CFBG report (Chirped Fiber Bragg Gratings).md",
-                "mode": "source",
+                "file": "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "津镭光电 CFBG report (Chirped Fiber Bragg Gratings)"
+              "title": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)"
             }
           },
           {
@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "log2025"
             }
+          },
+          {
+            "id": "9132d1e4231dbc37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Settings"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,17 +256,29 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "3b3ca681ca4e9744",
+  "active": "ace2160139802ce1",
   "lastOpenFiles": [
-    "non-STEM/_Good Essaies/Kelvin Kelly.md",
-    "non-Daily Work/李强公司实习/津镭光电 CFBG report (Chirped Fiber Bragg Gratings).md",
-    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
+    "zzzhe_Attachments/Pasted image 20250826143739.png",
+    "zzzhe_Attachments/Pasted image 20250826143713.png",
+    "zzzhe_Attachments/20250824_112911_rbf_bspline.png",
+    "zzzhe_Attachments/Pasted image 20250826135650.png",
+    "zzzhe_Attachments/Pasted image 20250826134928.png",
+    "zzzhe_Attachments/Pasted image 20250826123922.png",
+    "zzzhe_Attachments/Pasted image 20250826123726.png",
+    "zzzhe_Attachments/Pasted image 20250826123723.png",
+    "zzzhe_Attachments/Pasted image 20250826122504.png",
+    "zzzhe_Attachments/Pasted image 20250826114934.png",
+    "zzzhe_Attachments/Pasted image 20250826114536.png",
+    "Mechanisms (Personal Ability)/Interface Mechanism.md",
     "LOG/log2025.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
+    "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md",
+    "non-STEM/_Good Essaies/Kelvin Kelly.md",
+    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
     "LOG/mobilephone port - 2025.md",
     "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
     "non-STEM/_Good Essaies/Untitled.md",
     "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md",
-    "Mechanisms (Personal Ability)/Interface Mechanism.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md",
     "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/深度学习里有哪些神奇有趣的现象.md",
@@ -268,21 +294,9 @@
     "Industries/光子芯片.md",
     "Industries/sortspec.md",
     "Industries/specsort.md",
-    "sortspec.md",
     "Industries",
-    "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md",
     "non-STEM/_Good Videos",
-    "zzzhe_Attachments/Pasted image 20250825110321.png",
-    "zzzhe_Attachments/e7c6f74f80bc14e24a6b6a2932fbfe8.png",
-    "zzzhe_Attachments/Pasted image 20250824180028.png",
     "zzzhe_Archive",
-    "zzzhe_Attachments/Pasted image 20250823202833.png",
-    "zzzhe_Attachments/Pasted image 20250823201433.png",
-    "zzzhe_Attachments/Pasted image 20250823201043.png",
-    "zzzhe_Attachments/Pasted image 20250822170956.png",
-    "zzzhe_Attachments/Pasted image 20250815152647.png",
-    "zzzhe_Attachments/Pasted image 20250813181453.png",
-    "zzzhe_Attachments/Pasted image 20250813160655.png",
     "zzzhe_Attachments/CursorFreeVIP_1.10.02_windows.exe",
     "zzzhe_Attachments",
     "non-Daily Work/教培项目/云的希 canvas.canvas",
