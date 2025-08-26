@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOG/mobilephone port - 2025.md",
+                "file": "non-Daily Work/李强公司实习/津镭光电 CFBG report (Chirped Fiber Bragg Gratings).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mobilephone port - 2025"
+              "title": "津镭光电 CFBG report (Chirped Fiber Bragg Gratings)"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "non-STEM/_Good Essaies/Kelvin Kelly.md",
+                "file": "LOG/log2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kelvin Kelly"
+              "title": "log2025"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,11 +242,14 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "ace2160139802ce1",
+  "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
-    "LOG/log2025.md",
-    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
     "non-STEM/_Good Essaies/Kelvin Kelly.md",
+    "non-Daily Work/李强公司实习/津镭光电 CFBG report (Chirped Fiber Bragg Gratings).md",
+    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
+    "LOG/log2025.md",
+    "LOG/mobilephone port - 2025.md",
+    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
     "non-STEM/_Good Essaies/Untitled.md",
     "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md",
     "Mechanisms (Personal Ability)/Interface Mechanism.md",
@@ -258,7 +261,6 @@
     "Daily Work/美国政治与公共政策论文/gemini 报告.md",
     "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/C++ Details/C++ notes .cpp&.py counterpart.md",
-    "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
     "non-STEM/_Good Essaies/如何判断一个人有真的数学研究天赋.md",
     "non-STEM/_Good Essaies/男人的快乐有多简单？.md",
     "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
@@ -269,8 +271,6 @@
     "sortspec.md",
     "Industries",
     "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md",
-    "LOG/mobilephone port - 2025.md",
-    "non-STEM/_Good Videos/三和大神是如何产生的.md",
     "non-STEM/_Good Videos",
     "zzzhe_Attachments/Pasted image 20250825110321.png",
     "zzzhe_Attachments/e7c6f74f80bc14e24a6b6a2932fbfe8.png",
