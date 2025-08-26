@@ -1,6 +1,10 @@
 
+awesome llm app github.
+https://www.zhihu.com/question/664886288?share_code=TpSKkqrJhToY&utm_psn=1943400749808727642 
 
 我得给自己写一个Zen。这绝对是个好东西。
+claude code+ds v3.1，试试搞搞。
+
 
 当前的情况：
 彭认为我在六月发的信息指的是解决了八月24日的visa延期
