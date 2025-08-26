@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOG/log2025.md",
+                "file": "LOG/mobilephone port - 2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log2025"
+              "title": "mobilephone port - 2025"
             }
           },
           {
@@ -242,8 +242,9 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "3b3ca681ca4e9744",
+  "active": "ace2160139802ce1",
   "lastOpenFiles": [
+    "LOG/log2025.md",
     "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
     "non-STEM/_Good Essaies/Kelvin Kelly.md",
     "non-STEM/_Good Essaies/Untitled.md",
@@ -256,7 +257,6 @@
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/语言速度问题 pybind python+cpp.md",
     "Daily Work/美国政治与公共政策论文/gemini 报告.md",
     "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
-    "LOG/log2025.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/C++ Details/C++ notes .cpp&.py counterpart.md",
     "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
     "non-STEM/_Good Essaies/如何判断一个人有真的数学研究天赋.md",
