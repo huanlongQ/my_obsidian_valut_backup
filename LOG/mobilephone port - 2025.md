@@ -1,4 +1,13 @@
 
+正义事业行动，美国参联会出的。
+优秀的python工具。
+https://www.zhihu.com/question/317758961/answer/1923959912158963183?share_code=VO9v5lei243m&utm_psn=1943781882861953576
+
+.venv pyproject.toml dependency etc【从pip到uv：一口气梳理现代Python项目管理全流程！-哔哩哔哩】 https://b23.tv/wChBL2G
+
+https://www.zhihu.com/pin/1942881457371591410?native=1&scene=share&share_code=17yFKeybe889A&utm_psn=1943755438874157555
+也算是开盒利器了。
+
 awesome llm app github.
 https://www.zhihu.com/question/664886288?share_code=TpSKkqrJhToY&utm_psn=1943400749808727642 
 
