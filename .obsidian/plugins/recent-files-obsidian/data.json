@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "log2025",
+      "path": "LOG/log2025.md"
+    },
+    {
       "basename": "Zen of Coding",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
     },
     {
       "basename": "sortspec",
+      "path": "Industries/sortspec.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/sortspec.md"
+    },
+    {
+      "basename": "sortspec",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md"
+    },
+    {
+      "basename": "typical components of a python pkg",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/typical components of a python pkg.md"
+    },
+    {
+      "basename": "types",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/types.md"
+    },
+    {
+      "basename": "functools",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/functools.md"
+    },
+    {
+      "basename": "itertools",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/itertools.md"
+    },
+    {
+      "basename": "matplotlib",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/matplotlib.md"
+    },
+    {
+      "basename": "excellent python pkgs",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/excellent python pkgs.md"
+    },
+    {
+      "basename": "mobilephone port - 2025",
+      "path": "LOG/mobilephone port - 2025.md"
     },
     {
       "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
@@ -53,20 +93,12 @@
       "path": "Mechanisms (Personal Ability)/Zen.md"
     },
     {
-      "basename": "log2025",
-      "path": "LOG/log2025.md"
-    },
-    {
       "basename": "Kelvin Kelly",
       "path": "non-STEM/_Good People/Kelvin Kelly.md"
     },
     {
       "basename": "Reading, Learning and Neuroscience Mechanism",
       "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
-    },
-    {
-      "basename": "mobilephone port - 2025",
-      "path": "LOG/mobilephone port - 2025.md"
     },
     {
       "basename": "Reading Suggestions of DeepH",
@@ -97,20 +129,8 @@
       "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
     },
     {
-      "basename": "itertools",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/itertools.md"
-    },
-    {
       "basename": "Obsidian Settings",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md"
-    },
-    {
-      "basename": "matplotlib",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/matplotlib.md"
-    },
-    {
-      "basename": "functools",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/functools.md"
     },
     {
       "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
@@ -158,10 +178,6 @@
     },
     {
       "basename": "sortspec",
-      "path": "Industries/sortspec.md"
-    },
-    {
-      "basename": "sortspec",
       "path": "sortspec.md"
     },
     {
@@ -183,18 +199,6 @@
     {
       "basename": "云的希 canvas",
       "path": "non-Daily Work/教培项目/云的希 canvas.canvas"
-    },
-    {
-      "basename": "DQPT Deep Research Report",
-      "path": "Phys/DQPT(Dynamic Quantum Phase Transition)/DQPT Deep Research Report.md"
-    },
-    {
-      "basename": "Neutron Scattering",
-      "path": "Phys/Characterization Methods/Neutron Scattering.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
