@@ -121,6 +121,16 @@ $$
 $$
 # 卷积定理与Fourier Transformation
 
+## 和频差频的卷积定理图像
+
+**和频与差频来自于卷积定理卷积核的Side Peak.** 
+$$
+\begin{align}
+\mathcal{F}[\sin(\omega_{1}x) \times \sin(\omega_{2}x)] & \propto \delta(\omega-\omega_{1}) \text{conv} \delta(\omega - \omega_{2}) \\
+ & \propto \int \delta(\omega_{0}-\omega - \omega_{1} )\delta(\omega - \omega_{2})\mathrm{d}\omega \\
+ & \propto \delta(\omega_{0} - (\omega_{1}-\omega_{2}))
+\end{align}
+$$
 ## 例: 周期性方波信号的Fourier Transformation
 
 ### 方波信号的傅里叶变换：基于卷积定理的推导
