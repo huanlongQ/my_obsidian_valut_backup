@@ -1,7 +1,17 @@
-# 面向对象
+# Others
+
+- [大佬们编程一直是这样吗？？](https://www.zhihu.com/question/640637395) 先天编程圣体的思路. 
+- [你的编程能力从什么时候开始突飞猛进?](https://www.zhihu.com/question/356351510/answer/111955045382?share_code=12KySEdAJpZj8&utm_psn=1938641334824067232) 各类**编程思想小汇总**. 
+
+# 面向对象 Object Oriented Programming
 
 -  [为什么拥有C语言基础的人，依然学不会C++](https://www.zhihu.com/question/647517330/answer/1941522151241941686?share_code=2OKCoCdTfPg7&utm_psn=1941618348803733059)  
 	**第一个坎：从“上帝视角”到“放权让对象自己管自己”, 一切操作通知对象来执行.**  
+- [面向对象中的继承真的几乎“一无是处”吗？](https://www.zhihu.com/question/547885140/answer/2623928543?share_code=Y82VVMUGrzrM&utm_psn=1938751088653210101) 
+	1) 继承过于强大, 过于奇异, 难以把握. 可能出现编译器无法完成类型检查的继承关系. 
+	2) **面向组件编程**是解决面向对象中继承的方法. 
+		Distinction from Object-Oriented Programming (OOP):
+		While COP builds upon OOP principles, it differs in its level of abstraction and focus. OOP typically focuses on the design and interaction of individual objects and classes, often **emphasizing inheritance and polymorphism at a granular level**. COP, on the other hand, deals with **larger, more abstract units (components) that may be composed of multiple classes and objects**, with an **emphasis on loose coupling and independent deployment**.
 
 # 函数书写
 

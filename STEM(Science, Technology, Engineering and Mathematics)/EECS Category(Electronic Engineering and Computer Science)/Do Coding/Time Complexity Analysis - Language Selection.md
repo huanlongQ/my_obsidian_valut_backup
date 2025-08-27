@@ -9,6 +9,8 @@
 
 **cases:**
 - [将Python代码改为c++代码,性能会提高吗？](https://www.zhihu.com/question/1899971674029393124/answer/1903935506003269052)  
-	- find **bottleneck** of time complexity. 
+	- find **bottleneck** of time complexity. 这事不能靠拍脑袋，得靠定位性能瓶颈。记住两个字：**profile！**
 	- 可以尝试语言调用. 
 	- [Gemini - Python vs C++ 科学计算性能比较](https://g.co/gemini/share/553eb8d20816) 
+
+-  [将Python代码改为c++代码,性能会提高吗](https://www.zhihu.com/question/1899971674029393124/answer/1903935506003269052) 

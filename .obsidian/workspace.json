@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5e07c0498a80ce19",
+            "id": "a31d844f7002ebd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOG/mobilephone port - 2025.md",
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mobilephone port - 2025"
+              "title": "sortspec"
             }
           },
           {
-            "id": "439312a184b13b8e",
+            "id": "97faac225b5a0688",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md",
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fourier Transformation"
+              "title": "Zen of Coding"
             }
           }
         ],
@@ -56,7 +56,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -230,24 +230,32 @@
   },
   "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md",
+    "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/From a Coder to a Progarmmer.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Forums on Programing and Coding.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/cmd, powershell and linux - Command Line Interface(CLI).md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Art of Parallelization-Concatenation and Slice Thought as.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Time Complexity Analysis - Language Selection.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/语言速度问题 pybind python+cpp.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Software Arch Design.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Vibe coding.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/sortspec.md",
+    "Mechanisms (Personal Ability)/Zen.md",
+    "LOG/log2025.md",
     "non-STEM/_Good People/Kelvin Kelly.md",
     "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md",
-    "LOG/log2025.md",
     "LOG/mobilephone port - 2025.md",
+    "Phys/AI4Science Paradigm/DeepH typical ML; ML as optim/Reading Suggestions of DeepH.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md",
     "Mechanisms (Personal Ability)/sortspec.md",
-    "Mechanisms (Personal Ability)/Zen.md",
     "non-STEM/_Good People/PiKaChu345 on bilibili.md",
     "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/AI-LLM tools.md",
     "Mechanisms (Personal Ability)/Interface Mechanism.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/sortspec.md",
     "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/itertools.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/matplotlib.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/functools.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Details/Untitled.md",
-    "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md",
     "zzzhe_Attachments/Pasted image 20250826155010.png",
     "zzzhe_Attachments/Pasted image 20250826152559.png",
     "zzzhe_Attachments/Pasted image 20250826152049.png",
@@ -258,14 +266,6 @@
     "zzzhe_Attachments/Pasted image 20250826143739.png",
     "zzzhe_Attachments/Pasted image 20250826143713.png",
     "zzzhe_Attachments/20250824_112911_rbf_bspline.png",
-    "non-STEM/_Good Essaies/Untitled.md",
-    "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/深度学习里有哪些神奇有趣的现象.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/如何约束一个神经网络的并行子模块之间能够学习不同的特征.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/语言速度问题 pybind python+cpp.md",
-    "Daily Work/美国政治与公共政策论文/gemini 报告.md",
-    "Mechanisms (Personal Ability)/Vocabulary Mechanism.md",
     "Industries",
     "non-STEM/_Good Videos",
     "zzzhe_Archive",

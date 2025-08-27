@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Fourier Transformation",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md"
+      "basename": "Zen of Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md"
+    },
+    {
+      "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
+      "path": "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md"
+    },
+    {
+      "basename": "From a Coder to a Progarmmer",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/From a Coder to a Progarmmer.md"
+    },
+    {
+      "basename": "Forums on Programing and Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Forums on Programing and Coding.md"
+    },
+    {
+      "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/cmd, powershell and linux - Command Line Interface(CLI).md"
+    },
+    {
+      "basename": "Art of Parallelization-Concatenation and Slice Thought as",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Art of Parallelization-Concatenation and Slice Thought as.md"
+    },
+    {
+      "basename": "Time Complexity Analysis - Language Selection",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Time Complexity Analysis - Language Selection.md"
+    },
+    {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md"
+    },
+    {
+      "basename": "Software Arch Design",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Software Arch Design.md"
+    },
+    {
+      "basename": "Vibe coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Vibe coding.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/sortspec.md"
+    },
+    {
+      "basename": "Zen",
+      "path": "Mechanisms (Personal Ability)/Zen.md"
+    },
+    {
+      "basename": "log2025",
+      "path": "LOG/log2025.md"
     },
     {
       "basename": "Kelvin Kelly",
@@ -13,16 +65,16 @@
       "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
     },
     {
-      "basename": "log2025",
-      "path": "LOG/log2025.md"
-    },
-    {
       "basename": "mobilephone port - 2025",
       "path": "LOG/mobilephone port - 2025.md"
     },
     {
-      "basename": "Zen",
-      "path": "Mechanisms (Personal Ability)/Zen.md"
+      "basename": "Reading Suggestions of DeepH",
+      "path": "Phys/AI4Science Paradigm/DeepH typical ML; ML as optim/Reading Suggestions of DeepH.md"
+    },
+    {
+      "basename": "Fourier Transformation",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md"
     },
     {
       "basename": "sortspec",
@@ -39,14 +91,6 @@
     {
       "basename": "Interface Mechanism",
       "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
-    },
-    {
-      "basename": "Zen of Coding",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/sortspec.md"
     },
     {
       "basename": "实习项目内容-李强公司",
@@ -73,24 +117,12 @@
       "path": "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md"
     },
     {
-      "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
-      "path": "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/sortspec.md"
-    },
-    {
       "basename": "深度学习里有哪些神奇有趣的现象",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/深度学习里有哪些神奇有趣的现象.md"
     },
     {
       "basename": "如何约束一个神经网络的并行子模块之间能够学习不同的特征",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/如何约束一个神经网络的并行子模块之间能够学习不同的特征.md"
-    },
-    {
-      "basename": "语言速度问题 pybind python+cpp",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/语言速度问题 pybind python+cpp.md"
     },
     {
       "basename": "gemini 报告",
@@ -141,10 +173,6 @@
       "path": "non-STEM/_Good Videos/从你骗我那一刻起，以后你说的每一句话都需要证据.md"
     },
     {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md"
-    },
-    {
       "basename": "e7c6f74f80bc14e24a6b6a2932fbfe8",
       "path": "zzzhe_Attachments/e7c6f74f80bc14e24a6b6a2932fbfe8.png"
     },
@@ -167,38 +195,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Tensor Network Representation (General)",
-      "path": "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/Tensor Network Representation (General).md"
-    },
-    {
-      "basename": "tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model",
-      "path": "Phys/Algo4Phys (Algorithm in Phys, ML or Numerics)/DMRG TRG Group/tanTRG Tangent Space Approach for Thermal Tensor Network Simulations of the 2D Hubbard Model.md"
-    },
-    {
-      "basename": "八次危机",
-      "path": "non-STEM/Books and Courses/Finance and Economics/八次危机.md"
-    },
-    {
-      "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/cmd, powershell and linux - Command Line Interface(CLI).md"
-    },
-    {
-      "basename": "云的大希",
-      "path": "non-Daily Work/教培项目/云的大希.md"
-    },
-    {
-      "basename": "badce27b1832b8061c7e2ffbb9474a4 1",
-      "path": "zzzhe_Attachments/badce27b1832b8061c7e2ffbb9474a4 1.jpg"
-    },
-    {
-      "basename": "d9712bf88a923e49b29300bbd79748e 1",
-      "path": "zzzhe_Attachments/d9712bf88a923e49b29300bbd79748e 1.jpg"
-    },
-    {
-      "basename": "Pasted image 20250823201433",
-      "path": "zzzhe_Attachments/Pasted image 20250823201433.png"
     }
   ],
   "omittedPaths": [],
