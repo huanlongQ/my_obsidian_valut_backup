@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md",
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Claude Code or Gemini CLI  + LLM API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git, version control"
+              "title": "Claude Code or Gemini CLI  + LLM API"
             }
           }
         ]
@@ -213,14 +213,14 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "3b3ca681ca4e9744",
+  "active": "49e422b32abcd8e4",
   "lastOpenFiles": [
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md",
     "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md",
     "zzzhe_Attachments/Pasted image 20250827152034.png",
     "zzzhe_Attachments/Pasted image 20250827151941.png",
     "zzzhe_Attachments/Pasted image 20250827151703.png",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Claude Code or Gemini CLI  + LLM API.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md",
     "LOG/log2025.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md",
     "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/Kimi K2 report.md",

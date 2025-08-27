@@ -1,6 +1,7 @@
 
 -  [DeepSeek V3.1接入Claude Code教程](https://zhuanlan.zhihu.com/p/1941910745546744995)
 - [claudecode接入deepseek-v3.1试用评价](https://zhuanlan.zhihu.com/p/1942268647717438161)
+- [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae)
 
 # Node.js download
 
@@ -17,6 +18,7 @@ npm -v # Should print "10.9.3".
 
 # CLI proxy setting 
 
+[Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 
 [[Git, version control|@Git, version control]] similar
 ```bash
 # git config --global https.proxy socks5://127.0.0.1:1080
