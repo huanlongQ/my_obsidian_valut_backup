@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md"
+    },
+    {
+      "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
+      "path": "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md"
+    },
+    {
+      "basename": "Claude Code or Gemini CLI  + LLM API",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Claude Code or Gemini CLI  + LLM API.md"
+    },
+    {
       "basename": "log2025",
       "path": "LOG/log2025.md"
     },
     {
       "basename": "Zen of Coding",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
+    },
+    {
+      "basename": "Kimi K2 report",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/Kimi K2 report.md"
+    },
+    {
+      "basename": "PiKaChu345 on bilibili",
+      "path": "non-STEM/_Good People/PiKaChu345 on bilibili.md"
+    },
+    {
+      "basename": "Kimi K1.5 report",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/LLM (Large Language Model)/Kimi K1.5 report.md"
     },
     {
       "basename": "sortspec",
@@ -73,10 +97,6 @@
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Time Complexity Analysis - Language Selection.md"
     },
     {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md"
-    },
-    {
       "basename": "Software Arch Design",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Software Arch Design.md"
     },
@@ -113,10 +133,6 @@
       "path": "Mechanisms (Personal Ability)/sortspec.md"
     },
     {
-      "basename": "PiKaChu345 on bilibili",
-      "path": "non-STEM/_Good People/PiKaChu345 on bilibili.md"
-    },
-    {
       "basename": "AI-LLM tools",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/AI-LLM tools.md"
     },
@@ -131,10 +147,6 @@
     {
       "basename": "Obsidian Settings",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md"
-    },
-    {
-      "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
-      "path": "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md"
     },
     {
       "basename": "深度学习里有哪些神奇有趣的现象",
@@ -187,18 +199,6 @@
     {
       "basename": "从你骗我那一刻起，以后你说的每一句话都需要证据",
       "path": "non-STEM/_Good Videos/从你骗我那一刻起，以后你说的每一句话都需要证据.md"
-    },
-    {
-      "basename": "e7c6f74f80bc14e24a6b6a2932fbfe8",
-      "path": "zzzhe_Attachments/e7c6f74f80bc14e24a6b6a2932fbfe8.png"
-    },
-    {
-      "basename": "Nice Websites or Institutions",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/Nice Websites or Institutions.md"
-    },
-    {
-      "basename": "云的希 canvas",
-      "path": "non-Daily Work/教培项目/云的希 canvas.canvas"
     }
   ],
   "omittedPaths": [],

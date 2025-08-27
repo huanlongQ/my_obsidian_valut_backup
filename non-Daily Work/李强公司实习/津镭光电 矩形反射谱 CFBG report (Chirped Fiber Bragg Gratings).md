@@ -144,10 +144,29 @@ $$
 **然而, 上机测试中未见此特征涨落.** 
 3) `power_noise`: 高斯功率切趾的输出能量涨落, 涨落频率都在10Hz以下, 更低或更高频率不能带来更大涨落. 
 `power_noise = 1e-2 * 20`时, 涨落达到0.5dB. 
-![[Pasted image 20250826152049.png|900]] 
+![[Pasted image 20250826152049.png|900]]
 4) `position_noise`: 栅极加工位置与理想位置偏移, 偏移频率都在10Hz以下, 更低或更高频率不能带来更大涨落. 
 `position_noise = 1e-6 * 60 # mm`时, 涨落可能达到1dB以上, `position_noise = 1e-6 * 30 # mm`时, 涨落在0.5dB附近. 
 ![[Pasted image 20250826152559.png]] 
+5) 由光纤纤芯同心度问题引发的**非正比例高斯功率切趾$\to$相对折射率变化$\text{envelope}$映射**.
+[先品光子|先权光纤](https://www.newpion.com/product/771.html)的包层直径为9$\mu \mathrm{m}$, 光纤纤芯包层同心度$\leq 0.8\mu \mathrm{m}$. 此处的纤芯包层不同心等效为一个倾斜切趾. 
+我们假设倾斜切趾$z$轴位置与相对折射率变化为Gaussian函数, 整个包层为3$\sigma$, 则映射非正比例最大振幅为:
+$$
+\begin{align}
+\exp\left( -\frac{1}{2} \left( \frac{0.8\mu \mathrm{m}}{1.5\mu \mathrm{m}} \right)^{2} \right) \approx 0.864 
+\end{align}
+$$
+这将等效为一个14%上下的`power_noise`
+设置参数: 
+```python
+    # --- Parameters for Noise (Tuning) ---
+    error_distance = 1e-6 * 20
+    power_noise = 1e-2 * 15 
+    shift = 1e-2 * 2 *0
+    noise_cutoff_freq = 10
+```
+容易得到: 
+![[Pasted image 20250827152034.png]] 
 
 ## 2. 上机测试
 
