@@ -1,9 +1,12 @@
 
--  [DeepSeek V3.1接入Claude Code教程](https://zhuanlan.zhihu.com/p/1941910745546744995)
+- [DeepSeek V3.1接入Claude Code教程](https://zhuanlan.zhihu.com/p/1941910745546744995)
 - [claudecode接入deepseek-v3.1试用评价](https://zhuanlan.zhihu.com/p/1942268647717438161)
 - [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae)
+- [Claude Code - Gemini CLI Linker](https://zhuanlan.zhihu.com/p/1941776168769519921) 利用Gemini CLI的长文本能力. 
+- [zhihu Gemini CLI介绍](https://www.zhihu.com/question/1922038210793546944)
+- [Claude Code Router](https://zhuanlan.zhihu.com/p/1943248560784122119) ⭐
 
-# Node.js download
+# Node.js download 
 
 ```bash
 # Download and install Chocolatey+:
@@ -18,9 +21,10 @@ npm -v # Should print "10.9.3".
 
 # CLI proxy setting 
 
-[Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 
-[[Git, version control|@Git, version control]] similar
-```bash
+-  [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 
+-  [[Git, version control|@Git, version control]] similar
+
+```powershell
 # git config --global https.proxy socks5://127.0.0.1:1080
 netsh winhttp set proxy proxy-server="socks=127.0.0.1:10808" bypass-list="localhost"
 
