@@ -461,13 +461,13 @@ git config --global core.longpaths true // give validity to long name files
 | **从别处恢复单个文件**   | `git checkout <source_branch> -- <file>` | `git restore --source=<source_branch> <file>` |
 | **解决合并冲突**      | `git checkout --ours/--theirs -- <file>` | (无直接替代，仍使用 `checkout`)                        |
 
-| 功能                                                           | `git checkout` (旧)                          | `git switch` (新)           | `git restore` (新)                           | 备注                       |
-| ------------------------------------------------------------ | ------------------------------------------- | -------------------------- | ------------------------------------------- | ------------------------ |
-| **切换分支**                                                     | `git checkout branch-name`                  | `git switch branch-name`   | 不适用                                         | **推荐使用 `git switch`**    |
-| **创建并切换分支**                                                  | `git checkout -b new-branch`                | `git switch -c new-branch` | 不适用                                         | **推荐使用 `git switch`**    |
-| **丢弃未暂存的修改**                                                 | `git checkout -- file.txt`                  | 不适用                        | `git restore file.txt`                      | **推荐使用 `git restore`**   |
-| **将暂存区文件撤销**                                                 | **`git checkout HEAD -- file.txt`** $\star$ | 不适用                        | **`git restore --staged file.txt`** $\star$ | **推荐使用 `git restore`**   |
-| **重新提交一个新的commit以覆盖掉不好的上一个commit, 新commit与前数两个版本的commit一致**. | 不适用                                         | 不适用                        | 不适用                                         | `git revert <commit_id>` |
+| 功能                                                           | `git checkout` (旧)                          | `git switch` (新)           | `git restore` (新)                     | `git revert`             | `git rm --cached`        |
+| ------------------------------------------------------------ | ------------------------------------------- | -------------------------- | ------------------------------------- | ------------------------ | ------------------------ |
+| **切换分支**                                                     | `git checkout branch-name`                  | `git switch branch-name`   | 不适用                                   | 不适用                      |                          |
+| **创建并切换分支**                                                  | `git checkout -b new-branch`                | `git switch -c new-branch` | 不适用                                   | 不适用                      |                          |
+| **丢弃未暂存的修改**                                                 | `git checkout -- file.txt`                  | 不适用                        | `git restore file.txt`                | 不适用                      |                          |
+| **将暂存区文件撤销**                                                 | **`git checkout HEAD -- file.txt`** $\star$ | 不适用                        | **`git restore --staged file.txt`** ⭐ | 不适用                      | `git rm --cached <file>` |
+| **重新提交一个新的commit以覆盖掉不好的上一个commit, 新commit与前数两个版本的commit一致**. | 不适用                                         | 不适用                        | 不适用                                   | `git revert <commit_id>` |                          |
 
 # `git` and GitHub 
 

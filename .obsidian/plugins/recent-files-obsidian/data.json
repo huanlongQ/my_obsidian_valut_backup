@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+    },
+    {
+      "basename": "实习项目内容-李强公司",
+      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
+    },
+    {
+      "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
+      "path": "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md"
+    },
+    {
       "basename": "fft (fast fourier transformation)",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)/fft (fast fourier transformation).md"
     },
@@ -53,16 +65,8 @@
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/cmd, powershell and linux - Command Line Interface(CLI).md"
     },
     {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
-    },
-    {
       "basename": "CLI shortcut setting",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI shortcut setting.md"
-    },
-    {
-      "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
-      "path": "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md"
     },
     {
       "basename": "Kimi K2 report",
@@ -153,10 +157,6 @@
       "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
     },
     {
-      "basename": "实习项目内容-李强公司",
-      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
-    },
-    {
       "basename": "Obsidian Settings",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "Mechanism of Life",
       "path": "Mechanisms (Personal Ability)/Mechanism of Life.md"
-    },
-    {
-      "basename": "光子芯片",
-      "path": "Industries/光子芯片.md"
     }
   ],
   "omittedPaths": [],
