@@ -1,6 +1,6 @@
--  [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 似乎这里cmd `set http_proxy`无效, 应当使用`set HTTP_PROXY`etc. 
+-  [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 似乎这里cmd `set http_proxy`无效, 应当使用大写`set HTTP_PROXY`? 但是gemini讲大小写不区分. 
 -  [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html) 
-*  [Gemini - Git Line Endings and Filename Errors](https://g.co/gemini/share/3ac13b269887) 
+*  [Gemini - Git Line Endings and Filename Errors](https://g.co/gemini/share/3ac13b269887)  [[Git, version control|@Git, version control]]
 
 # Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae)  
 
