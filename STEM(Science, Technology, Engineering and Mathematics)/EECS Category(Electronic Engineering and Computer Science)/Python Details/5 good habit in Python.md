@@ -8,7 +8,7 @@
 # 3. seprate unit functions, improve reusability. 
 
 A module should conclude as less as possible unit function.
-[[Vibe coding]] shows this principle also. 
+[[Vibe Coding - AI-driven Coding]] shows this principle also. 
 
 # 4. Type Annoation
 

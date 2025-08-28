@@ -41,3 +41,62 @@ netsh winhttp set proxy proxy-server="socks=127.0.0.1:10808" bypass-list="localh
 set HTTP_PROXY=http://127.0.0.1:1080
 set HTTPS_PROXY=http://127.0.0.1:1080
 ```
+
+# Proxy Conflicts Solving
+
+ - `Gemini CLI`要求: 
+	1) `Path Variables: http_proxy, https_proxy` 经过`proxy http or https`实现. 
+- `Claude Code Router`要求: 
+	1) `config.json`文件`HOST`对齐到本地`"HOST": "127.0.0.1"` 
+	2) `Path Variables: http_proxy, https_proxy`为空值. 
+```json
+{
+  "LOG": false,
+  "HOST": "127.0.0.1",
+  "API_TIMEOUT_MS": 600000,
+  "Providers": [
+    {
+      "name": "deepseek",
+      "api_base_url": "https://api.deepseek.com/chat/completions",
+      "api_key": "sk-513f3c58c5c1407981c52a216ff0ddf1", 
+      "models": ["deepseek-chat", "deepseek-reasoner"],
+      "transformer": {
+        "use": ["deepseek"],
+        "deepseek-chat": {
+          "use": ["tooluse"]
+        }
+      }
+    },
+    {
+      "name": "gemini",
+      "api_base_url": "https://generativelanguage.googleapis.com/v1beta/models/",
+      "api_key": "xx",
+      "models": ["gemini-2.5-flash", "gemini-2.5-pro"],
+      "transformer": {
+        "use": ["gemini"]
+      }
+    }
+  ],
+  "Router": {
+    "default": "deepseek,deepseek-chat",
+    "background": "deepseek,deepseek-chat",
+    "think": "deepseek,deepseek-reasoner",
+    "longContext": "gemini,gemini-2.5-pro",
+    "longContextThreshold": 60000,
+    "webSearch": "gemini,gemini-2.5-flash"
+  }
+}
+```
+最终实现方案: 
+`cccli.bat, gecli.bat`
+```DOS
+@echo off
+set "http_proxy="
+set "https_proxy="
+start "Claude Code" cmdd /K "color 02 && ccr code"
+
+@echo off
+set "http_proxy=http://127.0.0.1:1080"
+set "https_proxy=http://127.0.0.1:1080"
+start "Gemini CLI" cmdd /K "color 02 && gemini"
+```

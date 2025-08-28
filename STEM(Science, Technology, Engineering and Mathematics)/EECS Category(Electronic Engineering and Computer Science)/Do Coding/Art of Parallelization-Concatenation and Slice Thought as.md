@@ -12,7 +12,7 @@
 
 ## Graph Ops with Concatration and Slice in `e3nn`
 
-```
+```python
 import torch
 from torch_cluster import radius_graph
 from torch_scatter import scatter

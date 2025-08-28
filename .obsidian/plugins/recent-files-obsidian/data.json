@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "CLI shortcut setting",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI shortcut setting.md"
-    },
-    {
       "basename": "Claude Code or Gemini CLI  + LLM API",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Claude Code or Gemini CLI  + LLM API.md"
     },
@@ -13,16 +9,44 @@
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI proxy.md"
     },
     {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+      "basename": "Vibe Coding - AI-driven Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Vibe Coding - AI-driven Coding.md"
+    },
+    {
+      "basename": "Zen of Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
+    },
+    {
+      "basename": "Forums on Programing and Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Forums on Programing and Coding.md"
+    },
+    {
+      "basename": "Art of Parallelization-Concatenation and Slice Thought as",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Art of Parallelization-Concatenation and Slice Thought as.md"
+    },
+    {
+      "basename": "Software Arch Design",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Software Arch Design.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/sortspec.md"
+    },
+    {
+      "basename": "Time Complexity Analysis - Language Selection",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Time Complexity Analysis - Language Selection.md"
     },
     {
       "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/cmd, powershell and linux - Command Line Interface(CLI).md"
     },
     {
-      "basename": "Zen of Coding",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+    },
+    {
+      "basename": "CLI shortcut setting",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI shortcut setting.md"
     },
     {
       "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
@@ -87,34 +111,6 @@
     {
       "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
       "path": "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md"
-    },
-    {
-      "basename": "From a Coder to a Progarmmer",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/From a Coder to a Progarmmer.md"
-    },
-    {
-      "basename": "Forums on Programing and Coding",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Forums on Programing and Coding.md"
-    },
-    {
-      "basename": "Art of Parallelization-Concatenation and Slice Thought as",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Art of Parallelization-Concatenation and Slice Thought as.md"
-    },
-    {
-      "basename": "Time Complexity Analysis - Language Selection",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Time Complexity Analysis - Language Selection.md"
-    },
-    {
-      "basename": "Software Arch Design",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Software Arch Design.md"
-    },
-    {
-      "basename": "Vibe coding",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Vibe coding.md"
-    },
-    {
-      "basename": "sortspec",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/sortspec.md"
     },
     {
       "basename": "Zen",
