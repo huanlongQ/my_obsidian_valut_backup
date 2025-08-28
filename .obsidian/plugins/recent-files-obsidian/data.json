@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CLI shortcut setting",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI shortcut setting.md"
+    },
+    {
       "basename": "Claude Code or Gemini CLI  + LLM API",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Claude Code or Gemini CLI  + LLM API.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "sortspec",
       "path": "sortspec.md"
-    },
-    {
-      "basename": "三和大神是如何产生的",
-      "path": "non-STEM/_Good Videos/三和大神是如何产生的.md"
     }
   ],
   "omittedPaths": [],

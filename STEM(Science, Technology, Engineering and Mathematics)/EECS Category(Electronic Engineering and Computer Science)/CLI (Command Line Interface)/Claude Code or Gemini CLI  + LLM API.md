@@ -21,9 +21,10 @@ npm -v # Should print "10.9.3".
 
 # CLI Proxy setting 
 
-⭐**Gemini CLI似乎强要求使用http/https代理, socks代理会报错.**
+⭐**Gemini CLI似乎强要求使用http/https代理, socks代理会报错.** 
+⭐为保证Gemini CLI平稳运行, 我们采用 [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html)中的环境变量方法强制设置`https_proxy`和`http_proxy`
 
--  [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 似乎这里cmd `set http_proxy`无效, 应当使用`set HTTP_PROXY`etc. 
+-  [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 似乎这里cmd `set http_proxy`无效, 应当使用`set HTTP_PROXY`etc, 当然, 我这里的jamjams只有http代理, 没有https代理, 所以全用http代理就好. 
 -  [[Git, version control|@Git, version control]] similar
 
 ```powershell
