@@ -5,6 +5,7 @@
 - [Claude Code - Gemini CLI Linker](https://zhuanlan.zhihu.com/p/1941776168769519921) 利用Gemini CLI的长文本能力. 
 - [zhihu Gemini CLI介绍](https://www.zhihu.com/question/1922038210793546944)
 - [Claude Code Router](https://zhuanlan.zhihu.com/p/1943248560784122119) ⭐
+- [‎Gemini - ccli&gecli conflicts solving, proxy and bat setting](https://g.co/gemini/share/9c6dafd88c18) 
 
 # Node.js download 
 
@@ -44,20 +45,22 @@ set HTTPS_PROXY=http://127.0.0.1:1080
 
 # Proxy Conflicts Solving
 
+[‎Gemini - ccli&gecli conflicts solving, proxy and bat setting](https://g.co/gemini/share/9c6dafd88c18)
+
  - `Gemini CLI`要求: 
 	1) `Path Variables: http_proxy, https_proxy` 经过`proxy http or https`实现. 
 - `Claude Code Router`要求: 
-	1) `config.json`文件`HOST`对齐到本地`"HOST": "127.0.0.1"` 
+	1) `.claude-code-router/config.json`文件`HOST`对齐到本地`"HOST": "127.0.0.1"` 
 	2) `Path Variables: http_proxy, https_proxy`为空值. 
 ```json
 {
   "LOG": false,
-  "HOST": "127.0.0.1",
+  "HOST": "127.0.0.1", ⭐,
   "API_TIMEOUT_MS": 600000,
   "Providers": [
     {
       "name": "deepseek",
-      "api_base_url": "https://api.deepseek.com/chat/completions",
+      "api_base_url": "https://api.deepseek.com/anthropic", ⭐,
       "api_key": "sk-513f3c58c5c1407981c52a216ff0ddf1", 
       "models": ["deepseek-chat", "deepseek-reasoner"],
       "transformer": {
@@ -88,15 +91,54 @@ set HTTPS_PROXY=http://127.0.0.1:1080
 }
 ```
 最终实现方案: 
-`cccli.bat, gecli.bat`
+`ccli.bat, gecli.bat`
 ```DOS
 @echo off
-set "http_proxy="
-set "https_proxy="
-start "Claude Code" cmdd /K "color 02 && ccr code"
 
-@echo off
 set "http_proxy=http://127.0.0.1:1080"
 set "https_proxy=http://127.0.0.1:1080"
-start "Gemini CLI" cmdd /K "color 02 && gemini"
+
+if "%1"=="" (
+    start "Gemini CLI" cmd.exe /K gemini
+) else (
+    start "Gemini CLI" cmd.exe /K "cd /d %1 && gemini"
+)
 ```
+
+```DOS
+@echo off
+
+set "http_proxy="
+set "https_proxy="
+
+if "%1"=="" (
+    start "CCR Code" cmd.exe /K "color 02 && ccr code"
+) else (
+    start "CCR Code" cmd.exe /K "cd /d %1 && color 02 && ccr code"
+)
+```
+
+顺便给startup文件夹 `C:\Users\可爱的辣鸡\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`加入了一个`cmdd`
+
+```DOS
+:: ============================================================================
+:: Self-elevating admin rights check
+:: ============================================================================
+::net session >nul 2>&1
+::if %errorlevel% neq 0 (
+::    echo Requesting administrative privileges...
+::    powershell.exe -Command "Start-Process '%~f0' -Verb RunAs"
+::    exit
+::)
+
+start " " "D:\SOFTWARES\Wechat2\WeChat.exe"
+::start " " "D:\SOFTWARES\clash-verge\clash-verge.exe"
+start " " "D:\SOFTWARES\Jamjams\Jamjams.exe"
+start " " "D:\SOFTWARES\ActivityWatch\aw-qt.exe"
+::start " " "D:\SOFTWARES\Everything\Everything.exe"
+start cmdd
+```
+
+# API setting 
+
+deepseek的api要用`https://api.deepseek.com/anthropic`. 

@@ -28,3 +28,24 @@ Nvidia 730 + 2K显示屏解决方案: [zhihu Nvidia 730+2K](https://www.zhihu.co
 - `.bat` syntax [Batch File Commenting: REM vs. ::](https://g.co/gemini/share/cc6bad211041)  
 	- `::` as comment
 	- `start " " "D:\SOFTWARES\ActivityWatch\aw-qt.exe"` 
+
+顺便给startup文件夹 `C:\Users\可爱的辣鸡\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`加入了一个`cmdd`
+
+```DOS
+:: ============================================================================
+:: Self-elevating admin rights check
+:: ============================================================================
+::net session >nul 2>&1
+::if %errorlevel% neq 0 (
+::    echo Requesting administrative privileges...
+::    powershell.exe -Command "Start-Process '%~f0' -Verb RunAs"
+::    exit
+::)
+
+start " " "D:\SOFTWARES\Wechat2\WeChat.exe"
+::start " " "D:\SOFTWARES\clash-verge\clash-verge.exe"
+start " " "D:\SOFTWARES\Jamjams\Jamjams.exe"
+start " " "D:\SOFTWARES\ActivityWatch\aw-qt.exe"
+::start " " "D:\SOFTWARES\Everything\Everything.exe"
+start cmdd
+```

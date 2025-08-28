@@ -1,5 +1,6 @@
 
 -  [Gemini - fft, fftfreq与单位制转换的系统化思路](https://g.co/gemini/share/50b998ee0af4)
+[[Fourier Transformation|@Fourier Transformation]] 
 
 # DFT(Discrete Fourier Theory) Theory and Gauge
 
