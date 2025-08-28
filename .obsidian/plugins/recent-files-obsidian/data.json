@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "CLI proxy",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI proxy.md"
+    },
+    {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+    },
+    {
       "basename": "Claude Code or Gemini CLI  + LLM API",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Claude Code or Gemini CLI  + LLM API.md"
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Claude Code or Gemini CLI  + LLM API.md"
+    },
+    {
+      "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/cmd, powershell and linux - Command Line Interface(CLI).md"
     },
     {
       "basename": "Zen of Coding",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
-    },
-    {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Git, version control.md"
     },
     {
       "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
@@ -83,10 +91,6 @@
     {
       "basename": "Forums on Programing and Coding",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Forums on Programing and Coding.md"
-    },
-    {
-      "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/cmd, powershell and linux - Command Line Interface(CLI).md"
     },
     {
       "basename": "Art of Parallelization-Concatenation and Slice Thought as",
@@ -195,10 +199,6 @@
     {
       "basename": "三和大神是如何产生的",
       "path": "non-STEM/_Good Videos/三和大神是如何产生的.md"
-    },
-    {
-      "basename": "从你骗我那一刻起，以后你说的每一句话都需要证据",
-      "path": "non-STEM/_Good Videos/从你骗我那一刻起，以后你说的每一句话都需要证据.md"
     }
   ],
   "omittedPaths": [],

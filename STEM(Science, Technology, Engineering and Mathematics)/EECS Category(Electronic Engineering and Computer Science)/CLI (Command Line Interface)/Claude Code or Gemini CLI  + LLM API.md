@@ -19,9 +19,9 @@ node -v # Should print "v22.18.0".
 npm -v # Should print "10.9.3".
 ```
 
-# CLI proxy setting 
+# CLI Proxy setting 
 
--  [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 
+-  [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.) · GitHub](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae) 似乎这里cmd `set http_proxy`无效, 应当使用`set HTTP_PROXY`etc. 
 -  [[Git, version control|@Git, version control]] similar
 
 ```powershell
