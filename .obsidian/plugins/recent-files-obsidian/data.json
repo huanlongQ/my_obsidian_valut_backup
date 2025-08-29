@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "log2025",
+      "path": "LOG/log2025.md"
+    },
+    {
       "basename": "Git, version control",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Art of Parallelization-Concatenation and Slice Thought as",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Art of Parallelization-Concatenation and Slice Thought as.md"
-    },
-    {
-      "basename": "log2025",
-      "path": "LOG/log2025.md"
     },
     {
       "basename": "Claude Code or Gemini CLI  + LLM API",
