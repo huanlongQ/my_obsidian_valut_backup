@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Zen of Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
+    },
+    {
+      "basename": "Basic CLI commands",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Basic CLI commands.md"
+    },
+    {
+      "basename": "Art of Parallelization-Concatenation and Slice Thought as",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Art of Parallelization-Concatenation and Slice Thought as.md"
+    },
+    {
       "basename": "log2025",
       "path": "LOG/log2025.md"
+    },
+    {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+    },
+    {
+      "basename": "Claude Code or Gemini CLI  + LLM API",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Claude Code or Gemini CLI  + LLM API.md"
+    },
+    {
+      "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/cmd, powershell and linux - Command Line Interface(CLI).md"
+    },
+    {
+      "basename": "CLI shortcut setting",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI shortcut setting.md"
+    },
+    {
+      "basename": "CLI proxy",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI proxy.md"
+    },
+    {
+      "basename": "System32, Path and env variables",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/OS (Operating System)/System32, Path and env variables.md"
+    },
+    {
+      "basename": "深度学习知识",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/深度学习知识.md"
+    },
+    {
+      "basename": "实习项目内容-李强公司",
+      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
     },
     {
       "basename": "Vibe Coding - AI-driven Coding",
@@ -11,14 +55,6 @@
     {
       "basename": "mobilephone port - 2025",
       "path": "LOG/mobilephone port - 2025.md"
-    },
-    {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
-    },
-    {
-      "basename": "实习项目内容-李强公司",
-      "path": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md"
     },
     {
       "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
@@ -33,24 +69,8 @@
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Computer Settings.md"
     },
     {
-      "basename": "Claude Code or Gemini CLI  + LLM API",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Claude Code or Gemini CLI  + LLM API.md"
-    },
-    {
-      "basename": "CLI proxy",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI proxy.md"
-    },
-    {
-      "basename": "Zen of Coding",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
-    },
-    {
       "basename": "Forums on Programing and Coding",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Forums on Programing and Coding.md"
-    },
-    {
-      "basename": "Art of Parallelization-Concatenation and Slice Thought as",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Art of Parallelization-Concatenation and Slice Thought as.md"
     },
     {
       "basename": "Software Arch Design",
@@ -63,14 +83,6 @@
     {
       "basename": "Time Complexity Analysis - Language Selection",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Time Complexity Analysis - Language Selection.md"
-    },
-    {
-      "basename": "cmd, powershell and linux - Command Line Interface(CLI)",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/cmd, powershell and linux - Command Line Interface(CLI).md"
-    },
-    {
-      "basename": "CLI shortcut setting",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI shortcut setting.md"
     },
     {
       "basename": "Kimi K2 report",
@@ -187,14 +199,6 @@
     {
       "basename": "男人的快乐有多简单？",
       "path": "non-STEM/_Good Essaies/男人的快乐有多简单？.md"
-    },
-    {
-      "basename": "Stack Mechanism ⭐",
-      "path": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md"
-    },
-    {
-      "basename": "Mechanism of Life",
-      "path": "Mechanisms (Personal Ability)/Mechanism of Life.md"
     }
   ],
   "omittedPaths": [],

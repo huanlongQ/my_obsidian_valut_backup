@@ -457,7 +457,7 @@ git config --global core.longpaths true // give validity to long name files
 | **切换到一个已存在的分支** | `git checkout <branch>`                  | `git switch <branch>`                         |
 | **创建并切换到新分支**   | `git checkout -b <new-branch>`           | `git switch -c <new-branch>`                  |
 | **临时查看某个旧版本**   | `git checkout <commit>`                  | `git switch --detach <commit>`                |
-| **放弃对文件的本地修改**  | `git checkout -- <file>`                 | `git restore <file>`                          |
+| **放弃对文件的本地修改**  | **`git checkout -- <file>`**             | `git restore <file>`                          |
 | **从别处恢复单个文件**   | `git checkout <source_branch> -- <file>` | `git restore --source=<source_branch> <file>` |
 | **解决合并冲突**      | `git checkout --ours/--theirs -- <file>` | (无直接替代，仍使用 `checkout`)                        |
 
