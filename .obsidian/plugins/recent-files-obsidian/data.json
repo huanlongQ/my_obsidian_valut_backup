@@ -5,6 +5,22 @@
       "path": "LOG/log2025.md"
     },
     {
+      "basename": "Mechanism of Life",
+      "path": "Mechanisms (Personal Ability)/Mechanism of Life.md"
+    },
+    {
+      "basename": "Interface Mechanism",
+      "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
+    },
+    {
+      "basename": "Zen",
+      "path": "Mechanisms (Personal Ability)/Zen.md"
+    },
+    {
+      "basename": "mobilephone port - 2025",
+      "path": "LOG/mobilephone port - 2025.md"
+    },
+    {
       "basename": "Git, version control",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
@@ -51,10 +67,6 @@
     {
       "basename": "Vibe Coding - AI-driven Coding",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Vibe Coding - AI-driven Coding.md"
-    },
-    {
-      "basename": "mobilephone port - 2025",
-      "path": "LOG/mobilephone port - 2025.md"
     },
     {
       "basename": "津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings)",
@@ -137,10 +149,6 @@
       "path": "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md"
     },
     {
-      "basename": "Zen",
-      "path": "Mechanisms (Personal Ability)/Zen.md"
-    },
-    {
       "basename": "Kelvin Kelly",
       "path": "non-STEM/_Good People/Kelvin Kelly.md"
     },
@@ -163,10 +171,6 @@
     {
       "basename": "AI-LLM tools",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/AI-LLM tools.md"
-    },
-    {
-      "basename": "Interface Mechanism",
-      "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
     },
     {
       "basename": "Obsidian Settings",
@@ -195,10 +199,6 @@
     {
       "basename": "如何判断一个人有真的数学研究天赋",
       "path": "non-STEM/_Good Essaies/如何判断一个人有真的数学研究天赋.md"
-    },
-    {
-      "basename": "男人的快乐有多简单？",
-      "path": "non-STEM/_Good Essaies/男人的快乐有多简单？.md"
     }
   ],
   "omittedPaths": [],
