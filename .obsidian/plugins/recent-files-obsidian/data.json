@@ -5,6 +5,10 @@
       "path": "LOG/log2025.md"
     },
     {
+      "basename": "Zen",
+      "path": "Mechanisms (Personal Ability)/Zen.md"
+    },
+    {
       "basename": "Git, version control",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Interface Mechanism",
       "path": "Mechanisms (Personal Ability)/Interface Mechanism.md"
-    },
-    {
-      "basename": "Zen",
-      "path": "Mechanisms (Personal Ability)/Zen.md"
     },
     {
       "basename": "mobilephone port - 2025",
