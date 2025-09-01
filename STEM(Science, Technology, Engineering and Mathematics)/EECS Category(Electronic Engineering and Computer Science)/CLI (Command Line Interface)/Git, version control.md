@@ -246,6 +246,11 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 
+[log]
+  date = relative
+[format]
+  pretty = format:%h %Cblue%ad%Creset %ae %Cgreen%s%Creset
+
 //settings
 git config --global init.defaultBranch main
 git config --global http.proxy http://127.0.0.1:10809 //127.0.0.1:1080

@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a5d657c4ad92978",
+        "id": "b78e20d3b5dd96c6",
         "type": "tabs",
         "children": [
           {
-            "id": "7662f3f06eeb9167",
+            "id": "675c4221fc017dec",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Hardware/软硬件链接通信接口及其硬件基础 Software Hardware link Communication Interface and its Hardware foundation.md",
-                "bFile": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Hardware/软硬件链接通信接口及其硬件基础 Software Hardware link Communication Interface and its Hardware foundation.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 软硬件链接通信接口及其硬件基础 Software Hardware link Communication Interface and its Hardware foundation"
+              "icon": "lucide-file",
+              "title": "Git, version control"
             }
           }
         ]
@@ -54,8 +53,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
@@ -64,8 +63,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -126,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "__LOG/_log2025.md",
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _log2025"
+              "title": "Outgoing links from Git, version control"
             }
           },
           {
@@ -183,27 +182,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "non-Daily Work/李强公司实习/实习项目内容-李强公司.md",
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 实习项目内容-李强公司"
-            }
-          },
-          {
-            "id": "139d26901eb66cd1",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "title": "Outline of Git, version control"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -211,6 +199,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -224,14 +213,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7662f3f06eeb9167",
+  "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "LOG/log2025.md",
     "Mechanisms (Personal Ability)/Mechanism of Life.md",
     "Mechanisms (Personal Ability)/Interface Mechanism.md",
     "Mechanisms (Personal Ability)/Zen.md",
     "LOG/mobilephone port - 2025.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Basic CLI commands.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Art of Parallelization-Concatenation and Slice Thought as.md",
