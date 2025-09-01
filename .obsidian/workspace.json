@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b78e20d3b5dd96c6",
+        "id": "ecbab23c2f7b3a37",
         "type": "tabs",
         "children": [
           {
-            "id": "675c4221fc017dec",
+            "id": "7ced96304fe7ec7d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
-                "mode": "source",
-                "source": false
+                "aFile": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
+                "bFile": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Git, version control"
+              "icon": "diff",
+              "title": "Diff: Git, version control"
             }
           }
         ]
@@ -53,8 +53,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           },
           {
@@ -63,8 +63,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           },
           {
@@ -157,8 +157,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           },
           {
@@ -190,6 +190,16 @@
               "icon": "lucide-list",
               "title": "Outline of Git, version control"
             }
+          },
+          {
+            "id": "9565769130a6bfad",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ]
       }
@@ -213,7 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b3ca681ca4e9744",
+  "active": "7ced96304fe7ec7d",
   "lastOpenFiles": [
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "LOG/log2025.md",
