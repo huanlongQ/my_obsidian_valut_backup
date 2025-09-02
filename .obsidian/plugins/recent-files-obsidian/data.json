@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Analytical Mechanics - Theoretical Physics",
+      "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
+    },
+    {
+      "basename": "普通物理 - 光学",
+      "path": "Phys/Basic Phys/普通物理 - 光学.md"
+    },
+    {
       "basename": "log2025",
       "path": "LOG/log2025.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Vocabulary Mechanism",
       "path": "Mechanisms (Personal Ability)/Vocabulary Mechanism.md"
-    },
-    {
-      "basename": "C++ notes .cpp&.py counterpart",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/C++ Details/C++ notes .cpp&.py counterpart.md"
-    },
-    {
-      "basename": "如何判断一个人有真的数学研究天赋",
-      "path": "non-STEM/_Good Essaies/如何判断一个人有真的数学研究天赋.md"
     }
   ],
   "omittedPaths": [],
