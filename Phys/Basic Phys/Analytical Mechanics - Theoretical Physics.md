@@ -75,9 +75,9 @@ $$
  & = \sum_{i=1}^{3}\sum_{j=1}^{N} m \frac{\mathrm{d}\dot{x}_{i}}{\mathrm{d}t} \frac{ \partial x_{i} }{ \partial q_{j} } \delta q_{j }  =  \\
  & \left[\frac{\mathrm{d}}{\mathrm{d}t} \left(  \sum_{i=1}^{3}\sum_{j=1}^{N} m  \dot{x}_{i} \times \frac{ \partial x_{i} }{ \partial q_{j} }   \right) - \sum_{i=1}^{3}\sum_{j=1}^{N} m \dot{x}_{i} \times \frac{\mathrm{d}}{\mathrm{d}t}\left( \frac{ \partial x_{i} }{ \partial q_{j} }   \right)  \right]\delta q_{j}   \\
  & = \left[   \frac{\mathrm{d}}{\mathrm{d}t} \sum_{i=1}^{3}\sum_{j=1}^{N} m \dot{x}_{i} \times \frac{ \partial \dot {x}_{i}  }{ \partial \dot{q}_{j} } - \sum_{i=1}^{3}\sum_{j=1}^{N} m \dot{x}_{i} \times \frac{ \partial  \dot{x} }{ \partial q_{j} }      \right] \delta q_{j}  \\
- & =\sum_{j=1}^{N} \left[\frac{\mathrm{d}}{\mathrm{d}t}  \frac{ \partial \left( \frac{1}{2}m {\dot{\vec{x}}}^{2} \right) }{ \partial \dot{q}_{j} }   - \frac{ \partial \left( \frac{1}{2}m {\dot{\vec{x}}}^{2} \right) }{ \partial q_{j}  } \right]  
+ & =\sum_{j=1}^{N} \left[\frac{\mathrm{d}}{\mathrm{d}t}  \frac{ \partial \left( \frac{1}{2}m {\dot{\vec{x}}}^{2} \right) }{ \partial \dot{q}_{j} }   - \frac{ \partial \left( \frac{1}{2}m {\dot{\vec{x}}}^{2} \right) }{ \partial q_{j}  } \right]  \delta q_{j}
 \end{align}
-$$
+$$ 
 then combine them, we have: 
 $$
 \begin{align}
