@@ -312,8 +312,8 @@ $$
 then do left side Transformation to above 2 eqs: 
 $$
 \begin{align}
-\frac{ \partial \eta }{ \partial \xi }  \dot{\xi} = \dot{\eta} \tag{left side transformation}\\
-\frac{ \partial \eta }{ \partial \xi } \mathcal{J}\left( \frac{ \partial \eta }{ \partial \xi } \right)^{T} \frac{ \partial H }{ \partial \eta}    = \left( \frac{ \partial \eta }{ \partial \xi }\mathcal{J}\left( \frac{ \partial \eta }{ \partial \xi } \right)^T   \right) \frac{ \partial H }{ \partial \eta }  \tag{left side transformation}
+  \frac{ \partial \eta }{ \partial \xi }  \dot{\xi}  & = \dot{\eta} \tag{left side transformation}\\
+  \frac{ \partial \eta }{ \partial \xi } \mathcal{J}\left( \frac{ \partial \eta }{ \partial \xi } \right)^{T} \frac{ \partial H }{ \partial \eta}    &  = \left( \frac{ \partial \eta }{ \partial \xi }\mathcal{J}\left( \frac{ \partial \eta }{ \partial \xi } \right)^T   \right) \frac{ \partial H }{ \partial \eta }  \tag{left side transformation}
 \end{align}
 $$
 if we have $\mathbf{M}$ as a **canonical transformation**: 
