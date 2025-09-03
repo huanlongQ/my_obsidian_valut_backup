@@ -334,6 +334,6 @@ $$
 assume we have 2 variables: $u = u(q,p,t),v=v(q,p,t)$, then define a bracket: 
 $$
 \begin{align}
-[u,v]_{q,p} = \frac{ \partial u }{ \partial q } \frac{ \partial v }{ \partial p } -\frac{ \partial u }{ \partial p } \frac{ \partial v }{ \partial q } 
+\{ u,v \}_{q,p} \equiv \frac{ \partial u }{ \partial q } \frac{ \partial v }{ \partial p } -\frac{ \partial u }{ \partial p } \frac{ \partial v }{ \partial q } 
 \end{align}
 $$
