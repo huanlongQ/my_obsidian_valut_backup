@@ -13,7 +13,7 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
-git config --global alias.logl = log --oneline
+git config --global alias.logl = log --oneline // better 
 
 [log]
   date = relative
@@ -51,6 +51,7 @@ git config --global core.longpaths true // give validity to long name files
 ## `remote` 
 
 - [Gemini - Git 与 GitHub 仓库连接指南, 包括credentials manager, multi remote push](https://g.co/gemini/share/42fd27030128)
+- [‎Gemini - git lfs install and remote](https://g.co/gemini/share/f9d2a3ba9a26) 
 
 | 命令            | 示例                                                                                                                                                                                         | 描述                                                                                                                                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
