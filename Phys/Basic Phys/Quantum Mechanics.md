@@ -90,7 +90,7 @@ $$
 3) eigenvalues and eigenvectors of operators: 
 $$
 \begin{align}
-\text{main operator: } S^{2}, S_{z}, S_{\pm}
+\text{main operators: } S^{2}, S_{z}, S_{\pm}
 \end{align}
 $$
 
