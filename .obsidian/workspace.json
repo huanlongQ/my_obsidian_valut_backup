@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys/Basic Phys/Quantum Mechanics.md",
+                "file": "Phys/Basic Phys/Electrodynamics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quantum Mechanics"
-            }
-          },
-          {
-            "id": "146856dccfc3ad50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git, version control"
+              "title": "Electrodynamics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
+                "file": "Phys/Basic Phys/Electrodynamics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Git, version control"
+              "title": "Outline of Electrodynamics"
             }
           },
           {
@@ -241,14 +226,16 @@
   "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
     "Phys/Basic Phys/Quantum Mechanics.md",
+    "Mechanisms (Personal Ability)/Zen.md",
+    "Mechanisms (Personal Ability)/sortspec.md",
+    "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "Phys/Basic Phys/普通物理-Optics.md",
     "Phys/Basic Phys/Electrodynamics.md",
     "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md",
     "LOG/log2025.md",
     "Phys/Basic Phys/普通物理 - 光学.md",
     "Phys/Basic Phys",
-    "Mechanisms (Personal Ability)/Zen.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "Mechanisms (Personal Ability)/Mechanism of Life.md",
     "Mechanisms (Personal Ability)/Interface Mechanism.md",
     "LOG/mobilephone port - 2025.md",
@@ -267,8 +254,6 @@
     "non-Daily Work/李强公司实习/津镭光电 矩形反射谱 CFBG report (Chirped Fiber Bragg Gratings).md",
     "non-Daily Work/李强公司实习/Untitled.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Basic Algo (Basic Algorithm)/fft (fast fourier transformation).md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Computer Settings.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Vibe Coding - AI-driven Coding.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)",
     "zzzhe_Attachments/Pasted image 20250827152034.png",
     "zzzhe_Attachments/Pasted image 20250827151941.png",

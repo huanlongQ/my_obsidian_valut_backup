@@ -112,18 +112,10 @@ $$
 \end{align}
 $$
 
-- [CG coeff](https://www.zhihu.com/question/271044965/answer/361887639?share_code=CyRIzSxnrSm&utm_psn=1946931252356714995)
-
-
-
-
-
-
+- [CG coeff](https://www.zhihu.com/question/271044965/answer/361887639?share_code=CyRIzSxnrSm&utm_psn=1946931252356714995) 
 
 # Time Independent Perturbation Theory 
 
 # Time Dependent Perturbation Theory
 
-
 # Variations Principle ⭐
-

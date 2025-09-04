@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+      "basename": "Electrodynamics",
+      "path": "Phys/Basic Phys/Electrodynamics.md"
     },
     {
       "basename": "Quantum Mechanics",
       "path": "Phys/Basic Phys/Quantum Mechanics.md"
     },
     {
-      "basename": "Electrodynamics",
-      "path": "Phys/Basic Phys/Electrodynamics.md"
+      "basename": "Zen",
+      "path": "Mechanisms (Personal Ability)/Zen.md"
+    },
+    {
+      "basename": "sortspec",
+      "path": "Mechanisms (Personal Ability)/sortspec.md"
+    },
+    {
+      "basename": "Stack Mechanism ⭐",
+      "path": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md"
+    },
+    {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
       "basename": "普通物理-Optics",
@@ -27,10 +39,6 @@
     {
       "basename": "Analytical Mechanics - Theoretical Physics",
       "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
-    },
-    {
-      "basename": "Zen",
-      "path": "Mechanisms (Personal Ability)/Zen.md"
     },
     {
       "basename": "Mechanism of Life",
@@ -185,20 +193,12 @@
       "path": "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md"
     },
     {
-      "basename": "sortspec",
-      "path": "Mechanisms (Personal Ability)/sortspec.md"
-    },
-    {
       "basename": "AI-LLM tools",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/AI-LLM tools.md"
     },
     {
       "basename": "Obsidian Settings",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md"
-    },
-    {
-      "basename": "深度学习里有哪些神奇有趣的现象",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/深度学习里有哪些神奇有趣的现象.md"
     }
   ],
   "omittedPaths": [],
