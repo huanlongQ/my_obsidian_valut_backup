@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md",
+                "file": "Phys/Basic Phys/Quantum Mechanics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Analytical Mechanics - Theoretical Physics"
+              "title": "Quantum Mechanics"
             }
           }
         ]
@@ -225,8 +225,9 @@
   },
   "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
-    "LOG/log2025.md",
     "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md",
+    "Phys/Basic Phys/Quantum Mechanics.md",
+    "LOG/log2025.md",
     "Phys/Basic Phys/普通物理 - 光学.md",
     "Phys/Basic Phys",
     "Mechanisms (Personal Ability)/Zen.md",
@@ -253,7 +254,6 @@
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Vibe Coding - AI-driven Coding.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Untitled.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Forums on Programing and Coding.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Software Arch Design.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)",
     "zzzhe_Attachments/Pasted image 20250827152034.png",
     "zzzhe_Attachments/Pasted image 20250827151941.png",

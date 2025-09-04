@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Quantum Mechanics",
+      "path": "Phys/Basic Phys/Quantum Mechanics.md"
+    },
+    {
       "basename": "Analytical Mechanics - Theoretical Physics",
       "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "gemini 报告",
       "path": "Daily Work/美国政治与公共政策论文/gemini 报告.md"
-    },
-    {
-      "basename": "Vocabulary Mechanism",
-      "path": "Mechanisms (Personal Ability)/Vocabulary Mechanism.md"
     }
   ],
   "omittedPaths": [],
