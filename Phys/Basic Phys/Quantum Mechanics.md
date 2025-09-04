@@ -28,7 +28,7 @@ $$
 
 ### Other effects
 
-# Spin and Angular Momentum ⭐
+# Spin and Angular Momentum and $\mathrm{SU}(2)$ or $\mathrm{SO(3)}$ Algebra⭐ 
 
 Spin: 
 $$
@@ -43,16 +43,54 @@ $$
 L = r\times p  = \left[ \begin{array}{cccccccccc}    yp_{z}-zp_{y}\\ zp_{x}-xp_{z}\\xp_{y}-yp_{x} \end{array} \right]   
 \end{align}
 $$
-note both as 
+**note both as** 
 $$
 \begin{align}
 S = \left[ \begin{array}{cccccccccc} S_{x}   \\ S_{y} \\ S_{z} \end{array} \right]  
 \end{align}
 $$
-1) Commution Relation: 
+1) **Commution Relation**⭐: 
 $$
 \begin{align}
-[S_{i},S_{j}] = \epsilon_{ijk} S_{k:}
+[S_{i},S_{j}] = i\hbar\epsilon_{ijk} S_{k} \\
+\end{align}
+$$
+then let $S^{2} = S_{x}^{2}+S_{y}^{2}+S^{2}_{z}$, we have: 
+$$
+\begin{align}
+[S^{2},S_{i}] &  = \left( \sum_{i=1}^{3} S_{i}^{2}  \right)S_{i} - S_{i}\left( \sum_{i=1}^{3} S_{i}^{2} 
+ \right) = S_{j}^{2} S_{i} + S_{k}^{2}S_{i} - S_{i}S_{j}^{2} - S_{i}S_{k}^{2} \\
+ & = S_{j}S_{i}S_{j} + S_{j}[ S_{j},S_{i}] - S_{j}S_{i}S_{j} - [S_{i},S_{j}]S_{j} + \dots \\
+ & =0 + S_{j}i\hbar \epsilon_{jik}S_{k} - i\hbar \epsilon_{ijk}S_{k}S_{j} + \dots \\
+ & = i\hbar( \epsilon_{jik}S_{j}S_{k}-\epsilon_{ijk}S_{k}S_{j}) + \dots \\
+ & =0 + 0 \\
+ & =0\end{align}
+$$
+2) up and down (creation and annihilation) operators:
+$$
+\begin{align}
+S_{+} = S_{x} + iS_{y} \\
+S_{-} = S_{x} - iS_{y}
+\end{align}
+$$
+to be up and down operators, it means: 
+$$
+\begin{align}
+[S_{z},S_{+}] = +\hbar S_{+} \\
+[S_{z},S_{-}] = -\hbar S_{-}
+\end{align}
+$$
+they means that for any ket psi, we have:
+$$
+\begin{align}
+S_{z}S_{+}\ket{\psi}  = (S_{+}S_{z} + [S_{z},S_{+}])\ket{\psi}  = S_{+}(S_{z}+\hbar)\ket{\psi}  \\
+S_{z}S_{-}\ket{\psi}  = (S_{-}S_{z } + [S_{z},S_{-}])\ket{\psi} = S_{-}(S_{z}-\hbar)\ket{\psi}
+\end{align}
+$$
+3) eigenvalues and eigenvectors of operators: 
+$$
+\begin{align}
+\text{main operator: } S^{2}, S_{z}, S_{\pm}
 \end{align}
 $$
 
