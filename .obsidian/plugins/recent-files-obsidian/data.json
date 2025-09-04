@@ -5,16 +5,24 @@
       "path": "Phys/Basic Phys/Quantum Mechanics.md"
     },
     {
+      "basename": "Electrodynamics",
+      "path": "Phys/Basic Phys/Electrodynamics.md"
+    },
+    {
+      "basename": "普通物理-Optics",
+      "path": "Phys/Basic Phys/普通物理-Optics.md"
+    },
+    {
+      "basename": "pku documentations",
+      "path": "non-Daily Work/_重要文件/pku documentations.md"
+    },
+    {
       "basename": "log2025",
       "path": "LOG/log2025.md"
     },
     {
       "basename": "Analytical Mechanics - Theoretical Physics",
       "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
-    },
-    {
-      "basename": "普通物理 - 光学",
-      "path": "Phys/Basic Phys/普通物理 - 光学.md"
     },
     {
       "basename": "Zen",
@@ -191,14 +199,6 @@
     {
       "basename": "深度学习里有哪些神奇有趣的现象",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/深度学习里有哪些神奇有趣的现象.md"
-    },
-    {
-      "basename": "如何约束一个神经网络的并行子模块之间能够学习不同的特征",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/如何约束一个神经网络的并行子模块之间能够学习不同的特征.md"
-    },
-    {
-      "basename": "gemini 报告",
-      "path": "Daily Work/美国政治与公共政策论文/gemini 报告.md"
     }
   ],
   "omittedPaths": [],
