@@ -37,7 +37,7 @@ $$
 \text{curl: } \nabla \times \vec{A} & \iff \frac{1}{h_{1}h_{2}h_{3}} h_{k}\hat{e}_{k}\epsilon_{ijk}\frac{ \partial  }{ \partial x_{i} } (h_{j}A_{j})
 \end{align}
 $$
--  [Del in cylindrical and spherical coordinates - Wikipedia](https://en.wikipedia.org/wiki/Del_in_cylindrical_and_spherical_coordinates) 
+-  [Del in cylindrical and spherical coordinates - Wikipedia](https://en.wikipedia.org/wiki/Del_in_cylindrical_and_spherical_coordinates) ⭐
 $$
 \begin{align}
  & \text{for Cylindrical Coordinates: } \\
@@ -51,19 +51,20 @@ $$
  & \text{for Spherical Coordinates:} \\
  \nabla \varphi & = \hat{r}\frac{ \partial \varphi }{ \partial r }+ \frac{1}{r}\frac{ \partial \varphi }{ \partial \theta }  +\frac{1}{r\sin \theta}\frac{ \partial \varphi }{ \partial \phi }   \\
 \nabla \cdot \vec{A} & = \frac{1}{r^{2}}\frac{ \partial (r^{2}{A}_{r}) }{ \partial r } + \frac{1}{r\sin \theta}\frac{ \partial (A_{\theta}\sin \theta) }{ \partial \theta } + \frac{1}{r\sin \theta}\frac{ \partial A_\phi }{ \partial \phi } \\
-\nabla^{2}\varphi  & = \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial \varphi }{ \partial r }  \right) + \frac{1}{r^{2}\sin\theta}\frac{ \partial  }{ \partial \theta } \left( \sin \theta \frac{ \partial \varphi }{ \partial \theta  }  \right) + \frac{1}{r^{2}\sin ^{2}\theta}\frac{ \partial^{2}\varphi }{ \partial \phi^{2} } 
+\nabla^{2}\varphi  & = \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial \varphi }{ \partial r }  \right) + \frac{1}{r^{2}\sin\theta}\frac{ \partial  }{ \partial \theta } \left( \sin \theta \frac{ \partial \varphi }{ \partial \theta  }  \right) + \frac{1}{r^{2}\sin ^{2}\theta}\frac{ \partial^{2}\varphi }{ \partial \phi^{2} }  \\
+ & =\underline{\underline{\underline{\frac{1}{r}  \frac{ \partial^{2} }{ \partial r^{2} } (r\varphi)}}}  + \dots 
 \end{align}
 $$
-- [Spherical harmonics - Wikipedia](https://en.wikipedia.org/wiki/Spherical_harmonics) 
+- [Spherical harmonics - Wikipedia](https://en.wikipedia.org/wiki/Spherical_harmonics) ⭐
 $$
 \begin{align}
 L & =\vec{r}\times \vec{p} \iff \hat{L}=\vec{r}\times(-i\hbar \nabla)  = \hbar \hat{l}\\
 \hat{l}^{2}  & = -\left( \frac{1}{\sin \theta}\frac{ \partial  }{ \partial \theta } \left( \sin \theta \frac{ \partial  }{ \partial \theta }  \right) + \frac{1}{\sin ^{2}\theta}\frac{ \partial^{2}  }{ \partial \phi^{2} }  \right)  \tag{eigenvalue: $l(l+1)$}\\
-\nabla^{2} &  = \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial  }{ \partial r }  \right) - \frac{\hat{l}^{2}}{r^{2}}
+\nabla^{2} &  = \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial  }{ \partial r }  \right) - \frac{\hat{l}^{2}}{r^{2}} = \underline{\underline{\underline{    \frac{1}{r}  \frac{ \partial^{2} }{ \partial r^{2} } (r\cdot) - \frac{\hat{l}^{2}}{r^{2}} \cdot  }}} 
 \end{align}
 $$
 
-# Electrodynamics
+# General Electrodynamics
 
 $$
 \begin{align}
@@ -146,8 +147,8 @@ $$
 \end{cases}
  \\ \\
  & \text{then: }\begin{cases}
--\nabla^{2}\phi - \frac{ \partial  }{ \partial t } (\nabla \cdot \vec{A})& = \frac{\rho}{\epsilon_{0}}  \\
-\nabla(\nabla \cdot \vec{A})-\nabla^{2}\vec{A} & =\mu_{0}\vec{j} +\mu_{0}\epsilon_{0}  \frac{ \partial \left(  -\nabla \phi - \frac{ \partial \vec{A} }{ \partial t }  \right) }{ \partial t }  
+-\nabla^{2}\phi - \frac{ \partial  }{ \partial t } (\underline{\underline{\underline{\nabla \cdot \vec{A}}}})& = \frac{\rho}{\epsilon_{0}}  \\
+\nabla(\underline{\underline{\underline{\nabla \cdot \vec{A}}}})-\nabla^{2}\vec{A} & =\mu_{0}\vec{j} +\mu_{0}\epsilon_{0}  \frac{ \partial \left(  \underline{\underline{\underline{-\nabla \phi}}} - \frac{ \partial \vec{A} }{ \partial t }  \right) }{ \partial t }  
 \end{cases} \\
  & \text{let Lorentz Gauge: }\frac{ \partial  }{ \partial t } \phi + \nabla \cdot \vec{A}  =0 \\
  & \text{then: }\begin{cases}
@@ -157,9 +158,13 @@ $$
  & \text{AKA:}   \partial_{\mu}A^{\mu} = \mu_{0}J^{\mu } \text{ where: }J^{\mu} = \left[ \begin{array}{cccccccccc} c\rho   \\ j_{x} \\ j_{y} \\ j_{z} \end{array} \right]  , A^{\mu}=\left[ \begin{array}{cccccccccc}   \frac{\phi}{c} \\ A_{x} \\ A_{y} \\A_{z}  \end{array} \right]  
 \end{align}
 $$ 
-we can solve these wave eqs with **Green Func Method**. 
+we can solve these wave eqs with **Green Func Method**. in next - we introduce it. 
 
 $\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}$ ???why no outline???
+
+- **Green Func Method in EM wave**: 
+
+## Energy Perspective
 
 # Symmetry in Maxwell Eqs (Narrow Relativitistic Electrodynamics and Gauge Symmetry)
 
@@ -169,4 +174,117 @@ $\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d
 
 ## Lorentz covariance
 
+## Gauge symmetry
+
+# Analytical Mechanics Perspective 
+
 # Static Electromagnetism
+
+## Electrostatics
+
+$$
+\begin{align}
+\begin{cases}
+\nabla \cdot \vec{E} & =\frac{\rho}{\epsilon_{0}} \\
+\nabla \times \vec{E} & =0
+\end{cases}
+\end{align}
+$$
+with the second formula, we conclude that $\vec{E}=-\nabla \phi$, then we have
+$$
+\begin{align}
+\begin{cases}
+\nabla^{2}\phi   = - \frac{1}{\epsilon_{0}}\rho(\vec{r}) \\ 
+\phi| _ {\partial V} \dots    \text{ and }   \partial_{n} \phi |_{  \partial V } \dots
+\end{cases} \tag{Electrostatics Problem}
+\end{align}
+$$
+
+1) **Green Func Method** $\delta$ 
+devide the nonlinear Electrostatics problem into **General Solution + Particular Solution** 
+$$
+\begin{align} \\
+ & \text{particular solution: }\begin{cases}
+\nabla^{2}G(\vec{r},\vec{\xi}) = -\frac{1}{\epsilon_{0}}\delta(\vec{r}-\vec{\xi}) \\
+G(\vec{r},\vec{\xi}) |_{  \partial V } = 0 \text{ and }  \partial_{n}G(\vec{r},\vec{\xi}) = 0 
+\end{cases} \\
+ & \text{general solution: }\begin{cases}
+\nabla^{2}\phi_{0} = 0 \\
+\phi_{0} |_{  \partial V } \dots\text{ and }   \partial_{n}\phi_{0} |_{  \partial V } \dots
+\end{cases} \tag{a eigen problem}\\
+ & \text{final solution: } \phi = \phi_{0} + \int_{V'} \mathrm{d}V' \rho(\vec{r'}) G(\vec{r},\vec{r'})
+\end{align}
+$$ 
+2) **Seperation Variables Method** 
+$$
+\begin{align}
+\nabla^{2}  & = \frac{1}{r}  \left( \frac{ \partial  }{ \partial r }  \right)^{2}(r\cdot) - \frac{\hat{l}^{2}}{r^{2}}\cdot  \\
+\varphi(\vec{r}) &  = R(\vec{r})Y_{lm}(\theta,\phi) 
+\end{align}
+$$ 
+then we have 
+$$
+\begin{align}
+ & \frac{1}{r}  \left( \frac{ \partial  }{ \partial r }  \right)^{2}(r\cdot R(r) ) - \frac{l(l+1)}{r^{2}}R(r) = 0 \\
+ & \text{let: }u(r) = rR(r) \\
+ & \left( \frac{\mathrm{d}}{\mathrm{d}r} \right)^{2} u(r) = \frac{l(l+1)}{r^{2}}u(r) \\
+ & \text{give trial solution: } u(r) = r^{\alpha} \\
+ & \dots \\
+ & R(r) = \underline{\underline{\underline{  A\times r^{l} + B\times \frac{1}{r^{l+1}}    }}}
+\end{align}
+$$
+
+### Uniqueness Theorem
+
+### Conductor 
+
+## Magnetostatics
+
+$$
+\begin{align}
+\begin{cases}
+\nabla \cdot \vec{B} & =0 \\
+\nabla \times \vec{B} & =\mu_{0}\vec{j}
+\end{cases}
+\end{align}
+$$
+ apply $\nabla \times\vec{A} = \vec{B}$, choose coloumb gauge $\nabla \cdot \vec{A}=0$, we have: 
+$$
+\begin{align}
+\begin{cases}
+\nabla^{2}\vec{A} = -\mu_{0}\vec{j} \\
+\vec{A}|_{  \partial V }\dots \text{ and }   \partial \vec{A}|_{  \partial V }\dots \text{(very complex...)}
+\end{cases} \tag{Magnetostatics Problem}
+\end{align}
+$$
+1) **Green Func Method** 
+2) **Seperation Variables Method**
+3) **Scalar Magenetic Potential Method(if no free current)**
+$$
+\begin{align}
+\begin{cases}
+\nabla \cdot \vec{B} & =\nabla \cdot[\mu_{0}(\vec{H}+\vec{M})] & =0 \\
+\nabla \times \vec{H} & =\vec{j}_{\mathrm{f}}  & = 0
+\end{cases}
+\end{align}
+$$
+then we have: 
+$$
+\begin{align}
+\begin{cases}
+\nabla \cdot \vec{H} & =  -\nabla \cdot \vec{M} \\
+\nabla \times \vec{H} & =  0
+\end{cases}
+\end{align}
+$$
+then give a scalar magnetic potential $\phi_{m}$ with $\vec{H}=-\nabla \phi_{m}$
+$$
+\begin{align}
+\begin{cases}
+\nabla^{2}\phi &  = \nabla \cdot \vec{M} \\
+\phi_{m}|_{  \partial V} \dots
+\end{cases}
+\end{align}
+$$ 
+
+### Fe Magnetor 
