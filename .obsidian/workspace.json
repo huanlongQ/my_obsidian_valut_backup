@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Quantum Mechanics"
             }
+          },
+          {
+            "id": "146856dccfc3ad50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git, version control"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,10 +240,10 @@
   },
   "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
+    "Phys/Basic Phys/Quantum Mechanics.md",
     "Phys/Basic Phys/普通物理-Optics.md",
     "Phys/Basic Phys/Electrodynamics.md",
     "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md",
-    "Phys/Basic Phys/Quantum Mechanics.md",
     "LOG/log2025.md",
     "Phys/Basic Phys/普通物理 - 光学.md",
     "Phys/Basic Phys",

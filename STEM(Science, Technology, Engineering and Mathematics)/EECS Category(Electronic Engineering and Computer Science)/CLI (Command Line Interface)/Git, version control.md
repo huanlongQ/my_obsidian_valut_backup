@@ -3,6 +3,62 @@
 * [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html) 
 - [Gemini - Git 与 GitHub 仓库连接指南, 包括credentials manager, multi remote push](https://g.co/gemini/share/42fd27030128)
 
+# Summary
+
+## `config setting` 
+
+```powershell
+//alias
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.logl = log --oneline
+
+[log]
+  date = relative
+[format]
+  pretty = format:%h %Cblue%ad%Creset %ae %Cgreen%s%Creset
+
+//settings
+git config --global init.defaultBranch main
+git config --global http.proxy http://127.0.0.1:10809 //127.0.0.1:1080
+git config --global https.proxy http://127.0.0.1:10809
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+git config --global core.longpaths true // give validity to long name files
+```
+
+## `checkout`
+
+| 你的目的            | `git checkout` 命令                        | 现代替代命令                                        |
+| --------------- | ---------------------------------------- | --------------------------------------------- |
+| **切换到一个已存在的分支** | `git checkout <branch>`                  | `git switch <branch>`                         |
+| **创建并切换到新分支**   | `git checkout -b <new-branch>`           | `git switch -c <new-branch>`                  |
+| **临时查看某个旧版本**   | `git checkout <commit>`                  | `git switch --detach <commit>`                |
+| **放弃对文件的本地修改**  | **`git checkout -- <file>`**             | `git restore <file>`                          |
+| **从别处恢复单个文件**   | `git checkout <source_branch> -- <file>` | `git restore --source=<source_branch> <file>` |
+| **解决合并冲突**      | `git checkout --ours/--theirs -- <file>` | (无直接替代，仍使用 `checkout`)                        |
+
+| 功能                                                           | `git checkout` (旧)                          | `git switch` (新)           | `git restore` (新)                     | `git revert`             | `git rm --cached`        |
+| ------------------------------------------------------------ | ------------------------------------------- | -------------------------- | ------------------------------------- | ------------------------ | ------------------------ |
+| **切换分支**                                                     | `git checkout branch-name`                  | `git switch branch-name`   | 不适用                                   | 不适用                      |                          |
+| **创建并切换分支**                                                  | `git checkout -b new-branch`                | `git switch -c new-branch` | 不适用                                   | 不适用                      |                          |
+| **丢弃未暂存的修改**                                                 | `git checkout -- file.txt`                  | 不适用                        | `git restore file.txt`                | 不适用                      |                          |
+| **将暂存区文件撤销**                                                 | **`git checkout HEAD -- file.txt`** $\star$ | 不适用                        | **`git restore --staged file.txt`** ⭐ | 不适用                      | `git rm --cached <file>` |
+| **重新提交一个新的commit以覆盖掉不好的上一个commit, 新commit与前数两个版本的commit一致**. | 不适用                                         | 不适用                        | 不适用                                   | `git revert <commit_id>` |                          |
+
+## `remote` 
+
+- [Gemini - Git 与 GitHub 仓库连接指南, 包括credentials manager, multi remote push](https://g.co/gemini/share/42fd27030128)
+
+| 命令            | 示例                                                                                                                                                                                         | 描述                                                                                                                                                                                 |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `git remote ` | 查看、添加或删除远程仓库的配置。`-v` 显示详细信息。<br>`git remote -v`<br>`git remote add origin <url>`<br>`git remote set-url --add origin https://github.com/你的用户名/仓库B.git`<br>`git remote remove origin <url>` | **git首次链接remote时会弹出GCM(Git Credential Manager), 绑定在Git上用于管理remote向各个remote repo的credentials.** <br>**`git push`同时给两个remote repo push内容, 使用`git remote ser-url --add origin <url>** |
+| `git fetch`   | `git fetch origin`                                                                                                                                                                         | 从远程仓库**获取**最新的历史记录，但**不合并**到你本地的分支。                                                                                                                                                |
+| `git pull`    | `git pull origin main`<br>`git pull origin main --allow-unrelated-histories`                                                                                                               | 从远程仓库获取最新历史记录并**自动合并**到你当前的分支 (`fetch` + `merge`)。                                                                                                                                 |
+| `git push`    | `git push origin main` <br>`git push -u origin local_main:remote_main`                                                                                                                     | 将本地分支的提交**推送**到远程仓库。`-u` 用于首次推送时建立本地与远程分支的关联。<br>`git push -u origin master`(`--set-upstream`)的作用是设置上游分支，这样之后你只需要简单地使用 `git push` 和 `git pull` 即可，Git 会知道要推送到哪个远程分支。               |
+
 # `git` conceptions
 
 - `commit`

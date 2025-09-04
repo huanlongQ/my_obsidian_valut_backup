@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+    },
+    {
       "basename": "Quantum Mechanics",
       "path": "Phys/Basic Phys/Quantum Mechanics.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Zen",
       "path": "Mechanisms (Personal Ability)/Zen.md"
-    },
-    {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
       "basename": "Mechanism of Life",
