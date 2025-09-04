@@ -109,7 +109,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -237,7 +238,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "843a5c458ca9cd9c",
+  "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
     "Phys/Basic Phys/Quantum Mechanics.md",
     "Phys/Basic Phys/普通物理-Optics.md",
