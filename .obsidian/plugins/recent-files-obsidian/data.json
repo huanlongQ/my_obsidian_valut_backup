@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Quantum Mechanics",
+      "path": "Phys/Basic Phys/Quantum Mechanics.md"
+    },
+    {
+      "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
+      "path": "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf"
+    },
+    {
+      "basename": "shc电动力学",
+      "path": "Phys/Basic Phys/shc电动力学.pdf"
+    },
+    {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+    },
+    {
       "basename": "log2025",
       "path": "LOG/log2025.md"
     },
@@ -29,20 +45,8 @@
       "path": "zzzhe_Attachments/Pasted image 20250512162721.png"
     },
     {
-      "basename": "shc电动力学",
-      "path": "Phys/Basic Phys/shc电动力学.pdf"
-    },
-    {
       "basename": "240f1cdeacc2268e98cd1d1e530a44b",
       "path": "zzzhe_Attachments/240f1cdeacc2268e98cd1d1e530a44b.jpg"
-    },
-    {
-      "basename": "Quantum Mechanics",
-      "path": "Phys/Basic Phys/Quantum Mechanics.md"
-    },
-    {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
       "basename": "Zen",
@@ -195,10 +199,6 @@
     {
       "basename": "excellent python pkgs",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/excellent python pkgs.md"
-    },
-    {
-      "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
-      "path": "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md"
     }
   ],
   "omittedPaths": [],

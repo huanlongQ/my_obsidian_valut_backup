@@ -1,3 +1,13 @@
+# Algebra of Commutor
+
+$$
+\begin{align}
+ & \text{1) Linear: } & [aA+bB,cC+dD]  & = ac[A,C]+ad[A,D]+bc[B,C]+bd[B,D] \\  
+ & \text{2) Leibniz Law:} & [AB,C ] & = A[B,C] + [A,C]B \\
+ & \text{3) QM}\iff \text{CM counterpart} & \frac{[A,B]}{i\hbar} & \iff \{ A,B \}_{q,p}
+\end{align}
+$$
+
 # From Classical Mechanics to Quantum Mechanics: Schrodinger Eq
 
 $$
@@ -6,17 +16,70 @@ i\frac{\mathrm{d}}{\mathrm{d}t}\ket{\psi} = H\ket{\psi}
 \end{align}
 $$
 
-# Basic Properties of Wave Func
+# Basic Properties of Wave Func 
 
-1) normalization
-2) uncertainty principle
+1) normalization 
+2) uncertainty principle 
+
+$$
+\begin{align}
+( \langle A-\langle A \rangle  \rangle \times\langle B-\langle B \rangle  \rangle )^{2} \geq \frac{1}{4}\langle [A,B] \rangle  ^{2 } 
+\end{align}
+$$
+**Proof**: 
+$$
+\begin{align}
+ & \text{let: } &  f  =A-\langle A \rangle ,  & g=B-\langle B  \rangle  \\
+ & \text{then: }  & \langle A-\langle A \rangle  \rangle    = \langle f \rangle ,  & \langle B-\langle B \rangle  \rangle = \langle g \rangle  \\
+ & \text{square: }  & \langle f \rangle ^{2}= \bra{\psi} f\cdot f\ket{\psi}= \bra{f\psi}f\psi\rangle, & \langle g \rangle ^{2} = \langle \psi|g\cdot g|\psi \rangle = \langle g\psi| g\psi\rangle  \\
+ & \text{Cauchy inequality:} & \langle f \rangle ^{2}\langle g \rangle ^{2}\geq \langle f\psi|g\psi \rangle ^{2}  & = |\underset{  \in \mathbf{R}  }{\underline{\underline{\underline{      \frac{ \langle f\psi|g\psi \rangle +\langle g\psi|f\psi \rangle  }{2}}}}}+\underset{  \in \text{ pure }\mathbf{C} ,\mathbf{I} }{\underline{\underline{\underline{    \frac{\langle f\psi|g\psi \rangle -\langle g\psi|f\psi \rangle }{2}  }}}}| ^{2} \\
+ &  & &   = \frac{1}{4}(|\langle \psi| fg+gf|\psi \rangle |^{2}+|\langle \psi|fg-gf |\psi  \rangle |^{2}) \\
+ &  &  & =\frac{1}{4} (|\langle [A-\langle A \rangle,B-\langle B \rangle  ] \rangle| ^{2} +|\langle [A-\langle A \rangle,B-\langle B \rangle  ]_{+} \rangle| ^{2} )  \\
+ &  &  & =\frac{1}{4} |\langle [A,B] \rangle  |^{2} + \frac{1}{4}|\langle [A,B]_{+} \rangle |^{2} \\
+ &  &  & \geq \frac{1}{4}|\langle [A,B ]\rangle |^{2} \\
+ & \text{then we have:} & \langle A-\langle A \rangle  \rangle ^{2}\langle B-\langle B \rangle  \rangle ^{2} & \geq  \frac{1}{4}|\langle [A,B] \rangle  |^{2}
+\end{align}
+$$
+
+**Time Energy Uncertainty**: 
+...
 3) orthogonality 
 
 # Integrable System
 
 ## Free Electron
 
-## Harmonic Oscillation ⭐
+## Harmonic Oscillation ⭐ 
+
+$$
+\begin{align}
+ &  & H  & = \frac{1}{2m}p^{2}+\frac{1}{2}m\omega^{2}x^{2} \\
+ & \text{let:}  & a = Ax+iBp\ ,\  & a^{\dagger} =Ax-iBp  \\
+ & \text{then:} & A = \sqrt{ \frac{1}{2} \frac{m\omega^{2}}{\hbar \omega}}, & B = \sqrt{ \frac{1}{2m} \frac{1}{\hbar \omega} }  \\
+ & \text{then: } & a^{\dagger}a  & \sim (x-ip)(x+ip)=x^{2}+p^{2}+i(xp-px) =x^{2}+p^{2}-\hbar \omega  \\
+ &  &  & \sim H - \frac{1}{2}\hbar \omega \\
+ & \text{then: } & H & = \hbar \omega\left( a^{\dagger}a + \frac{1}{2} \right)
+\end{align}
+$$
+$a,a^{\dagger}$ are annihilation and creation operation: 
+$$
+\begin{align} 
+[a,a^{\dagger}]  & = 1 \\
+a^{\dagger}\ket{n}  & = \sqrt{ n+1 }\ket{n+1} \\
+a\ket{n}  & =\sqrt{ n }\ket{n-1}  
+\end{align}
+$$
+**Proof**: 
+$$
+\begin{align}
+[a,a^{\dagger}] & \overset{\text{path 1}}{=} aa^{\dagger}-a^{\dagger}a = \dots = \frac{[x,p]}{i\hbar}=1 \\
+ & \overset{\text{path 2}}{\sim} i\hbar \{ x+ip,x-ip \}_{x,p}=1\\
+\langle an|an \rangle  &  = \langle n|a^{\dagger} a| n \rangle = n\langle n|n \rangle  \\
+ & =K^{2}\langle n-1|n-1 \rangle = K^{2} \\
+\implies  & K = \sqrt{ n }, a\ket{n} = \sqrt{ n }\ket{n-1} \\
+\implies & a^{\dagger} \ket{n} = \sqrt{ n+1 }\ket{n+1}
+\end{align}
+$$
 
 ## $\delta$ potential
 
@@ -96,6 +159,8 @@ $$
 
 ## Angular Momentum Coupling and CG coeff
 
+- [CG coeff](https://www.zhihu.com/question/271044965/answer/361887639?share_code=CyRIzSxnrSm&utm_psn=1946931252356714995) 
+
 $$
 \begin{align}
  & \text{operator: }  & S ^{1+2}= S^{1}+S^{2}  \\
@@ -111,8 +176,6 @@ $$
  & \text{can be proved by apply commution relation}
 \end{align}
 $$
-
-- [CG coeff](https://www.zhihu.com/question/271044965/answer/361887639?share_code=CyRIzSxnrSm&utm_psn=1946931252356714995) 
 
 # Time Independent Perturbation Theory 
 
