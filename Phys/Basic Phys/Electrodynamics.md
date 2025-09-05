@@ -89,6 +89,14 @@ $$
 \end{cases}\tag{potential formula}
 \end{align}
 $$
+$$
+\begin{align}
+\text{EM Force:} \begin{cases}
+\vec{F} & =q\vec{E}+q\vec{v}\times \vec{B} \\
+\vec{f} & =\rho \vec{E}+\vec{j}\times \vec{B}
+\end{cases}
+\end{align}
+$$ 
 
 ## EM wave
 
@@ -125,7 +133,6 @@ $$
 
 - Maxwell Eqs with sources. 
 $$
- 
 \begin{align}
 \text{Maxwell Eqs: }\begin{cases}
 \nabla \cdot \vec{E} & = \frac{\rho}{\epsilon_{0}}  & \iff  \oint_{  \partial V}\vec{E}\cdot \mathrm{d}\vec{S} &  = \frac{1}{\epsilon_{0}}\int_{V}\rho \mathrm{d}V\\
@@ -155,7 +162,7 @@ $$
 \frac{1}{c^{2}}\frac{ \partial^{2} }{ \partial t^{2} } \phi - \nabla^{2}\phi  & = \frac{\rho}{\epsilon_{0}} \\
 \frac{1}{c^{2}}\frac{ \partial^{2} }{ \partial t^{2} } \vec{A}-\nabla^{2}\vec{A} & = \mu_{0}\vec{j}
 \end{cases} \\
- & \text{AKA:}   \partial_{\mu}A^{\mu} = \mu_{0}J^{\mu } \text{ where: }J^{\mu} = \left[ \begin{array}{cccccccccc} c\rho   \\ j_{x} \\ j_{y} \\ j_{z} \end{array} \right]  , A^{\mu}=\left[ \begin{array}{cccccccccc}   \frac{\phi}{c} \\ A_{x} \\ A_{y} \\A_{z}  \end{array} \right]  
+ & \text{AKA:}     \partial^{\nu} \partial_{\nu}A^{\mu} = \mu_{0}J^{\mu } \text{ where: }J^{\mu} = \left[ \begin{array}{cccccccccc} c\rho   \\ j_{x} \\ j_{y} \\ j_{z} \end{array} \right]  , A^{\mu}=\left[ \begin{array}{cccccccccc}   \frac{\phi}{c} \\ A_{x} \\ A_{y} \\A_{z}  \end{array} \right]  
 \end{align}
 $$ 
 we can solve these wave eqs with **Green Func Method**. in next - we introduce it. 
@@ -173,7 +180,8 @@ $$
 \end{align}
 $$
 let $\psi \sim \left(  {\phi} ,\vec{A} \right),4\pi f\sim\left( \frac{\rho}{\epsilon_{0}},\mu_{0}\vec{j} \right)$ 
-then: $$
+then: 
+$$
 \begin{align}
 \frac{1}{c^{2}}\frac{ \partial^{2} }{ \partial t^{2} } \psi(\vec{r},t) - \nabla^{2}\psi (\vec{r},t) & = -4\pi f(\vec{r},t)
 \end{align}
@@ -237,7 +245,9 @@ $$
 \end{cases} \text{ (this match static potential)}
 \end{align}
 $$
+
 ## EM radiation
+
 follow the **Green Func Method** in EM wave, we conclude that: 
 $$
 \begin{align}
@@ -247,7 +257,7 @@ $$
 \end{cases} \text{ (which match static potential)}
 \end{align}
 $$
-futher, we do approximation for different kind of  field condition:
+futher, we do approximation for different kind of field condition:
 $$
 \begin{align}
  \text{field condition:}& \begin{cases}
@@ -331,11 +341,14 @@ $$
  & =\frac{1}{4\pi \epsilon_{0}c^{2}} \frac{\exp(i\vec{k}\cdot \vec{r})}{|\vec{r}|} (\ddot{\vec{P}}\times \hat{e}_{r})\times \hat{e}_{r}
 \end{align}
 $$
- ![[Pasted image 20250905135224.png|480]] 
+ ![[Pasted image 20250905135224.png|393]] 
+
 ## Energy Perspective
+
+- for Vaccum Maxwell Eqs
 $$
 \begin{align}
-\varepsilon = \frac{\mathrm{d}E}{\mathrm{d}V} = \frac{1}{2}\epsilon_{0}|\vec{E}|^{2} + \frac{1}{2\mu_{0}}|\vec{B}|^{2}  
+\varepsilon = \frac{\mathrm{d}E}{\mathrm{d}V} = \frac{1}{2}\epsilon_{0}|\vec{E}|^{2} + \frac{1}{2\mu_{0}}|\vec{B}|^{2} = \frac{1}{2}\vec{E}\cdot \vec{D} + \frac{1}{2 }\vec{B}\cdot \vec{H}
 \end{align}
 $$
 Energy Conservation Law: 
@@ -347,24 +360,129 @@ $$
 then we have
 $$
 \begin{align}
-\vec{S} = \vec{E}\times \vec{H} = \vec{E}\times \frac{\vec{B}}{\mu_{0}}
+\vec{S} = \vec{E}\times \vec{H} \overset{\text{Vaccum senario}}{=} \vec{E}\times \frac{\vec{B}}{\mu_{0}}
 \end{align}
 $$
-# Symmetry in Maxwell Eqs (Narrow Relativitistic Electrodynamics and Gauge Symmetry)
+- non-Vaccum Maxwell Eqs go to 刘川电动力学
+$$
+\begin{align}
+\oint_{ \partial V }\vec{S}\cdot \mathrm{d}\vec{A} + \underline{\underline{\underline{ \overset{\text{Power toward outside}}{\int_{V}\mathrm{d}V \vec{j}\cdot \vec{E}} }}} + \frac{ \partial }{ \partial t } \int_{V}\mathrm{d}V \varepsilon
+ = 0\end{align}
+$$
+...
+
+# Symmetry in Maxwell Eqs (Special Relativitistic Electrodynamics and Gauge Symmetry)
 
 - [Narrow Relativitistic Electiodynamics](https://zhuanlan.zhihu.com/p/29540507240?share_code=ETFJ05NDBFqJ&utm_psn=1946943152301772846) 
 - [same as above](https://zhuanlan.zhihu.com/p/174833787?share_code=q0D2yegRqo28&utm_psn=1946943543647113471) 
 - [same](https://zhuanlan.zhihu.com/p/602635631?share_code=12J6ULnryqYck&utm_psn=1946957131862509123) 
 
-## Lorentz covariance
+## Lorentz covariance and invariance 4-Tensor 
 
-## Gauge symmetry
+$$
+\begin{align}
+ & \Lambda^{\mu}_{\nu} \text{ is a (1,1) tensor}\iff \left[ \begin{array}{cccccccccc} \gamma & -\gamma \beta & 0 & 0 \\-\gamma \beta & \gamma & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{array} \right] \\
+ & \underline{\underline{\underline{ \Lambda^{\mu}_{\alpha}\Lambda^{\beta}_{\mu}=\delta^{\beta}_{\alpha} }}}, \text{ this match: } x'^{\mu}x'_{\mu}=\Lambda^{\mu}_{\alpha}x^{\alpha}\Lambda^{\beta}_{\mu}x_{\beta}=\Lambda^{\mu}_{\alpha}\Lambda^{\beta}_{\mu}x^{\alpha}x_{\beta} \overset{\text{invariance}}{=}x^{\alpha}x_{\alpha} \\
+ & \text{let: } g^{\mu \nu} \iff \left[ \begin{array}{cccccccccc} 1 & & & \\ & -1 & & \\ & & -1 & \\ & & & -1 \end{array} \right]  
+\end{align}
+$$ 
+
+### 4-scalar 
+
+$$
+\begin{align}
+\tau,\mathrm{d}\tau ,m_{0},q,\mathrm{d}s^{2}=\mathrm{d}x^{\mu}\mathrm{d}x_{\mu},\mathrm{d}^{4}V=\mathrm{d}^{4}x^{\mu} , F^{\mu \nu}F_{\mu \nu}=2\left( \vec{B}^{2}-\frac{\vec{E}^{2}}{c^{}} \right),\epsilon_{abcd}F^{ab}F^{cd} = \frac{8i}{c} \vec{E}\cdot \vec{B}, \phi=-k^{\mu}x_{\mu}, 
+\end{align}
+$$
+
+### 4-Vector
+
+$$
+\begin{align}
+x_{\mu}=\left[ \begin{array}{cccccccccc} ct \\ x \\ y \\ z \end{array} \right] ,u^{\mu}=\gamma\left[ \begin{array}{cccccccccc} c \\ v_{x} \\ v_{y} \\v_{z} \end{array} \right] ,p^{\mu} = \gamma m_{0}\left[ \begin{array}{cccccccccc} c \\ v_{x} \\ v_{y} \\v_{z} \end{array} \right] , k^{\mu}=\left[ \begin{array}{cccccccccc} \frac{\omega}{c} \\ k_{x} \\ k_{y}\\k_{z} \end{array} \right] , \partial_{\mu}=\left[ \begin{array}{cccccccccc} \frac{1}{c}\partial_{t} \\ \partial_{x} \\ \partial_{x} \\ \partial_{z} \end{array} \right] ,\underline{\underline{\underline{ J^{\mu} = \rho_{0} u^{\mu} = \gamma \rho_{0}\frac{u^{\mu}}{\gamma}=\left[ \begin{array}{cccccccccc} c\rho \\ j_{x} \\ j_{y} \\ j_{z} \end{array} \right] }}}  
+\end{align}
+$$
+
+### 4-Tensor (Matrix) 
+
+$$
+\begin{align}
+F^{\mu \nu}=\left[ \begin{array}{cccccccccc} 0 & -\frac{E_{x}}{c} & -\frac{E_{y}}{c} & -\frac{E_{z}}{c} \\ \frac{E_{x}}{c} & 0 & -B_{z} & B_{y} \\ \frac{E_{y}}{c} & B_{z} & 0 & -B_x \\ \frac{E_z}{c} & -B_{y} & B_{x} & 0 \end{array} \right]  
+\end{align}
+$$
+
+## EM Laws ⭐
+
+$$
+\begin{align}
+  & \text{Current Conservation Law: } & \partial_{\mu}J^{\mu} & = 0 \\  
+ & \text{Gauge Transformation:} & A^{\mu} & \to A^{\mu} + \partial^{\mu}\chi \\
+ & \text{Lorentz Gauge: } & \partial_{\mu}A^{\mu} & =0 \\  
+ & \text{EM potential:}  &    \partial^{\nu}  \partial_{\nu}A^{\mu}  & = -\mu_{0}J^{\mu} + (  \partial^{\nu}  \partial_{\nu}  )\partial^{\mu}\chi   \text{ ( this tell us EM potential is 4-Vector)}\\
+ & \text{EM potential under Lorentz: } & ( \partial^{\nu} \partial_{\nu} ) A^{\mu} & = -\mu_{0}J^{\mu} \text{ ( this tell us EM potential is 4-Vector)}\\
+ & \text{Faraday Tensor:} & F^{\mu \nu} & = \partial^{\mu}A^{\nu}- \partial^{\nu}A^{\mu} \\
+ & & & \overset{\text{Gauge Trans}}{\implies} ( \partial^{\mu}A^{\nu} + \partial^{\mu} \partial_{\nu}\chi )- ( \partial^{\nu}A^{\mu} + \partial^{\nu} \partial_{\mu}\chi ) \\
+ & & & = \partial^{\mu}A^{\nu}- \partial^{\nu}A^{\mu} + \underset{0}{\underline{\underline{\underline{ {( \partial^{\mu} \partial_{\nu}- \partial^{\nu} \partial_{\mu} )\chi }}}}}= \partial^{\mu}A^{\nu}- \partial^{\nu}A^{\mu} \\
+ & \text{Maxwell Eqs}: & & \begin{cases}
+ & \begin{cases}
+\nabla \cdot \vec{E} & = \frac{\rho}{\epsilon_{0}} \\
+\nabla \times \vec{B} & = \mu_{0}\vec{j}+\mu_{0}\epsilon_{0}\frac{ \partial \vec{E} }{ \partial t } 
+\end{cases} & \implies \partial_{\mu }F^{\mu \nu} = -\mu_{0}J^{\nu} \\
+ & \begin{cases}
+ \nabla \cdot \vec{B} & =0 \\
+\nabla \times \vec{E} & =-\frac{ \partial \vec{B} }{ \partial t } 
+\end{cases} & \implies \partial_{\alpha}F^{\beta \gamma} + \partial_{\beta }F^{\gamma \alpha} +\partial_{\gamma}F^{\alpha \beta} = 0 
+\end{cases} \\
+ & \text{EM Force:} & f^{\mu} & =F^{\mu \nu}J_{\nu} = \left[ \begin{array}{cccccccccc} \frac{1}{c}\vec{j}\cdot \vec{E}   \\ \rho E_{x}+j_{y}B_{z}-j_{z}B_{y} \\ \rho E_{y}+j_{z}B_{x}-j_{x}B_{z} \\ \rho E_{z}+j_{x}B_{y}-j_{y}B_{x}
+ \end{array} \right]  
+\end{align}
+$$
 
 # Analytical Mechanics Perspective 
+
+2 assumption: 
+- **$S$ should be Lorentz invariance**
+- **$S$ should be gauge invariance** 
+
+## Special Relativity Mechanics under Analytical Mechanics Perspective 
+
+$$
+\begin{align}
+ S  & = \int \mathrm{d}t L(q,\dot{q},t) \\
+  & =\int \mathrm{d}\tau \underset{  \text{Lorentz invariance}  }{\underline{\underline{\underline{  (\gamma L(q,\dot{q},t))    }}}}  \\
+  & \overset{\frac{\dot{q}}{c}\to_{0}}{=}\int \mathrm{d}\tau (T-V), T = \frac{1}{2}m\vec{v}^{2} \\
+  \text{then, we have: } \gamma L_{\text{free}}(q,\dot{q},t )  & = -\gamma m_{0}c^{2} \to  C+\frac{1}{2}m\vec{v}^{2} \\
+\text{then: } S  & = \int \mathrm{d}\tau \times(-\gamma m_{0}c^{2}) 
+\end{align}
+$$
+
+## EM theory under Analytical Mechanics Perspective 
+
+when think about EM theory in Analytical Mechanics Perspective, the path is constructed with $\mathrm{d}^{4}x^{\mu}$, the coordinates, the velosities, the momentums become **field**.  
+
+set EM potential as general coordinates
+$$
+\begin{align}
+\mathcal{L}(A^{\mu},  \partial_{\nu }A^{\mu},t )  & = \underset{\text{free EM field Energy}}{\underline{\underline{\underline{  -\frac{1}{4\mu_{0}}F^{\mu \nu}F_{\mu \nu}    }}}} -\underset{  \text{ EM potential Energy}  }{\underline{\underline{\underline{   J^{\mu}A_{\mu}   }}}} 
+ \\
+ L&=\int \mathrm{d}^{4}x^{\mu} \mathcal{L}(A^{\mu},  \partial_{\nu }A^{\mu},t )
+\end{align}
+$$
+apply variation principle we conclude Euler Lagrangian Eq and Hamiltonian Canonical Eqs: 
+$$
+\begin{align}
+   \frac{ \partial  }{ \partial x^{\mu} } \left( \frac{ \partial \mathcal{L} }{ \partial (  \partial_{\mu}A^{\nu} ) }  \right) - \frac{ \partial \mathcal{L} }{ \partial A^{\nu} }  & =0  \\
+   \pi_{\mu}^{\nu} & \equiv \frac{ \partial \mathcal{L} }{ \partial (  \partial_{\mu}A^{\nu} ) }   = - F^{\nu}_{\mu} \\
+   \pi^{\mu \nu} & =-F^{\mu \nu} ,\text{ generalized momentum is field} \\
+\mathcal{H}  & \equiv \pi^{0}_{\mu}A^{\mu}-\mathcal{L}, \left( \pi_{\mu}=\pi^{0}_{\mu}=\frac{ \partial \mathcal{L} }{ \partial  ( \partial_{0} A^{\mu} ) } =   \text{ is time derivative momentum}\right) \\
+ & =\frac{1}{2}\left( \epsilon_{0}\vec{E}^{2}+\frac{1}{\mu_{0}}\vec{B}^{2} \right) + J^{\mu}A_{\mu} 
+\end{align}
+$$ 
 
 # Static Electromagnetism
 
 ## Electrostatics
+
 $$
 \begin{align}
 \begin{cases}
@@ -417,13 +535,13 @@ $$
  & R(r) = \underline{\underline{\underline{ A\times r^{l} + B\times \frac{1}{r^{l+1}} }}} \overset{l=0}{\to}A + \frac{B}{r}, \text{which is static electric potential}
 \end{align}
 $$
- 
 
 ### Uniqueness Theorem
 
 ### Conductor 
 
 ## Magnetostatics
+
 $$
 \begin{align}
 \begin{cases}

@@ -8,6 +8,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "34d31f5afe4bc90c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phys/Basic Phys/Electrodynamics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Electrodynamics"
+            }
+          },
+          {
             "id": "682092ebea337827",
             "type": "leaf",
             "state": {
@@ -81,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "git remote",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,23 +169,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
-            }
-          },
-          {
-            "id": "2b242514ec690db1",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -190,7 +189,32 @@
             }
           },
           {
+            "id": "2b242514ec690db1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
             "id": "9565769130a6bfad",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "452d67ed4f7bdcce",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -223,14 +247,14 @@
   },
   "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
-    "Phys/Basic Phys/Electrodynamics.md",
     "Phys/Basic Phys/shc电动力学.pdf",
+    "Phys/Basic Phys/Electrodynamics.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "zzzhe_Attachments/Pasted image 20250905135224.png",
     "Phys/Basic Phys/Quantum Mechanics.md",
     "Mechanisms (Personal Ability)/Zen.md",
     "Mechanisms (Personal Ability)/sortspec.md",
     "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "Phys/Basic Phys/普通物理-Optics.md",
     "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md",
     "LOG/log2025.md",

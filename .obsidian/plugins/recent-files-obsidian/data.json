@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Electrodynamics",
+      "path": "Phys/Basic Phys/Electrodynamics.md"
+    },
+    {
       "basename": "shc电动力学",
       "path": "Phys/Basic Phys/shc电动力学.pdf"
     },
     {
-      "basename": "Electrodynamics",
-      "path": "Phys/Basic Phys/Electrodynamics.md"
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
       "basename": "Quantum Mechanics",
@@ -23,10 +27,6 @@
     {
       "basename": "Stack Mechanism ⭐",
       "path": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md"
-    },
-    {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
       "basename": "普通物理-Optics",
