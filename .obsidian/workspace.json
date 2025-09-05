@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 269.5
   },
   "right": {
     "id": "815a15c9dc18b47b",
@@ -205,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,7 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b3ca681ca4e9744",
+  "active": "682092ebea337827",
   "lastOpenFiles": [
     "Phys/Basic Phys/Quantum Mechanics.md",
     "Mechanisms (Personal Ability)/Zen.md",

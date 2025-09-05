@@ -152,8 +152,8 @@ $$
 \end{cases} \\
  & \text{let Lorentz Gauge: }\frac{ \partial  }{ \partial t } \phi + \nabla \cdot \vec{A}  =0 \\
  & \text{then: }\begin{cases}
-\frac{ \partial^{2} }{ \partial t^{2} } \phi - \nabla^{2}\phi  & = \frac{\rho}{\epsilon_{0}} \\
-\frac{ \partial^{2} }{ \partial t^{2} } \vec{A}-\nabla^{2}\vec{A} & = \mu_{0}\vec{j}
+\frac{1}{c^{2}}\frac{ \partial^{2} }{ \partial t^{2} } \phi - \nabla^{2}\phi  & = \frac{\rho}{\epsilon_{0}} \\
+\frac{1}{c^{2}}\frac{ \partial^{2} }{ \partial t^{2} } \vec{A}-\nabla^{2}\vec{A} & = \mu_{0}\vec{j}
 \end{cases} \\
  & \text{AKA:}   \partial_{\mu}A^{\mu} = \mu_{0}J^{\mu } \text{ where: }J^{\mu} = \left[ \begin{array}{cccccccccc} c\rho   \\ j_{x} \\ j_{y} \\ j_{z} \end{array} \right]  , A^{\mu}=\left[ \begin{array}{cccccccccc}   \frac{\phi}{c} \\ A_{x} \\ A_{y} \\A_{z}  \end{array} \right]  
 \end{align}
@@ -163,6 +163,107 @@ we can solve these wave eqs with **Green Func Method**. in next - we introduce i
 $\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}}{\mathrm{d}}$ ???why no outline???
 
 - **Green Func Method in EM wave**: 
+$$
+\begin{align}
+ & \text{under Lorentz Gauge: }\frac{ \partial  }{ \partial t } \phi + \nabla \cdot \vec{A}  =0 \\
+ & \text{then: }\begin{cases}
+\frac{1}{c^{2}}\frac{ \partial^{2} }{ \partial t^{2} } \phi - \nabla^{2}\phi  & = \frac{\rho}{\epsilon_{0}} \\
+\frac{1}{c^{2}}\frac{ \partial^{2} }{ \partial t^{2} } \vec{A}-\nabla^{2}\vec{A} & = \mu_{0}\vec{j}
+\end{cases} \\
+\end{align}
+$$
+let $\psi \sim \left(  {\phi} ,\vec{A} \right),4\pi f\sim\left( \frac{\rho}{\epsilon_{0}},\mu_{0}\vec{j} \right)$ 
+then: $$
+\begin{align}
+\frac{1}{c^{2}}\frac{ \partial^{2} }{ \partial t^{2} } \psi(\vec{r},t) - \nabla^{2}\psi (\vec{r},t) & = -4\pi f(\vec{r},t)
+\end{align}
+$$
+do time domain **Fourier Transformation**:
+$$
+\begin{align}
+ & \begin{cases}
+\psi(\vec{r},t) \to \psi(\vec{r},\omega) = \int \psi(\vec{r},t)\exp(\underline{\underline{\underline{ +i }}}\omega t)\mathrm{d}t \\
+f(\vec{r},t) \to f(\vec{r},\omega) = \int f(\vec{r},t)\exp(\underline{\underline{\underline{ +i }}}\omega t)\mathrm{d}t 
+\end{cases}\tag{+{i} match phase formula}\\
+ & \begin{cases}
+\psi(\vec{r},t ) = \frac{1}{2\pi}\int \psi(\vec{r},\omega )\exp( \underline{\underline{\underline{ -i }}}\omega t)\mathrm{d}t \\
+f(\vec{r},t ) = \frac{1}{2\pi}\int f(\vec{r},\omega )\exp(\underline{\underline{\underline{ -i }}}\omega t)\mathrm{d}t
+\end{cases}\tag{- i match phase formula}
+\end{align}
+$$
+then we have the PDE: 
+$$
+\begin{align}
+\left(\nabla^{2} - \left( \frac{i\omega}{c} \right)^{2}\right)\psi(\vec{r},\omega) = -4\pi f(\vec{r},\omega )
+\end{align}
+$$
+then $\delta$ func introduced: 
+$$
+\begin{align}
+\left(\nabla^{2} + \left( \frac{\omega}{c} \right)^{2}\right)g_{\omega}(\vec{r},\vec{\xi}) = -4\pi \delta(\vec{r}-\vec{\xi})
+\end{align}
+$$
+its solution is 
+$$
+\begin{align}
+g_{\omega}(\vec{r},\vec{\xi}) = A \times\frac{\exp{\left( + i \frac{\omega}{c} |\vec{r}-\vec{\xi}| \right)}}{|\vec{r}-\vec{\xi}|} + B\times\frac{\exp{\left( - i \frac{\omega}{c} |\vec{r}-\vec{\xi}| \right)}}{|\vec{r}-\vec{\xi}|}, (A+B = 1)
+\end{align}
+$$
+then **Fourier Transformation**: 
+$$
+\begin{align}
+g(\vec{r},\xi,t) = \frac{1}{2\pi}\int \mathrm{d}\omega g_{\omega}(\vec{r},\vec{\xi})\exp(i\omega t)
+\end{align}
+$$
+we want to find a $g$ green func that can match the time $\delta$ func, then we introduce: 
+$$
+\begin{align}
+g(\vec{r},\vec{\xi},t,\tau ) & = \frac{1}{2\pi}\int \mathrm{d}\omega g_{\omega}(\vec{r},\vec{\xi})\exp(-i\omega|t-\tau|) \\
+  & = \frac{1}{2\pi}\int \mathrm{d} \omega \left( A \times\frac{\exp{\left( + i \frac{\omega}{c} |\vec{r}-\vec{\xi}| \right)}}{|\vec{r}-\vec{\xi}|} + B\times\frac{\exp{\left( - i \frac{\omega}{c} |\vec{r}-\vec{\xi}| \right)}}{|\vec{r}-\vec{\xi}|} \right)\times \exp(-\underline{\underline{\underline{ i   }}}\omega|t-\tau|) \\
+ & = A\times \frac{\delta(t-\tau-\frac{|\vec{r}-\vec{\xi}|}{ c })}{|\vec{r}-\vec{\xi}|} + B\times \frac{\delta(t-\tau+\frac{|\vec{r}-\vec{\xi}|}{ c })}{|\vec{r}-\vec{\xi}|}  , (A = 1 , B = 0 \text{ if delay potential})
+\end{align}
+$$
+ then we have: 
+ $$
+\begin{align}
+\psi(\vec{r},t) &  = \frac{1}{4\pi} \int \mathrm{d}^{3}\vec{\xi}\mathrm{d}\tau g(\vec{r},\vec{\xi},t,\tau )\times f(\vec{\xi},\tau) \\
+ & = \frac{1}{4\pi}\int \mathrm{d}^{3}\vec{\xi}\mathrm{d}\tau \frac{\delta\left( t-\tau-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}\times f(\vec{\xi},\tau) \\
+ & =\frac{1}{4\pi}\int \mathrm{d}^{3}\vec{\xi} \frac{f\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}   \\
+
+ & \begin{cases}
+\phi(\vec{r},t)  & = \frac{1}{4\pi \epsilon_{0}}  & \int \mathrm{d}^{3}\vec{\xi} \frac{\rho\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|} \\
+\vec{A}(\vec{r},t)  & = \frac{\mu_{0}}{4\pi} & \int \mathrm{d}^{3}\vec{\xi} \frac{\vec{j}\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}
+\end{cases} \text{ (this match static potential)}
+\end{align}
+$$
+
+## EM radiation
+follow the **Green Func Method** in EM wave, we conclude that: 
+$$
+\begin{align}
+ & \begin{cases}
+\phi(\vec{r},t)  & = \frac{1}{4\pi \epsilon_{0}}  & \int \mathrm{d}^{3}\vec{\xi} \frac{\rho\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|} \\
+\vec{A}(\vec{r},t)  & = \frac{\mu_{0}}{4\pi} & \int \mathrm{d}^{3}\vec{\xi} \frac{\vec{j}\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}
+\end{cases} \text{ (which match static potential)}
+\end{align}
+$$
+
+futher, we do approximation for different kind of  field condition:
+$$
+\begin{align}
+ \text{field condition:}& \begin{cases}
+\text{far field: } & \vec{r}\gg \frac{c}{\omega } \\
+\text{medium field:} & \vec{r} \sim \frac{c}{\omega} \\
+\text{near field:} & \vec{r} \ll \frac{c}{\omega}
+\end{cases} \\
+
+  \text{far field approximation:}  & \begin{cases}
+\frac{1}{|\vec{r}-\vec{\xi}|}  & = \frac{1}{|\vec{r}|} + (-\vec{\xi})\cdot \nabla \frac{1}{|\vec{r}|} + ((-\vec{\xi})\cdot \nabla)^{2} \frac{1}{|\vec{r}|} + \dots  & \sim\frac{{1}}{|r|}\\
+\frac{\omega}{c}|\vec{r}-\vec{\xi} | &  = \frac{\omega}{c}\times(|\vec{r}| + (-\vec{\xi})\cdot \nabla |\vec{r}| + \dots) & \sim \vec{k}\cdot \vec{r} - \underline{\underline{\underline{ \vec{k}\cdot \vec{\xi}     }}}
+\end{cases}
+\end{align}
+$$ 
+
 
 ## Energy Perspective
 
@@ -181,7 +282,6 @@ $\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d}\frac{\mathrm{d
 # Static Electromagnetism
 
 ## Electrostatics
-
 $$
 \begin{align}
 \begin{cases}
@@ -194,52 +294,53 @@ with the second formula, we conclude that $\vec{E}=-\nabla \phi$, then we have
 $$
 \begin{align}
 \begin{cases}
-\nabla^{2}\phi   = - \frac{1}{\epsilon_{0}}\rho(\vec{r}) \\ 
-\phi| _ {\partial V} \dots    \text{ and }   \partial_{n} \phi |_{  \partial V } \dots
+\nabla^{2}\phi = - \frac{1}{\epsilon_{0}}\rho(\vec{r}) \\ 
+\phi| _ {\partial V} \dots \text{ and } \partial_{n} \phi |_{ \partial V } \dots
 \end{cases} \tag{Electrostatics Problem}
 \end{align}
 $$
-
 1) **Green Func Method** $\delta$ 
 devide the nonlinear Electrostatics problem into **General Solution + Particular Solution** 
 $$
 \begin{align} \\
  & \text{particular solution: }\begin{cases}
 \nabla^{2}G(\vec{r},\vec{\xi}) = -\frac{1}{\epsilon_{0}}\delta(\vec{r}-\vec{\xi}) \\
-G(\vec{r},\vec{\xi}) |_{  \partial V } = 0 \text{ and }  \partial_{n}G(\vec{r},\vec{\xi}) = 0 
+G(\vec{r},\vec{\xi}) |_{ \partial V } = 0 \text{ and } \partial_{n}G(\vec{r},\vec{\xi}) = 0 
 \end{cases} \\
  & \text{general solution: }\begin{cases}
 \nabla^{2}\phi_{0} = 0 \\
-\phi_{0} |_{  \partial V } \dots\text{ and }   \partial_{n}\phi_{0} |_{  \partial V } \dots
+\phi_{0} |_{ \partial V } \dots\text{ and } \partial_{n}\phi_{0} |_{ \partial V } \dots
 \end{cases} \tag{a eigen problem}\\
  & \text{final solution: } \phi = \phi_{0} + \int_{V'} \mathrm{d}V' \rho(\vec{r'}) G(\vec{r},\vec{r'})
 \end{align}
-$$ 
+$$
+ 
 2) **Seperation Variables Method** 
 $$
 \begin{align}
-\nabla^{2}  & = \frac{1}{r}  \left( \frac{ \partial  }{ \partial r }  \right)^{2}(r\cdot) - \frac{\hat{l}^{2}}{r^{2}}\cdot  \\
-\varphi(\vec{r}) &  = R(\vec{r})Y_{lm}(\theta,\phi) 
+\nabla^{2} & = \frac{1}{r} \left( \frac{ \partial }{ \partial r } \right)^{2}(r\cdot) - \frac{\hat{l}^{2}}{r^{2}}\cdot \\
+\varphi(\vec{r}) & = R( {r})Y_{lm}(\theta,\phi) 
 \end{align}
-$$ 
+$$
+ 
 then we have 
 $$
 \begin{align}
- & \frac{1}{r}  \left( \frac{ \partial  }{ \partial r }  \right)^{2}(r\cdot R(r) ) - \frac{l(l+1)}{r^{2}}R(r) = 0 \\
+ & \frac{1}{r} \left( \frac{ \partial }{ \partial r } \right)^{2}(r\cdot R(r) ) - \frac{l(l+1)}{r^{2}}R(r) = 0 \\
  & \text{let: }u(r) = rR(r) \\
  & \left( \frac{\mathrm{d}}{\mathrm{d}r} \right)^{2} u(r) = \frac{l(l+1)}{r^{2}}u(r) \\
  & \text{give trial solution: } u(r) = r^{\alpha} \\
  & \dots \\
- & R(r) = \underline{\underline{\underline{  A\times r^{l} + B\times \frac{1}{r^{l+1}}    }}}
+ & R(r) = \underline{\underline{\underline{ A\times r^{l} + B\times \frac{1}{r^{l+1}} }}} \overset{l=0}{\to}A + \frac{B}{r}, \text{which is static electric potential}
 \end{align}
 $$
+ 
 
 ### Uniqueness Theorem
 
 ### Conductor 
 
 ## Magnetostatics
-
 $$
 \begin{align}
 \begin{cases}
@@ -253,7 +354,7 @@ $$
 \begin{align}
 \begin{cases}
 \nabla^{2}\vec{A} = -\mu_{0}\vec{j} \\
-\vec{A}|_{  \partial V }\dots \text{ and }   \partial \vec{A}|_{  \partial V }\dots \text{(very complex...)}
+\vec{A}|_{ \partial V }\dots \text{ and } \partial \vec{A}|_{ \partial V }\dots \text{(very complex...)}
 \end{cases} \tag{Magnetostatics Problem}
 \end{align}
 $$
@@ -264,7 +365,7 @@ $$
 \begin{align}
 \begin{cases}
 \nabla \cdot \vec{B} & =\nabla \cdot[\mu_{0}(\vec{H}+\vec{M})] & =0 \\
-\nabla \times \vec{H} & =\vec{j}_{\mathrm{f}}  & = 0
+\nabla \times \vec{H} & =\vec{j}_{\mathrm{f}} & = 0
 \end{cases}
 \end{align}
 $$
@@ -272,8 +373,8 @@ then we have:
 $$
 \begin{align}
 \begin{cases}
-\nabla \cdot \vec{H} & =  -\nabla \cdot \vec{M} \\
-\nabla \times \vec{H} & =  0
+\nabla \cdot \vec{H} & = -\nabla \cdot \vec{M} \\
+\nabla \times \vec{H} & = 0
 \end{cases}
 \end{align}
 $$
@@ -281,8 +382,8 @@ then give a scalar magnetic potential $\phi_{m}$ with $\vec{H}=-\nabla \phi_{m}$
 $$
 \begin{align}
 \begin{cases}
-\nabla^{2}\phi &  = \nabla \cdot \vec{M} \\
-\phi_{m}|_{  \partial V} \dots
+\nabla^{2}\phi & = \nabla \cdot \vec{M} \\
+\phi_{m}|_{ \partial V} \dots
 \end{cases}
 \end{align}
 $$ 
