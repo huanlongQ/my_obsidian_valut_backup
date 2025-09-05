@@ -107,7 +107,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -245,7 +246,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34d31f5afe4bc90c",
+  "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
     "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf",
     "Phys/Basic Phys/Quantum Mechanics.md",
