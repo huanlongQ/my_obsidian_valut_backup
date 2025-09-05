@@ -78,7 +78,7 @@ $$
 $$
 $$
 \begin{align}
-\text{Electron Conservation Law:} \oint_{  \partial V } \vec{j} \cdot \mathrm{d}\vec{S} + \int_{V} \frac{ \partial \rho }{ \partial t } \mathrm{d}V = 0
+\text{Electron Conservation Law:} \oint_{  \partial V } \vec{j} \cdot \mathrm{d}\vec{S} + \int_{V} \frac{ \partial \rho }{ \partial t } \mathrm{d}V = 0 \iff \nabla \cdot \vec{j} + \frac{ \partial \rho }{ \partial t } =0
 \end{align}
 $$
 $$
@@ -219,35 +219,34 @@ we want to find a $g$ green func that can match the time $\delta$ func, then we 
 $$
 \begin{align}
 g(\vec{r},\vec{\xi},t,\tau ) & = \frac{1}{2\pi}\int \mathrm{d}\omega g_{\omega}(\vec{r},\vec{\xi})\exp(-i\omega|t-\tau|) \\
-  & = \frac{1}{2\pi}\int \mathrm{d} \omega \left( A \times\frac{\exp{\left( + i \frac{\omega}{c} |\vec{r}-\vec{\xi}| \right)}}{|\vec{r}-\vec{\xi}|} + B\times\frac{\exp{\left( - i \frac{\omega}{c} |\vec{r}-\vec{\xi}| \right)}}{|\vec{r}-\vec{\xi}|} \right)\times \exp(-\underline{\underline{\underline{ i   }}}\omega|t-\tau|) \\
- & = A\times \frac{\delta(t-\tau-\frac{|\vec{r}-\vec{\xi}|}{ c })}{|\vec{r}-\vec{\xi}|} + B\times \frac{\delta(t-\tau+\frac{|\vec{r}-\vec{\xi}|}{ c })}{|\vec{r}-\vec{\xi}|}  , (A = 1 , B = 0 \text{ if delay potential})
+  & = \frac{1}{2\pi}\int \mathrm{d} \omega \left( A \times\frac{\exp{\left( + i \frac{\omega}{c} |\vec{r}-\vec{\xi}| \right)}}{|\vec{r}-\vec{\xi}|} + B\times\frac{\exp{\left( - i \frac{\omega}{c} |\vec{r}-\vec{\xi}| \right)}}{|\vec{r}-\vec{\xi}|} \right)\times \exp(-\underline{\underline{\underline{ i }}}\omega|t-\tau|) \\
+ & = A\times \frac{\delta(t-\tau-\frac{|\vec{r}-\vec{\xi}|}{ c })}{|\vec{r}-\vec{\xi}|} + B\times \frac{\delta(t-\tau+\frac{|\vec{r}-\vec{\xi}|}{ c })}{|\vec{r}-\vec{\xi}|} , (A = 1 , B = 0 \text{ if delay potential})
 \end{align}
 $$
  then we have: 
- $$
+ 
+$$
 \begin{align}
-\psi(\vec{r},t) &  = \frac{1}{4\pi} \int \mathrm{d}^{3}\vec{\xi}\mathrm{d}\tau g(\vec{r},\vec{\xi},t,\tau )\times f(\vec{\xi},\tau) \\
+\psi(\vec{r},t) & = \frac{1}{4\pi} \int \mathrm{d}^{3}\vec{\xi}\mathrm{d}\tau g(\vec{r},\vec{\xi},t,\tau )\times f(\vec{\xi},\tau) \\
  & = \frac{1}{4\pi}\int \mathrm{d}^{3}\vec{\xi}\mathrm{d}\tau \frac{\delta\left( t-\tau-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}\times f(\vec{\xi},\tau) \\
- & =\frac{1}{4\pi}\int \mathrm{d}^{3}\vec{\xi} \frac{f\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}   \\
+ & =\frac{1}{4\pi}\int \mathrm{d}^{3}\vec{\xi} \frac{f\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|} \\
 
  & \begin{cases}
-\phi(\vec{r},t)  & = \frac{1}{4\pi \epsilon_{0}}  & \int \mathrm{d}^{3}\vec{\xi} \frac{\rho\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|} \\
-\vec{A}(\vec{r},t)  & = \frac{\mu_{0}}{4\pi} & \int \mathrm{d}^{3}\vec{\xi} \frac{\vec{j}\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}
+\phi(\vec{r},t) & = \frac{1}{4\pi \epsilon_{0}} & \int \mathrm{d}^{3}\vec{\xi} \frac{\rho\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|} \\
+\vec{A}(\vec{r},t) & = \frac{\mu_{0}}{4\pi} & \int \mathrm{d}^{3}\vec{\xi} \frac{\vec{j}\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}
 \end{cases} \text{ (this match static potential)}
 \end{align}
 $$
-
 ## EM radiation
 follow the **Green Func Method** in EM wave, we conclude that: 
 $$
 \begin{align}
  & \begin{cases}
-\phi(\vec{r},t)  & = \frac{1}{4\pi \epsilon_{0}}  & \int \mathrm{d}^{3}\vec{\xi} \frac{\rho\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|} \\
-\vec{A}(\vec{r},t)  & = \frac{\mu_{0}}{4\pi} & \int \mathrm{d}^{3}\vec{\xi} \frac{\vec{j}\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}
+\phi(\vec{r},t) & = \frac{1}{4\pi \epsilon_{0}} & \int \mathrm{d}^{3}\vec{\xi} \frac{\rho\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|} \\
+\vec{A}(\vec{r},t) & = \frac{\mu_{0}}{4\pi} & \int \mathrm{d}^{3}\vec{\xi} \frac{\vec{j}\left( \vec{\xi},t-\frac{|\vec{r}-\vec{\xi}|}{c} \right)}{|\vec{r}-\vec{\xi}|}
 \end{cases} \text{ (which match static potential)}
 \end{align}
 $$
-
 futher, we do approximation for different kind of  field condition:
 $$
 \begin{align}
@@ -257,16 +256,100 @@ $$
 \text{near field:} & \vec{r} \ll \frac{c}{\omega}
 \end{cases} \\
 
-  \text{far field approximation:}  & \begin{cases}
-\frac{1}{|\vec{r}-\vec{\xi}|}  & = \frac{1}{|\vec{r}|} + (-\vec{\xi})\cdot \nabla \frac{1}{|\vec{r}|} + ((-\vec{\xi})\cdot \nabla)^{2} \frac{1}{|\vec{r}|} + \dots  & \sim\frac{{1}}{|r|}\\
-\frac{\omega}{c}|\vec{r}-\vec{\xi} | &  = \frac{\omega}{c}\times(|\vec{r}| + (-\vec{\xi})\cdot \nabla |\vec{r}| + \dots) & \sim \vec{k}\cdot \vec{r} - \underline{\underline{\underline{ \vec{k}\cdot \vec{\xi}     }}}
+  \text{far field approximation:} & \begin{cases}
+\frac{1}{|\vec{r}-\vec{\xi}|} & = \frac{1}{|\vec{r}|} + (-\vec{\xi})\cdot \nabla \frac{1}{|\vec{r}|} + ((-\vec{\xi})\cdot \nabla)^{2} \frac{1}{|\vec{r}|} + \dots & \sim\frac{{1}}{|r|}\\
+\frac{\omega}{c}|\vec{r}-\vec{\xi} | & = \frac{\omega}{c}\times(|\vec{r}| + (-\vec{\xi})\cdot \nabla |\vec{r}| + \dots) & \\
+ & \sim \overset{\text{Electrical Dipole} }{\vec{k}\cdot \vec{r}} - \overset{\text{Magnetic Dipole and Electrical quadrupole}}{\underline{\underline{\underline{ \vec{k}\cdot \vec{\xi} }}}}
 \end{cases}
 \end{align}
-$$ 
+$$
+ 
+then we have EM potential under far field approximation: 
+$$
+\begin{align} \\
+ & \begin{cases}
 
+\phi(\vec{r},t) & = \frac{1}{4\pi \epsilon_{0}}\int \mathrm{d}^{3}\vec{\xi} \frac{\rho(\vec{\xi})\exp(-\omega(t-|\vec{r}-\vec{\xi}|))}{|\vec{r}-\vec{\xi}|} \\
+ & \sim \left( \frac{ {1}}{4\pi \epsilon_{0}} \int \mathrm{d}^{3}\vec{\xi}\frac{\rho(\vec{\xi})\exp(-\vec{k}\cdot \vec{\xi})}{|\vec{r}|} \right)\times \exp(i(\vec{k}\cdot \vec{r} - \omega t)) \\
+ & \equiv \phi (\vec{n}) \frac{\exp(i(\vec{k}\cdot \vec{r}-\omega t))}{|\vec{r}|} \\
 
+\vec{A}(\vec{r},t) & = \frac{\mu_{0}}{4\pi }\int \mathrm{d}^{3}\vec{\xi} \frac{\vec{j}(\vec{\xi})\exp(-\omega(t-|\vec{r}-\vec{\xi}|))}{|\vec{r}-\vec{\xi}|} \\
+ & \sim \left( \frac{ {\mu_{0}}}{4\pi } \int \mathrm{d}^{3}\vec{\xi}\frac{\vec{j}\exp(-\vec{k}\cdot \vec{\xi})}{|\vec{r}|} \right)\times \exp(i(\vec{k}\cdot \vec{r} - \omega t)) \\
+ & \equiv \vec{A}(\vec{n})\frac{\exp(i(\vec{k}\cdot \vec{r}-\omega t))}{|\vec{r}|}
+\end{cases}
+ \\
+ & \text{where:} \begin{cases} 
+\phi(\vec{n}) = \left( \frac{ {1}}{4\pi \epsilon_{0}} \int \mathrm{d}^{3}\vec{\xi}\frac{\rho(\vec{\xi})\exp(-\vec{k}\cdot \vec{\xi})}{\underline{\underline{\underline{ 1 }}}} \right) \\
+\vec{A}(\vec{n}) = \left( \frac{ {\mu_{0}}}{4\pi } \int \mathrm{d}^{3}\vec{\xi}\frac{\vec{j}\exp(-\vec{k}\cdot \vec{\xi})}{\underline{\underline{\underline{ 1 }}}} \right)
+\end{cases}
+\end{align}
+$$
+ then we can calc the EM field: 
+$$
+\begin{align}
+\vec{B} & = \nabla \times \vec{A} = \nabla \times (\vec{A}(\vec{n})\exp(i(\vec{k}\cdot \vec{r}-\omega t))) \\ 
+ & = i\vec{k}\times \vec{A}(\vec{n}) \exp(i(\vec{k}\cdot \vec{r}-\omega t)) \\
+ & = \vec{B}_0(\vec{n})\exp(i(\vec{k}\cdot \vec{r}-\omega t))\\
+\frac{ \partial }{ \partial t } \vec{E} & = -i\omega \vec{E} = \frac{1}{\mu_{0}\epsilon_{0}} \nabla \times \vec{B} =c^{2}i\vec{k}\times(i\vec{k}\times \vec{A}(\vec{n})) \exp(i(\vec{k}\cdot \vec{r}-\omega t)) \\
+\vec{E} & =\frac{c^{2}}{\omega} \times (-\vec{k}\times \vec{B}_{0}) \exp(\dots)= c\vec{B}_{0} \times \hat{e}_{{r}} \exp(i(\vec{k}\cdot \vec{r}-\omega t))
+\end{align}
+$$
+- **Electrical Dipole Oscillation**: 
+**dipole - current relation**: 
+$$
+\begin{align}
+\vec{P}(t) & = \int_{V'}\mathrm{d}^{3}\vec{\xi}\times( \rho(\vec{\xi},t)\vec{\xi}) \\
+\frac{\mathrm{d}}{\mathrm{d}t}\vec{P}(t) & =\int_{V'}\mathrm{d}^{3}\vec{\xi}\times \left( \frac{ \partial \rho(\vec{\xi},t) }{ \partial t } \vec{\xi} \right) \overset{\text{Conservation Law}}{=}-\int_{V'}\mathrm{d}^{3}\vec{\xi}\times(\nabla_{\vec{\xi}}\cdot\vec{j}(\vec{\xi},t)\vec{\xi} ) \\
+ & =-\int_{V'}\mathrm{d}^{3}\vec{\xi}\left[ \nabla_{\vec{\xi}}\cdot(\vec{j}(\vec{\xi},t)\vec{\xi}) - (\vec{j}(\vec{\xi},t)\cdot\nabla_{\vec{\xi}} )\vec{\xi} \right] \\
+ & =0 + \int_{V'}\mathrm{d}^{3}\vec{\xi}\vec{j}(\vec{\xi},t) \sim \text{Electrical Dipole, leading term of far field approximation}
+\end{align}
+$$
+then we have: 
+$$
+\begin{align}
+\vec{A}(\vec{r},t) & = \frac{\mu_{0}}{4\pi}\int \mathrm{d}^{3}\vec{\xi} \vec{j}(\vec{\xi},t) \times \frac{\exp(i(\vec{k}\cdot \vec{r}-\omega t))}{|\vec{r}|} \\
+ & = \frac{\mu_{0}}{4\pi} \frac{\mathrm{d}\vec{P}}{\mathrm{d}t} \frac{\exp(i(\vec{k}\cdot \vec{r}-\omega t))}{|\vec{r}|}
+\end{align}
+$$
+if $\vec{P}(t) = \vec{P}_{0}\exp(-i\omega t)$, then we have: 
+$$
+\begin{align}
+\vec{A}(\vec{r},t) & = \frac{\mu_{0}}{4\pi}(-i\omega)\vec{P}_{0} \frac{\exp(i(\vec{k}\cdot \vec{r}-\omega t))}{| \vec{r} |}\\
+ & = \frac{\mu_{0}}{4\pi}\frac{\mathrm{d}\vec{P}\left( t-\frac{| \vec{r} |}{c} \right)}{\mathrm{d}t} \frac{1}{| \vec{r} |}, \left( \text{exp phase term in } \frac{\mathrm{d}\vec{P}\left( t-\frac{|\vec{r}|}{c} \right)}{\mathrm{d}t} \right)
+\end{align}
+$$
+then we have: 
+$$
+\begin{align}
+\vec{B}(\vec{r},t) & = \frac{\mu_{0}}{4\pi} \nabla \times \left( (-i\omega)\vec{P}_{0} \frac{\exp(i(\vec{k}\cdot \vec{r}-\omega t))}{|\vec{r}|} \right) \\
+ & = \frac{\mu_{0}}{4\pi} i\vec{k}\times(-i\omega)\vec{P}_{0} \frac{\exp(i(\vec{k}\cdot \vec{r}-\omega t))}{|\vec{r}|} + 0 \\
+ & = \frac{\mu_{0}}{4\pi}i\vec{k}\times \frac{\mathrm{d}\vec{P}(t)}{\mathrm{d}t} \frac{\exp(i\vec{k}\cdot \vec{r})}{|\vec{r}|} \\
+ & = \frac{\mu_{0}}{4\pi} \frac{\exp(i\vec{k}\cdot \vec{r})}{|\vec{r}|} i |\vec{k}|\hat{e}_{r}\times \dot{\vec{P}}(t) \\
+ & =-\frac{\mu_{0}}{4\pi} \frac{\exp(i\vec{k}\cdot \vec{r})}{|\vec{r}|} \frac{1}{c} \hat{e}_{r}\times \ddot{\vec{P}} \\
+ & =\frac{1}{4\pi \epsilon_{0}c^{3}} \frac{\exp(i\vec{k}\cdot \vec{r})}{|\vec{r}|} \ddot{\vec{P}}\times \hat{e}_r \\
+\vec{E}(\vec{r},t) & = c\vec{B}\times \hat{e}_{r} \\
+ & =\frac{1}{4\pi \epsilon_{0}c^{2}} \frac{\exp(i\vec{k}\cdot \vec{r})}{|\vec{r}|} (\ddot{\vec{P}}\times \hat{e}_{r})\times \hat{e}_{r}
+\end{align}
+$$
+ ![[Pasted image 20250905135224.png|480]] 
 ## Energy Perspective
-
+$$
+\begin{align}
+\varepsilon = \frac{\mathrm{d}E}{\mathrm{d}V} = \frac{1}{2}\epsilon_{0}|\vec{E}|^{2} + \frac{1}{2\mu_{0}}|\vec{B}|^{2}  
+\end{align}
+$$
+Energy Conservation Law: 
+$$
+\begin{align}
+\oint_{ \partial V } \vec{S}\cdot \mathrm{d}\vec{A} + \frac{ \partial }{ \partial t } \int_{V}\varepsilon\mathrm{d}V = 0 \iff \nabla \cdot \vec{S} + \frac{ \partial \varepsilon }{ \partial t } = 0
+\end{align}
+$$
+then we have
+$$
+\begin{align}
+\vec{S} = \vec{E}\times \vec{H} = \vec{E}\times \frac{\vec{B}}{\mu_{0}}
+\end{align}
+$$
 # Symmetry in Maxwell Eqs (Narrow Relativitistic Electrodynamics and Gauge Symmetry)
 
 - [Narrow Relativitistic Electiodynamics](https://zhuanlan.zhihu.com/p/29540507240?share_code=ETFJ05NDBFqJ&utm_psn=1946943152301772846) 
@@ -318,7 +401,7 @@ $$
 2) **Seperation Variables Method** 
 $$
 \begin{align}
-\nabla^{2} & = \frac{1}{r} \left( \frac{ \partial }{ \partial r } \right)^{2}(r\cdot) - \frac{\hat{l}^{2}}{r^{2}}\cdot \\
+\nabla^{2}\cdot & = \frac{1}{r} \left( \frac{ \partial }{ \partial r } \right)^{2}(r\cdot) - \frac{\hat{l}^{2}}{r^{2}}\cdot \\
 \varphi(\vec{r}) & = R( {r})Y_{lm}(\theta,\phi) 
 \end{align}
 $$

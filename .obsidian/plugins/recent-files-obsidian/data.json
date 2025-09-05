@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shc电动力学",
+      "path": "Phys/Basic Phys/shc电动力学.pdf"
+    },
+    {
       "basename": "Electrodynamics",
       "path": "Phys/Basic Phys/Electrodynamics.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "AI-LLM tools",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/AI-LLM tools.md"
-    },
-    {
-      "basename": "Obsidian Settings",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Software and Settings/Obsidian Settings.md"
     }
   ],
   "omittedPaths": [],
