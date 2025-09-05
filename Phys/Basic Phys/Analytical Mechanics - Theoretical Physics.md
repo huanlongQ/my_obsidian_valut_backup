@@ -337,3 +337,4 @@ $$
 \{ u,v \}_{q,p} \equiv \frac{ \partial u }{ \partial q } \frac{ \partial v }{ \partial p } -\frac{ \partial u }{ \partial p } \frac{ \partial v }{ \partial q } 
 \end{align}
 $$
+ [possion bracket](https://www.zhihu.com/question/52691484/answer/131650955?share_code=1bwNhnuToh2FN&utm_psn=1947369134896686566) 

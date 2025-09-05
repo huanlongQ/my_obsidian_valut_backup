@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Analytical Mechanics - Theoretical Physics",
+      "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
+    },
+    {
       "basename": "Electrodynamics",
       "path": "Phys/Basic Phys/Electrodynamics.md"
+    },
+    {
+      "basename": "Pasted image 20250328141712",
+      "path": "zzzhe_Attachments/Pasted image 20250328141712.png"
+    },
+    {
+      "basename": "Pasted image 20250407214203",
+      "path": "zzzhe_Attachments/Pasted image 20250407214203.png"
+    },
+    {
+      "basename": "Pasted image 20250512201442",
+      "path": "zzzhe_Attachments/Pasted image 20250512201442.png"
+    },
+    {
+      "basename": "Pasted image 20250512162721",
+      "path": "zzzhe_Attachments/Pasted image 20250512162721.png"
     },
     {
       "basename": "shc电动力学",
       "path": "Phys/Basic Phys/shc电动力学.pdf"
     },
     {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+      "basename": "240f1cdeacc2268e98cd1d1e530a44b",
+      "path": "zzzhe_Attachments/240f1cdeacc2268e98cd1d1e530a44b.jpg"
     },
     {
       "basename": "Quantum Mechanics",
       "path": "Phys/Basic Phys/Quantum Mechanics.md"
+    },
+    {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
       "basename": "Zen",
@@ -39,10 +63,6 @@
     {
       "basename": "log2025",
       "path": "LOG/log2025.md"
-    },
-    {
-      "basename": "Analytical Mechanics - Theoretical Physics",
-      "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
     },
     {
       "basename": "Mechanism of Life",
@@ -179,26 +199,6 @@
     {
       "basename": "How to Observe an Industry - A Framwork to do Industry Analysis",
       "path": "Industries/How to Observe an Industry - A Framwork to do Industry Analysis.md"
-    },
-    {
-      "basename": "Kelvin Kelly",
-      "path": "non-STEM/_Good People/Kelvin Kelly.md"
-    },
-    {
-      "basename": "Reading, Learning and Neuroscience Mechanism",
-      "path": "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
-    },
-    {
-      "basename": "Reading Suggestions of DeepH",
-      "path": "Phys/AI4Science Paradigm/DeepH typical ML; ML as optim/Reading Suggestions of DeepH.md"
-    },
-    {
-      "basename": "Fourier Transformation",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/MATH (Pure Math for Phys)/Fourier Transformation.md"
-    },
-    {
-      "basename": "AI-LLM tools",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/RESOURCE for STEM/AI-LLM tools.md"
     }
   ],
   "omittedPaths": [],
