@@ -62,11 +62,10 @@ git config --global core.longpaths true // give validity to long name files
 | `git push`    | `git push origin main` <br>`git push -u origin local_main:remote_main`                                                                                                                     | 将本地分支的提交**推送**到远程仓库。`-u` 用于首次推送时建立本地与远程分支的关联。<br>`git push -u origin master`(`--set-upstream`)的作用是设置上游分支，这样之后你只需要简单地使用 `git push` 和 `git pull` 即可，Git 会知道要推送到哪个远程分支。               |
 
 ### `git lfs manual` 
-![[Pasted image 20250906201302.png]]
 
-![[Pasted image 20250906201138.png]]
+it's a remote repo's fault. ![[Pasted image 20250906201617.png]] 
+![[Pasted image 20250906201412.png]]
 
-![[Pasted image 20250906200947.png]]
 - [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
 **if error, remove remote and add them back, then push.**  
 1) `git remote remove origin`
