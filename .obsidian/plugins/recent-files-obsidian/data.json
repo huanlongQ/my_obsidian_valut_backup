@@ -5,6 +5,18 @@
       "path": "Phys/Basic Phys/Quantum Mechanics.md"
     },
     {
+      "basename": "Analytical Mechanics - Theoretical Physics",
+      "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
+    },
+    {
+      "basename": "Electrodynamics",
+      "path": "Phys/Basic Phys/Electrodynamics.md"
+    },
+    {
+      "basename": "Zen of Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
+    },
+    {
       "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
       "path": "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf"
     },
@@ -13,16 +25,8 @@
       "path": "Daily Work/曹庆宏量子复习.md"
     },
     {
-      "basename": "Electrodynamics",
-      "path": "Phys/Basic Phys/Electrodynamics.md"
-    },
-    {
       "basename": "Git, version control",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
-    },
-    {
-      "basename": "Analytical Mechanics - Theoretical Physics",
-      "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
     },
     {
       "basename": "普通物理-Optics",
@@ -83,10 +87,6 @@
     {
       "basename": "mobilephone port - 2025",
       "path": "LOG/mobilephone port - 2025.md"
-    },
-    {
-      "basename": "Zen of Coding",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
     },
     {
       "basename": "Basic CLI commands",

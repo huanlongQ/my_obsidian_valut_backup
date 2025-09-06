@@ -2,7 +2,8 @@
 
 - [大佬们编程一直是这样吗？？](https://www.zhihu.com/question/640637395) 先天编程圣体的思路. 
 - [你的编程能力从什么时候开始突飞猛进?](https://www.zhihu.com/question/356351510/answer/111955045382?share_code=12KySEdAJpZj8&utm_psn=1938641334824067232) 各类**编程思想小汇总**. 
-- [‎Gemini - Functional Programming](https://g.co/gemini/share/6ff4f0d80145) 
+- [‎Gemini - Functional Programming](https://g.co/gemini/share/6ff4f0d80145)
+- [Code Review](https://www.zhihu.com/question/41089988/answer/1947781098454123225?share_code=xgRSGmeymx8J&utm_psn=1947815802477744215)
 
 # 面向对象 Object Oriented Programming
 
