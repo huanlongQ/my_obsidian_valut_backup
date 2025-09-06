@@ -63,6 +63,8 @@ git config --global core.longpaths true // give validity to long name files
 
 ### `git lfs manual` 
 
+![[Pasted image 20250906201138.png]]
+
 ![[Pasted image 20250906200947.png]]
 - [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
 **if error, remove remote and add them back, then push.**  
