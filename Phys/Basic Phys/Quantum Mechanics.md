@@ -273,6 +273,8 @@ $$
 
 ### Selection Rule
 
+- [‎Gemini - Atomic Transition Selection Rules Explained](https://g.co/gemini/share/3e23e7795548)
+
 $$
 \begin{align}
 \bra{nlm}\pmb{\vec{r}}\ket{n'l'm'} = \begin{cases}\text{not } 0 & |\Delta l|= \pmb{1} \text{ and }|\Delta m|= \pmb{0}\text{ or } \pmb{1} \\
@@ -340,3 +342,5 @@ $$
 $$
 
 # Variations Principle  
+
+
