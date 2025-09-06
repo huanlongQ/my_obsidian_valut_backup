@@ -52,7 +52,6 @@ git config --global core.longpaths true // give validity to long name files
 ## `remote` 
 
 - [Gemini - Git 与 GitHub 仓库连接指南, 包括credentials manager, multi remote push](https://g.co/gemini/share/42fd27030128)
-- [‎Gemini - git lfs install and remote](https://g.co/gemini/share/f9d2a3ba9a26) 
 
 | 命令            | 示例                                                                                                                                                                                         | 描述                                                                                                                                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,6 +62,7 @@ git config --global core.longpaths true // give validity to long name files
 
 ### `git lfs manual` 
 
+- [‎Gemini - git lfs install and remote](https://g.co/gemini/share/f9d2a3ba9a26) 
 - [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
 
 ⭐ a obsidian-git push error: 

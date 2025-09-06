@@ -217,18 +217,31 @@ E_{n}^{2} & =\sum_{m\neq n}\frac{\langle n|V|m \rangle\langle m|V| n\rangle}{E_n
 $$
 
 # Time Dependent Perturbation Theory
-
+## Theory
 **Formulas**: 
 $$
 \begin{align}
 H & =H_{0}+V(t), \text{ with } \frac{|V(t)}{H_{0}}|\ll 1 \\
 \ket{\psi}  & = c_{i}\exp\left( -i \frac{E_{i}}{\hbar}t \right)\ket{i} , \text{  apply EinSum rule} \\
-\dot{c}_{i}  & = -\frac{i}{\hbar} \bra{i} V(t)\ket{j}c_{j}\times\underset{ \text{belike Rabi term, match and dismatch } V(t) \text{'s freq, } }{\underline{\underline{\underline{\exp\left( i \frac{E_{i}-E_{j}}{\hbar} t \right)}}}} =\pmb{-\frac{i}{\hbar}\bra{i(t)}V(t)\ket{j(t)} c_{j}}
+\dot{c}_{i}  & = -\frac{i}{\hbar} \bra{i} V(t)\ket{j}c_{j}\times\underset{ \text{belike Rabi term, match and dismatch } V(t) \text{'s freq, } }{\underline{\underline{\underline{\exp\left( i \frac{E_{i}-E_{j}}{\hbar} t \right)}}}}  \\
+ & =\pmb{-\frac{i}{\hbar}\bra{i(t)}V(t)\ket{j(t)} c_{j}} \\ 
+i\hbar \frac{ \partial  }{ \partial t } \underset{ c_{i} }{\underline{\underline{\underline{
+\left[ \begin{array}{cccccccccc}    \\  \\  \end{array} \right]  }}}}  & = \underset{ \bra{i(t)}V(t)\ket{j(t)}  }{\underline{\underline{\underline{\left[ \begin{array}{cccccccccc}   &  \\  &  \end{array} \right]   }}}} \underset{  c_{j}  }{\underline{\underline{\underline{   \left[ \begin{array}{cccccccccc}    \\  \\  \end{array} \right]     }}}}
 \end{align}
 $$
 
+## Applications
+### Sin Perturbation
+### EM radiation
+
+## Fermi Golden Rule
 ## Adiabatic Theorem
 
 -  [Gemini - CM QM counterpart of Adia Invar; QM Adia in Modern Phys; Proof of Adia Theorem](https://g.co/gemini/share/c1f07c26d892) ⭐
 
+$$
+\begin{align}
+H = H(\lambda), \frac{\mathrm{d}\lambda}{\mathrm{d}t} \ll 1   
+\end{align}
+$$
 # Variations Principle  
