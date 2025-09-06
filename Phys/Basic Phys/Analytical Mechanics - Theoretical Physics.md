@@ -1,3 +1,6 @@
+
+⭐Total Differential 
+
 # From Newton to Euler Lagrange 
 
 - [拉格朗日力学](https://zhuanlan.zhihu.com/p/689698377) 
@@ -331,10 +334,11 @@ $$
 
 # Possion Bracket
 
+-  [possion bracket](https://www.zhihu.com/question/52691484/answer/131650955?share_code=1bwNhnuToh2FN&utm_psn=1947369134896686566) 
+
 assume we have 2 variables: $u = u(q,p,t),v=v(q,p,t)$, then define a bracket: 
 $$
 \begin{align}
 \{ u,v \}_{q,p} \equiv \frac{ \partial u }{ \partial q } \frac{ \partial v }{ \partial p } -\frac{ \partial u }{ \partial p } \frac{ \partial v }{ \partial q } 
 \end{align}
 $$
- [possion bracket](https://www.zhihu.com/question/52691484/answer/131650955?share_code=1bwNhnuToh2FN&utm_psn=1947369134896686566) 

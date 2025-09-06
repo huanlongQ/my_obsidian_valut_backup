@@ -8,7 +8,7 @@ $$
 \end{align}
 $$
 
-# From Classical Mechanics to Quantum Mechanics: Schrodinger Eq
+# From Classical Mechanics to Quantum Mechanics: Schrodinger Eq 
 
 $$
 \begin{align}

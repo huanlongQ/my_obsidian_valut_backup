@@ -2,6 +2,7 @@
 - [Gemini - Git Line Endings and Filename Errors](https://g.co/gemini/share/3ac13b269887) 
 * [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html) 
 - [Gemini - Git 与 GitHub 仓库连接指南, 包括credentials manager, multi remote push](https://g.co/gemini/share/42fd27030128)
+- [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
 
 # Summary
 
@@ -59,6 +60,11 @@ git config --global core.longpaths true // give validity to long name files
 | `git fetch`   | `git fetch origin`                                                                                                                                                                         | 从远程仓库**获取**最新的历史记录，但**不合并**到你本地的分支。                                                                                                                                                |
 | `git pull`    | `git pull origin main`<br>`git pull origin main --allow-unrelated-histories`                                                                                                               | 从远程仓库获取最新历史记录并**自动合并**到你当前的分支 (`fetch` + `merge`)。                                                                                                                                 |
 | `git push`    | `git push origin main` <br>`git push -u origin local_main:remote_main`                                                                                                                     | 将本地分支的提交**推送**到远程仓库。`-u` 用于首次推送时建立本地与远程分支的关联。<br>`git push -u origin master`(`--set-upstream`)的作用是设置上游分支，这样之后你只需要简单地使用 `git push` 和 `git pull` 即可，Git 会知道要推送到哪个远程分支。               |
+
+### `git lfs manual` 
+
+- [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
+**if error, remove remote and add them back, then push.**  
 
 # `git` conceptions
 

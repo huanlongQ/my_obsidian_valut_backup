@@ -1,3 +1,10 @@
+
+**毫无疑问, 刘川老师的电动力学是我迄今有过最好的电动力学教材** 
+
+⭐Eigen Problem
+⭐Green Func Method
+⭐Multi Polar Expansion
+
 # Tensor or Vector Analysis 
 
 $$
@@ -418,8 +425,8 @@ $$
   & \text{Current Conservation Law: } & \partial_{\mu}J^{\mu} & = 0 \\  
  & \text{Gauge Transformation:} & A^{\mu} & \to A^{\mu} + \partial^{\mu}\chi \\
  & \text{Lorentz Gauge: } & \partial_{\mu}A^{\mu} & =0 \\  
- & \text{EM potential:}  &    \partial^{\nu}  \partial_{\nu}A^{\mu}  & = -\mu_{0}J^{\mu} + (  \partial^{\nu}  \partial_{\nu}  )\partial^{\mu}\chi   \text{ ( this tell us EM potential is 4-Vector)}\\
- & \text{EM potential under Lorentz: } & ( \partial^{\nu} \partial_{\nu} ) A^{\mu} & = -\mu_{0}J^{\mu} \text{ ( this tell us EM potential is 4-Vector)}\\
+ & \text{EM potential:}  &    \partial^{\nu}  \partial_{\nu}A^{\mu}  & =  \mu_{0}J^{\mu} + (  \partial^{\nu}  \partial_{\nu}  )\partial^{\mu}\chi   \text{ ( this tell us EM potential is 4-Vector)}\\
+ & \text{EM potential under Lorentz: } & ( \partial^{\nu} \partial_{\nu} ) A^{\mu} & =  \mu_{0}J^{\mu} \text{ ( this tell us EM potential is 4-Vector)}\\
  & \text{Faraday Tensor:} & F^{\mu \nu} & = \partial^{\mu}A^{\nu}- \partial^{\nu}A^{\mu} \\
  & & & \overset{\text{Gauge Trans}}{\implies} ( \partial^{\mu}A^{\nu} + \partial^{\mu} \partial_{\nu}\chi )- ( \partial^{\nu}A^{\mu} + \partial^{\nu} \partial_{\mu}\chi ) \\
  & & & = \partial^{\mu}A^{\nu}- \partial^{\nu}A^{\mu} + \underset{0}{\underline{\underline{\underline{ {( \partial^{\mu} \partial_{\nu}- \partial^{\nu} \partial_{\mu} )\chi }}}}}= \partial^{\mu}A^{\nu}- \partial^{\nu}A^{\mu} \\
