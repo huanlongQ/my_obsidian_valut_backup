@@ -5,8 +5,20 @@
       "path": "Phys/Basic Phys/Quantum Mechanics.md"
     },
     {
+      "basename": "曹庆宏量子复习",
+      "path": "Daily Work/曹庆宏量子复习.md"
+    },
+    {
+      "basename": "log2025",
+      "path": "LOG/log2025.md"
+    },
+    {
       "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
       "path": "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf"
+    },
+    {
+      "basename": "shc电动力学",
+      "path": "Phys/Basic Phys/shc电动力学.pdf"
     },
     {
       "basename": "Git, version control",
@@ -17,16 +29,8 @@
       "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
     },
     {
-      "basename": "shc电动力学",
-      "path": "Phys/Basic Phys/shc电动力学.pdf"
-    },
-    {
       "basename": "Electrodynamics",
       "path": "Phys/Basic Phys/Electrodynamics.md"
-    },
-    {
-      "basename": "log2025",
-      "path": "LOG/log2025.md"
     },
     {
       "basename": "Pasted image 20250328141712",
@@ -195,10 +199,6 @@
     {
       "basename": "matplotlib",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/matplotlib.md"
-    },
-    {
-      "basename": "excellent python pkgs",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/excellent python pkgs.md"
     }
   ],
   "omittedPaths": [],

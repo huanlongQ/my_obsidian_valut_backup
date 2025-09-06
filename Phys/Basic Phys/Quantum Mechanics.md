@@ -177,12 +177,35 @@ $$
 \end{align}
 $$
 
-# Time Independent Perturbation Theory 
+# Time Independent Perturbation Theory  
+
+-  [Gemini - Quantum Mechanics Perturbation Theory **coeffs sign** Explained](https://g.co/gemini/share/5d935eaa9ebe) ⭐
+
+**Formulas**: 
+$$
+\begin{align} 
+H  & = H_{0}+V ,\text{ with } |\frac{V}{H_{0}}|\ll 1 \\
+\ket{\psi}  & = \ket{\psi^{0}} +\sum_{i=1}^{\infty} \ket{\psi^{i}} \\
+ E & = E^{0} + \sum_{i=1}^{\infty} E^{i}\\
+  E^{1}_{n}  & = \langle n|V| n \rangle \\
+\ket{\psi_{n}^{1}}  & = \sum_{m\neq n}\ket{m}\times\underset{  \text{above energy decrease, below energy increase.} }{\underline{\underline{\underline{   \frac{\langle m|V|n \rangle}{E_{n}-E_{m}}     }}}} ,\text{go to the above ⭐ Gemini chat} \\
+E_{n}^{2} & =\sum_{m\neq n}\frac{\langle n|V|m \rangle\langle m|V| n\rangle}{E_n-E_m}   \\
+\end{align}
+$$
 
 # Time Dependent Perturbation Theory
+
+**Formulas**: 
+$$
+\begin{align}
+H & =H_{0}+V(t), \text{ with } \frac{|V(t)}{H_{0}}|\ll 1 \\
+\ket{\psi}  & = c_{i}\exp\left( -i \frac{E_{i}}{\hbar}t \right)\ket{i} , \text{  apply EinSum rule} \\
+\dot{c}_{i}  & = -\frac{i}{\hbar} \bra{i} V(t)\ket{j}c_{j}\times\underset{ \text{belike Rabi term, match and dismatch } V(t) \text{'s freq, } }{\underline{\underline{\underline{\exp\left( i \frac{E_{i}-E_{j}}{\hbar} t \right)}}}} =\pmb{-\frac{i}{\hbar}\bra{i(t)}V(t)\ket{j(t)} c_{j}}
+\end{align}
+$$
 
 ## Adiabatic Theorem
 
 -  [Gemini - CM QM counterpart of Adia Invar; QM Adia in Modern Phys; Proof of Adia Theorem](https://g.co/gemini/share/c1f07c26d892) ⭐
 
-# Variations Principle ⭐
+# Variations Principle  
