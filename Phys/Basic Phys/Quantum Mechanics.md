@@ -217,7 +217,9 @@ E_{n}^{2} & =\sum_{m\neq n}\frac{\langle n|V|m \rangle\langle m|V| n\rangle}{E_n
 $$
 
 # Time Dependent Perturbation Theory
+
 ## Theory
+
 **Formulas**: 
 $$
 \begin{align}
@@ -231,17 +233,62 @@ i\hbar \frac{ \partial  }{ \partial t } \underset{ c_{i} }{\underline{\underline
 $$
 
 ## Applications
+
 ### Sin Perturbation
+
 ### EM radiation
 
 ## Fermi Golden Rule
+
 ## Adiabatic Theorem
 
 -  [Gemini - CM QM counterpart of Adia Invar; QM Adia in Modern Phys; Proof of Adia Theorem](https://g.co/gemini/share/c1f07c26d892) ⭐
 
 $$
 \begin{align}
-H = H(\lambda), \frac{\mathrm{d}\lambda}{\mathrm{d}t} \ll 1   
+ & \text{Hamiltonian:} & H &  = H(\lambda), \frac{\mathrm{d}\lambda}{\mathrm{d}t} \ll 1    \\
+ & \text{state:} & \ket{\psi}  & = \sum c_{i}(t)\exp\left( -\frac{i}{\hbar}\int E_{i}(t)\mathrm{d}t \right)\ket{i(t)} \\
+ & \text{Schrodinger said:} & i\hbar \frac{ \partial  }{ \partial t } \ket{\psi} & =H(\lambda)\ket{\psi} \\
+ & \text{left side: } & i\hbar \frac{ \partial  }{ \partial t } \ket{\psi} & =\sum i\hbar \frac{ \partial c_{i} }{ \partial t } \exp\left( -\frac{i}{\hbar}\int E_{i}(t)\mathrm{d}t \right)\ket{i(t)}  \\
+ &  &  & +\sum c_{i}E_{i}(t)\exp\left( -\frac{i}{\hbar}\int E_{i}(t)\mathrm{d}t \right)\ket{i(t)}  \\
+ &  &  & + \sum i\hbar c_{i}\exp\left( -\frac{i}{\hbar} \int E_{i}(t)\mathrm{d}t  \right) \frac{ \partial  }{ \partial t } \ket{i(t)} \\
+ & \text{right side: } & H\ket{\psi} & =\sum c_{i}E_{i}(t)\ket{i(t)} \\
+ &  \text{then: } & 0 & =\sum i\hbar  \dot{c}_{i} \exp\left( -\frac{i}{\hbar} \int E_{i}(t)\mathrm{d}t  \right)\ket{i(t)}  +i\hbar c_{i} \exp\left( -\frac{i}{\hbar} \int E_{i}(t)\mathrm{d}t  \right) \frac{ \partial  }{ \partial t } \ket{i(t)} \\
+ & \text{inner product with }\bra{j(t)} & 0 & =   \dot{c}_{j}\exp\left(-\frac{i}{\hbar} \int E_{j}(t)\mathrm{d}t \right) +\sum   c_{i}\exp\left( -\frac{i}{\hbar} \int E_{i}(t)\mathrm{d}t  \right) \pmb{\bra{j(t)}\frac{ \partial  }{ \partial t } \ket{i(t)} }, \text{(⭐)}
 \end{align}
 $$
+apply a algebraic manipulation: 
+$$
+\begin{align}
+\frac{ \partial  }{ \partial t } (H\ket{i(t)})  & = \frac{ \partial  }{ \partial t } (E_{i}(t)\ket{i(t)}) \\
+\dot{H}\ket{i(t)} + H\frac{ \partial  }{ \partial t } \ket{i{(t)}}  & = \dot{E}_{i}(t)\ket{i(t)} + E_{i}(t)\frac{ \partial  }{ \partial t } \ket{i(t)} \\
+\text{inner product with }\bra{j(t)}\text{:} \bra{j(t)}\dot{H}\ket{i(t)}  + \bra{j(t)}H\frac{ \partial  }{ \partial t } \ket{i(t)} & =\dot{E}_{i}(t)\langle j(t)\ket{i(t)} + E_{i}(t)\bra{j(t)}\frac{ \partial  }{ \partial t } \ket{i(t)} \\
+ \text{then:} \quad\bra{j(t)}\dot{H}\ket{i(t)}  &  = (E_{i}(t)-E_{j}(t))\times\bra{j(t)}\frac{ \partial  }{ \partial t } \ket{i(t)}   \\
+  \text{then finally:}\ \ \  \boxed{\pmb{\bra{j(t)}\frac{ \partial  }{ \partial t } \ket{i(t)}    =\frac{\bra{j(t)}\dot{H} \ket{i(t)}}{E_{i}(t)-E_{j}(t)} }}
+\end{align}
+$$
+then we have: 
+$$
+\begin{align}
+ \dot{c}_{j}  & = -\sum c_{i}\exp\left( -\frac{i}{\hbar} \int (E_{j}(t)-E_{i}(t))\mathrm{d}t  \right) \frac{\bra{j(t)}\dot{H} \ket{i(t)}}{E_{i}(t)-E_{j}(t)}  \\
+ & = \sum c_{i}\exp[i(\theta_{i}(t)-\theta_{j}(t)] \frac{\bra{j(t)}\dot{H} \ket{i(t)}}{E_{j}(t)-E_{i}(t)} 
+\end{align}
+$$
+Because $\dot{H}\approx \frac{\mathrm{d}\lambda}{\mathrm{d}t} \ll {1}$
+$$
+\begin{align}  
+\pmb{ \dot{c}_{j} \approx 0}\\
+\end{align}
+$$
+ but if we have a closed path in the lambda space, then we got **Berry Phase**: (from (⭐) start: )
+$$
+\begin{align}
+ & \text{if we start from j-th state}: & c_{j}=1b,  & \pmb{c_{i\neq j}=0}  \\
+ & \text{⭐ formula:}  & \dot{c}_{j} & =-c_{j}\bra{j(t)}\frac{ \partial  }{ \partial t } \ket{j(t)}  =  \\
+ &  &  & =-c_{j}\bra{j(\lambda(t)) }\frac{ \partial \lambda }{ \partial t } \frac{ \partial  }{ \partial \lambda } \ket{j(t)} \\
+ & \text{then:}  & \frac{ \partial  c_{j}}{ \partial \lambda }  & = \boxed{c_{j} \times i\times i\bra{j(\lambda)}\frac{ \partial  }{ \partial \lambda } \ket{j(\lambda)}  } \\
+ & \text{then:}  & \gamma  & = \boxed{\pmb{i\bra{j(\lambda)}\frac{ \partial  }{ \partial \lambda } \ket{j(\lambda)}} }
+\end{align}
+$$   
+
 # Variations Principle  
