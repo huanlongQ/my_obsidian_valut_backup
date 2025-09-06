@@ -91,7 +91,7 @@ $$
 
 ### Other effects
 
-# Spin and Angular Momentum and $\mathrm{SU}(2)$ or $\mathrm{SO(3)}$ Algebra⭐ 
+# Spin and Angular Momentum $\iff$ $\mathrm{SU}(2)$ or $\mathrm{SO(3)}$ Algebra⭐ 
 
 Spin: 
 $$
@@ -180,5 +180,9 @@ $$
 # Time Independent Perturbation Theory 
 
 # Time Dependent Perturbation Theory
+
+## Adiabatic Theorem
+
+-  [Gemini - CM QM counterpart of Adia Invar; QM Adia in Modern Phys; Proof of Adia Theorem](https://g.co/gemini/share/c1f07c26d892) ⭐
 
 # Variations Principle ⭐
