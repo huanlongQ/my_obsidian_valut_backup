@@ -211,7 +211,7 @@ H  & = H_{0}+V ,\text{ with } |\frac{V}{H_{0}}|\ll 1 \\
 \ket{\psi}  & = \ket{\psi^{0}} +\sum_{i=1}^{\infty} \ket{\psi^{i}} \\
  E & = E^{0} + \sum_{i=1}^{\infty} E^{i}\\
   E^{1}_{n}  & = \langle n|V| n \rangle \\
-\ket{\psi_{n}^{1}}  & = \sum_{m\neq n}\ket{m}\times\underset{  \text{above energy decrease, below energy increase.} }{\underline{\underline{\underline{   \frac{\langle m|V|n \rangle}{E_{n}-E_{m}}     }}}} ,\text{go to the above ⭐ Gemini chat} \\
+\ket{\psi_{n}^{1}}  & = \sum_{m\neq n}\ket{m}\times\underset{  \text{above energy decrease, below energy increase.} }{\underline{\underline{\underline{   \frac{\langle m|V|n \rangle}{\pmb{E_{n}-E_{m}}}     }}}} ,\text{go to the above ⭐ Gemini chat} \\
 E_{n}^{2} & =\sum_{m\neq n}\frac{\langle n|V|m \rangle\langle m|V| n\rangle}{E_n-E_m}   \\
 \end{align}
 $$
@@ -234,11 +234,59 @@ $$
 
 ## Applications
 
-### Sin Perturbation
+### Sine Perturbation
+
+for Two Level System, we have $H(t)=V\cos(\omega t)$ 
+$$
+\begin{align}
+ & \text{initial state:} &  c_{0}=1, &c_{1}=0  \\
+ & \text{then:} & i\hbar \frac{ \partial c_{1} }{ \partial t }  & = \bra{0}V\ket{1} \cos(\omega t) \exp\left( i\frac{ (E_{0}-E_{1})}{\hbar}t \right)c_{0}\\
+ & \text{then:} &    \dot{c}_{1}  & = -\frac{i}{\hbar}V_{01} \frac{\exp(i\omega t)+\exp(-i\omega t)}{2} \exp\left( i\frac{(E_{0}-E_{1})}{\hbar}t \right) c_{0}  \\
+ &  &  & =-\frac{i}{2\hbar}V_{01}c_{0}\left(  \exp\left( i\left( \omega - \frac{E_{1}-E_{0}}{\hbar} \right)t \right) +  \exp\left( i\left( \omega + \frac{E_{1}-E_{0}}{\hbar} \right)t \right)  \right) \\ 
+ &  &  & \approx -\frac{i}{2\hbar}V_{01}   \exp\left( i\left( \omega - \frac{E_{1}-E_{0}}{\hbar} \right)t \right) + \underset{ \text{rotating wave approximation} }{\underline{\underline{\underline{\pmb{0} }}}}  \\
+& \text{then:} & c_{1}(t) & = -i\frac{V_{01}}{\hbar} \times \frac{\sin\left( \frac{(\omega_{0}-\omega)t}{2} \right)}{\omega_{0}-\omega} \times \exp\left( i\frac{(\omega_{0}-\omega)}{2} t\right)  \\
+& \text{then:}& |c_{1}(t)|^{2}  & =\pmb{\frac{|V_{01}|^{2}}{\hbar^{2}} \left[ \frac{\sin\left( \frac{(\omega_{0}-\omega)}{2} t\right)}{\omega_{0}-\omega}  \right]^{2} }= \boxed{\pmb{\frac{|V_{01}|^{2}}{\hbar^{2}(\omega_{0}-\omega)^{2}} \sin ^{2}\left( \frac{(\omega_{0}-\omega)}{2} t \right)}}
+\end{align}
+$$
 
 ### EM radiation
 
+for single freq $\vec{E}=\hat{z}E_{z}\cos(\omega t)$. 
+
+$$
+\begin{align} 
+V(t)  & = -qE_{z}z \cos(\omega t) \\
+|c_{1}(t)|^{2}  & = \frac{|\bra{1}-qE_{z}z\ket{0} |^{2}}{\hbar^{2}} \left[ \frac{\sin\left( \frac{\omega -\omega_{0}}{2}t \right)}{\omega-\omega_{0}} \right]^{2} = \frac{|\bra{1}\vec{p}\ket{0} \cdot \vec{E}|^{2}}{\hbar^{2}} \left[ \frac{\sin\left( \frac{\omega-\omega_{0}}{2}t \right)}{\omega-\omega_{0}} \right]^{2} \\
+ &  = \frac{E_{0}^{2}|\bra{1}p_{z}\ket{0}|^{2}}{\hbar^{2}} \left[ \frac{\sin\left( \frac{\omega -\omega_{0}}{2}t \right)}{\omega-\omega_{0}} \right]^{2}
+\end{align}
+$$
+
+for energy density $\rho(\omega )\mathrm{d}\omega = \frac{1}{2}\epsilon_{0}E^{2}(\omega)\mathrm{d}\omega$, then: 
+$$
+\begin{align}
+|c_{1}|^{2}(\omega)\mathrm{d}\omega & =\frac{2\rho(\omega)\mathrm{d}\omega}{\epsilon_{0}\hbar^{2}} |\bra{0}p_{z}\ket{1}|^{2} \left[ \frac{\sin\left( \frac{\omega-\omega_{0}}{2}t \right)}{\omega-\omega_{0}} \right]^{2} \\
+|c_{1}|^{2}  & = \int|c_{1}|^{2}\mathrm{d}\omega \approx \frac{2|\bra{0}p_{z}\ket{1} |^{2}}{\epsilon_{0}\hbar^{2}}\rho(\omega_{0})\int_{0}^{\infty}\left[ \frac{\sin\left( \frac{\omega-\omega_{0}}{2}t \right)}{\omega-\omega_{0}} \right]^{2}\mathrm{d}\omega \\
+  & \approx \frac{\pi|\bra{0}p_{z}\ket{1}|^{2}}{\epsilon_{0}\hbar^{2}}\rho(\omega_{0})\times t  \\
+\text{then: } & \pmb{\boxed{ R  \equiv \frac{\mathrm{d}|c_{1}|^{2}}{\mathrm{d}t} = \frac{\pi|\bra{0}p_{z}\ket{1}|^{2} }{\epsilon_{0}\hbar^{2}}\rho(\omega_{0})\propto |\bra{0}p_{z}\ket{1}|^{2}\rho(\omega_{0}) } }
+\end{align}
+$$
+
+### Selection Rule
+
+$$
+\begin{align}
+\bra{nlm}\pmb{\vec{r}}\ket{n'l'm'} = \begin{cases}\text{not } 0 & |\Delta l|= \pmb{1} \text{ and }|\Delta m|= \pmb{0}\text{ or } \pmb{1} \\
+0 & \text{others}
+\end{cases}
+\end{align}
+$$
+
 ## Fermi Golden Rule
+$$
+\begin{align}
+R=\frac{2\pi}{\hbar}|\frac{V_{if}}{2}|^{2}\rho(E_{f})
+\end{align}
+$$
 
 ## Adiabatic Theorem
 
@@ -287,8 +335,8 @@ $$
  & \text{⭐ formula:}  & \dot{c}_{j} & =-c_{j}\bra{j(t)}\frac{ \partial  }{ \partial t } \ket{j(t)}  =  \\
  &  &  & =-c_{j}\bra{j(\lambda(t)) }\frac{ \partial \lambda }{ \partial t } \frac{ \partial  }{ \partial \lambda } \ket{j(t)} \\
  & \text{then:}  & \frac{ \partial  c_{j}}{ \partial \lambda }  & = \boxed{c_{j} \times i\times i\bra{j(\lambda)}\frac{ \partial  }{ \partial \lambda } \ket{j(\lambda)}  } \\
- & \text{then:}  & \gamma  & = \boxed{\pmb{i\bra{j(\lambda)}\frac{ \partial  }{ \partial \lambda } \ket{j(\lambda)}} }
+ & \text{then:}  & \gamma  & = \boxed{\pmb{i\int\bra{j(\lambda)}\frac{ \partial  }{ \partial \lambda } \ket{j(\lambda)}\mathrm{d}\lambda}}  
 \end{align}
-$$   
+$$
 
 # Variations Principle  

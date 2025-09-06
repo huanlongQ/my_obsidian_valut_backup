@@ -9,6 +9,10 @@
       "path": "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf"
     },
     {
+      "basename": "曹庆宏量子复习",
+      "path": "Daily Work/曹庆宏量子复习.md"
+    },
+    {
       "basename": "Electrodynamics",
       "path": "Phys/Basic Phys/Electrodynamics.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "普通物理-Optics",
       "path": "Phys/Basic Phys/普通物理-Optics.md"
-    },
-    {
-      "basename": "曹庆宏量子复习",
-      "path": "Daily Work/曹庆宏量子复习.md"
     },
     {
       "basename": "log2025",
