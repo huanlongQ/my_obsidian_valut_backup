@@ -49,6 +49,13 @@ $$
 
 ## Free Electron
 
+$$
+\begin{align} 
+H & =\frac{p^{2}}{2m} \\
+\ket{\psi}   & = \ket{\vec{k}}
+\end{align}
+$$
+
 ## Harmonic Oscillation ⭐ 
 
 $$
@@ -85,7 +92,23 @@ $$
 
 ## Hydrogen Atom
 
+$$
+\begin{align}
+  H  & = \frac{p^{2}}{2m} + V(r) \\
+  & =-\frac{\hbar^{2}}{2m}\nabla^{2} + \frac{1}{4\pi \epsilon_{0}} \frac{e^{2}}{r} \\
+ & \text{where: } \nabla^{2} = \frac{1}{r}\left( \frac{ \partial  }{ \partial r } \right)^{2}(r\cdot) - \frac{L^{2}}{\hbar^{2}r^{2}} 
+\end{align}
+$$
+
 ### $\nabla^2$ and Spherical Harmonic Func $Y_{lm}$
+
+$$
+\begin{align}
+\nabla^{2}  & = \frac{1}{r}\left( \frac{ \partial  }{ \partial r }  \right)^{2}(r\cdot)-\frac{L^{2}}{\hbar^{2}r^{2}}  \\
+L^{2} & \implies \hbar^{2}l(l+1) \\
+L_{z} & \implies \hbar m  \\
+\end{align}
+$$ 
 
 ### Angular Momentum and its operators 
 

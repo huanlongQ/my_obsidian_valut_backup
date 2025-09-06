@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys/Basic Phys/Electrodynamics.md",
+                "file": "Phys/Basic Phys/Quantum Mechanics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Electrodynamics"
+              "title": "Quantum Mechanics"
             }
           },
           {
@@ -264,8 +264,9 @@
   },
   "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
-    "Phys/Basic Phys/Electrodynamics.md",
     "Phys/Basic Phys/Quantum Mechanics.md",
+    "Phys/Basic Phys/Electrodynamics.md",
+    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf",
     "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md",
     "Phys/Basic Phys/普通物理-Optics.md",
@@ -273,7 +274,6 @@
     "zzzhe_Attachments/9acee853758f08e3e01c9ddfb065122.jpg",
     "LOG/log2025.md",
     "Phys/Basic Phys/shc电动力学.pdf",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md",
     "zzzhe_Attachments/Pasted image 20250905231422.png",
     "zzzhe_Attachments/Pasted image 20250905135224.png",
     "Mechanisms (Personal Ability)/Zen.md",

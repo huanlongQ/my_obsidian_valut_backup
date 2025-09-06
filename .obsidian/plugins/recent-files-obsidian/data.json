@@ -5,12 +5,12 @@
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
-      "basename": "Electrodynamics",
-      "path": "Phys/Basic Phys/Electrodynamics.md"
-    },
-    {
       "basename": "Quantum Mechanics",
       "path": "Phys/Basic Phys/Quantum Mechanics.md"
+    },
+    {
+      "basename": "Electrodynamics",
+      "path": "Phys/Basic Phys/Electrodynamics.md"
     },
     {
       "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
