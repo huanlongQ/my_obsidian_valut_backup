@@ -66,7 +66,7 @@ git config --global core.longpaths true // give validity to long name files
 - [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
 
 ⭐ a obsidian-git push error: 
-it's a remote repo's fault. but not a specific one. it's when i set remote origin 2 (push) remote repo, obsidian-git plugin fails.  
+it's a remote repo's fault. but not a specific one. it's when i set remote origin with 2 (push) remote repo, obsidian-git plugin fails.  
 ![[Pasted image 20250906201412.png]]
 **Solution**: 
 ```shell
@@ -77,7 +77,7 @@ backup  https://github.com/huanlongQ/my_obsidian_valut_backup_2.git (push)
 origin  https://github.com/huanlongQ/my_obsidian_valut.git (fetch)
 origin  https://github.com/huanlongQ/my_obsidian_valut.git (push)
 
-// not
+// not like this
 git remote -v
 >origin  https://github.com/huanlongQ/my_obsidian_valut.git (push)
 >origin  https://github.com/huanlongQ/my_obsidian_valut.git (fetch)
