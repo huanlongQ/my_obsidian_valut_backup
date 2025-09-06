@@ -65,6 +65,9 @@ git config --global core.longpaths true // give validity to long name files
 
 - [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
 **if error, remove remote and add them back, then push.**  
+1) `git remote remove origin`
+2) `git remote add origin <url_1>`
+3) `git remote set-url --add origin <url_2>`
 
 # `git` conceptions
 

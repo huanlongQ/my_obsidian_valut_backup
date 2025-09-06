@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+    },
+    {
       "basename": "Electrodynamics",
       "path": "Phys/Basic Phys/Electrodynamics.md"
     },
     {
       "basename": "Quantum Mechanics",
       "path": "Phys/Basic Phys/Quantum Mechanics.md"
+    },
+    {
+      "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
+      "path": "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf"
+    },
+    {
+      "basename": "Analytical Mechanics - Theoretical Physics",
+      "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
+    },
+    {
+      "basename": "普通物理-Optics",
+      "path": "Phys/Basic Phys/普通物理-Optics.md"
     },
     {
       "basename": "曹庆宏量子复习",
@@ -17,20 +33,8 @@
       "path": "LOG/log2025.md"
     },
     {
-      "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
-      "path": "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf"
-    },
-    {
       "basename": "shc电动力学",
       "path": "Phys/Basic Phys/shc电动力学.pdf"
-    },
-    {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
-    },
-    {
-      "basename": "Analytical Mechanics - Theoretical Physics",
-      "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
     },
     {
       "basename": "Pasted image 20250328141712",
@@ -63,10 +67,6 @@
     {
       "basename": "Stack Mechanism ⭐",
       "path": "Mechanisms (Personal Ability)/Stack Mechanism ⭐.md"
-    },
-    {
-      "basename": "普通物理-Optics",
-      "path": "Phys/Basic Phys/普通物理-Optics.md"
     },
     {
       "basename": "pku documentations",
