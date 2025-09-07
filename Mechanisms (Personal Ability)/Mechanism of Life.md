@@ -12,6 +12,9 @@
 		Mr. 是 Mister 的缩写, Mister 源自 Master, 所以，从词源学的角度看，**Master** 可以被认为是 "Mr." 最终的“词根”或起源词。
 	在这个机制下, 需要设立一恶搞$\mathbf{Mine \ Set}$, 在Mine Set内工作进行选矿, 知道出现优质idea. 
 
-# Classifer Mechainsm
+# Classifer Mechainsm of Motivation
 
 要有动机, 然而要给动机分类. 有些动机是**建设性的**, 有些动机是**学习性的**. 
+
+- **面对学习性的动机, 应当把idea, 把思路拿出来** 
+- **面对建设性的动机, 应当把idea, 把思路用起来** 

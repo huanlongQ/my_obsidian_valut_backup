@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
-    },
-    {
       "basename": "log2025",
       "path": "LOG/log2025.md"
+    },
+    {
+      "basename": "Mechanism of Life",
+      "path": "Mechanisms (Personal Ability)/Mechanism of Life.md"
+    },
+    {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
       "basename": "2025秋季学期课程计划",
@@ -91,10 +95,6 @@
     {
       "basename": "pku documentations",
       "path": "non-Daily Work/_重要文件/pku documentations.md"
-    },
-    {
-      "basename": "Mechanism of Life",
-      "path": "Mechanisms (Personal Ability)/Mechanism of Life.md"
     },
     {
       "basename": "Interface Mechanism",
