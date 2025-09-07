@@ -1,24 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Quantum Mechanics",
-      "path": "Phys/Basic Phys/Quantum Mechanics.md"
+      "basename": "Electrodynamics",
+      "path": "Phys/Basic Phys/Electrodynamics.md"
+    },
+    {
+      "basename": "普通物理-Thermodynamics",
+      "path": "Phys/Basic Phys/普通物理-Thermodynamics.md"
     },
     {
       "basename": "Analytical Mechanics - Theoretical Physics",
       "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
     },
     {
-      "basename": "Electrodynamics",
-      "path": "Phys/Basic Phys/Electrodynamics.md"
+      "basename": "普通物理-Optics",
+      "path": "Phys/Basic Phys/普通物理-Optics.md"
     },
     {
-      "basename": "Zen of Coding",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
+      "basename": "sortspec",
+      "path": "Phys/sortspec.md"
+    },
+    {
+      "basename": "Quantum Mechanics",
+      "path": "Phys/Basic Phys/Quantum Mechanics.md"
+    },
+    {
+      "basename": "2025秋季学期课程计划",
+      "path": "non-Daily Work/2025秋季学期课程/2025秋季学期课程计划.md"
     },
     {
       "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
       "path": "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf"
+    },
+    {
+      "basename": "Zen of Coding",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Do Coding/Zen of Coding.md"
     },
     {
       "basename": "曹庆宏量子复习",
@@ -27,10 +43,6 @@
     {
       "basename": "Git, version control",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
-    },
-    {
-      "basename": "普通物理-Optics",
-      "path": "Phys/Basic Phys/普通物理-Optics.md"
     },
     {
       "basename": "log2025",
@@ -187,18 +199,6 @@
     {
       "basename": "types",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/types.md"
-    },
-    {
-      "basename": "functools",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/functools.md"
-    },
-    {
-      "basename": "itertools",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/itertools.md"
-    },
-    {
-      "basename": "matplotlib",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/matplotlib.md"
     }
   ],
   "omittedPaths": [],

@@ -1,4 +1,4 @@
-# Algebra of Commutor
+# Algebra of Commutor 
 
 $$
 \begin{align}
@@ -47,7 +47,7 @@ $$
 
 # Integrable System
 
-## Free Electron
+## Free Electron 
 
 $$
 \begin{align} 
@@ -88,9 +88,9 @@ $$
 \end{align}
 $$
 
-## $\delta$ potential
+## $\delta$ potential 
 
-## Hydrogen Atom
+## Hydrogen Atom 
 
 $$
 \begin{align}
@@ -100,7 +100,7 @@ $$
 \end{align}
 $$
 
-### $\nabla^2$ and Spherical Harmonic Func $Y_{lm}$
+### $\nabla^2$ and Spherical Harmonic Func $Y_{lm}$ 
 
 $$
 \begin{align}
@@ -112,7 +112,7 @@ $$
 
 ### Angular Momentum and its operators 
 
-### Other effects
+### Other effects 
 
 # Spin and Angular Momentum $\iff$ $\mathrm{SU}(2)$ or $\mathrm{SO(3)}$ Algebra⭐ 
 
@@ -152,7 +152,7 @@ $$
  & =0 + 0 \\
  & =0\end{align}
 $$
-2) up and down (creation and annihilation) operators:
+2) up and down (creation and annihilation) operators: 
 $$
 \begin{align}
 S_{+} = S_{x} + iS_{y} \\
@@ -276,14 +276,15 @@ $$
 - [‎Gemini - Atomic Transition Selection Rules Explained](https://g.co/gemini/share/3e23e7795548) ⭐
 
 $$
-\begin{align}
-\bra{nlm}\pmb{\vec{r}}\ket{n'l'm'} = \begin{cases}\text{not } 0 & |\Delta l|= \pmb{1} \text{ and }|\Delta m|= \pmb{0}\text{ or } \pmb{1} \\
+\begin{align} 
+ \pmb{\vec{r}} & =\hat{x}r\underset{ |\Delta l|=1,|\Delta m|=1 }{\underline{\underline{\underline{\sin \theta \cos \phi}}}} +\hat{y}r\underset{ |\Delta l|=1,|\Delta m|=1 }{\underline{\underline{\underline{\sin \theta \sin \phi}}}}  +\hat{z}r\underset{ |\Delta l|=1,|\Delta m|=0 }{\underline{\underline{\underline{\cos \theta}}}} \\
+\bra{nlm}\pmb{\vec{r}}\ket{n'l'm'} &  = \begin{cases}\text{not } 0 & |\Delta l|= \pmb{1} \text{ and }|\Delta m|= \pmb{0}\text{ or } \pmb{1} \\
 0 & \text{others}
 \end{cases}
 \end{align}
 $$
 
-## Fermi Golden Rule
+## Fermi Golden Rule 
 $$
 \begin{align}
 R=\frac{2\pi}{\hbar}|\frac{V_{if}}{2}|^{2}\rho(E_{f})

@@ -308,8 +308,8 @@ $$
 then we have: 
 $$
 \begin{align}
-\dot{\xi} = \frac{ \partial \xi }{ \partial \eta } \dot{\eta} \\
-\frac{ \partial H }{ \partial \xi }  \overset{\star \star \star}= \left( \frac{ \partial \eta }{ \partial \xi } \right)^T \frac{ \partial H }{ \partial \eta } 
+\dot{\xi} &  = \frac{ \partial \xi }{ \partial \eta } \dot{\eta} \\
+\frac{ \partial H }{ \partial \xi }  &  \overset{\star \star \star}= \left( \frac{ \partial \eta }{ \partial \xi } \right)^T \frac{ \partial H }{ \partial \eta } ,\text{this mat is a (1,1) tensor, transpose to match } \frac{ \partial \pmb{\eta} }{ \partial \xi }  \text{ and } \frac{ \partial H }{ \partial \pmb{\eta} } 
 \end{align}
 $$
 then do left side Transformation to above 2 eqs: 
