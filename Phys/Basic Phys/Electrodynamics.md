@@ -448,6 +448,7 @@ $$
 ## Gauge Symmetry
 
 -  [Gauge Symmetry Mathematical issue.](https://www.zhihu.com/question/27751426/answer/1947050546440672144?share_code=1iGdLFeGqQAtJ&utm_psn=1947975156275349300) 
+- [Gemini gauge symmetry chat](https://g.co/gemini/share/7abbfdcd2b56)
 
 We have **Maxwell Eqs with 8 Eqs**, but unknown functions only $(E_{x},E_{y},E_{z},B_{x},B_{y},B_z)$ **6**. thus the unknown functions $(E_{x},E_{y},E_{z},B_{x},B_{y},B_z)$ are **not free functions but with constraints**, we raise EM potential $(\phi,A_{x},A_{y},A_{z})$ as **4 free functions** to represent them, the gauge symmetry or gauge degree of freedom comes from this. 
 Finally, we summary that **gauge symmetry in EM theory is a cost of representing non-free(constraint) functions with free functions**. 

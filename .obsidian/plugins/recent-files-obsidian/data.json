@@ -5,6 +5,14 @@
       "path": "Phys/Basic Phys/Electrodynamics.md"
     },
     {
+      "basename": "普通物理-Optics",
+      "path": "Phys/Basic Phys/普通物理-Optics.md"
+    },
+    {
+      "basename": "Quantum Mechanics",
+      "path": "Phys/Basic Phys/Quantum Mechanics.md"
+    },
+    {
       "basename": "普通物理-Thermodynamics",
       "path": "Phys/Basic Phys/普通物理-Thermodynamics.md"
     },
@@ -13,16 +21,8 @@
       "path": "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md"
     },
     {
-      "basename": "普通物理-Optics",
-      "path": "Phys/Basic Phys/普通物理-Optics.md"
-    },
-    {
       "basename": "sortspec",
       "path": "Phys/sortspec.md"
-    },
-    {
-      "basename": "Quantum Mechanics",
-      "path": "Phys/Basic Phys/Quantum Mechanics.md"
     },
     {
       "basename": "2025秋季学期课程计划",
