@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys/Basic Phys/Electrodynamics.md",
+                "file": "LOG/log2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Electrodynamics"
+              "title": "log2025"
             }
           },
           {
@@ -67,8 +67,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           },
           {
@@ -77,8 +77,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           },
           {
@@ -108,8 +108,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,8 +170,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           },
           {
@@ -211,8 +210,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           },
           {
@@ -221,11 +220,22 @@
             "state": {
               "type": "todo",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "todo"
+            }
+          },
+          {
+            "id": "70a482933472ac16",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
               "icon": "checkmark",
               "title": "Todo List"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -247,10 +257,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b3ca681ca4e9744",
+  "active": "682092ebea337827",
   "lastOpenFiles": [
-    "Phys/Basic Phys/普通物理-Thermodynamics.md",
     "Phys/Basic Phys/Electrodynamics.md",
+    "Phys/Basic Phys/普通物理-Thermodynamics.md",
     "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md",
     "Phys/Basic Phys/普通物理-Optics.md",
     "Phys/sortspec.md",
