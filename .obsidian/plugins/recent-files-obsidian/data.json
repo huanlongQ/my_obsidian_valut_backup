@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Git, version control",
+      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
+    },
+    {
+      "basename": "对吕安祺同学的采访",
+      "path": "non-Daily Work/物院各院系保研材料/对吕安祺同学的采访.md"
+    },
+    {
+      "basename": "2025秋季学期课程计划",
+      "path": "non-Daily Work/2025秋季学期课程/2025秋季学期课程计划.md"
+    },
+    {
       "basename": "log2025",
       "path": "LOG/log2025.md"
     },
@@ -29,10 +41,6 @@
       "path": "Phys/sortspec.md"
     },
     {
-      "basename": "2025秋季学期课程计划",
-      "path": "non-Daily Work/2025秋季学期课程/2025秋季学期课程计划.md"
-    },
-    {
       "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
       "path": "Phys/Basic Phys/D.J.Griffiths  Introduction to Quantum Mechanics.pdf"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "曹庆宏量子复习",
       "path": "Daily Work/曹庆宏量子复习.md"
-    },
-    {
-      "basename": "Git, version control",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/Git, version control.md"
     },
     {
       "basename": "shc电动力学",
@@ -195,10 +199,6 @@
     {
       "basename": "typical components of a python pkg",
       "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/typical components of a python pkg.md"
-    },
-    {
-      "basename": "types",
-      "path": "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/Python Pkgs/types.md"
     }
   ],
   "omittedPaths": [],

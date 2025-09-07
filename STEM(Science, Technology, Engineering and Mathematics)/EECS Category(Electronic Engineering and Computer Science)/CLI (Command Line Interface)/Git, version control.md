@@ -65,6 +65,12 @@ git config --global core.longpaths true // give validity to long name files
 - [‎Gemini - git lfs install and remote](https://g.co/gemini/share/f9d2a3ba9a26) 
 - [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
 
+```shell
+git lfs track "*.png"
+git lfs ls-files --all
+git lfs push --all origin
+```
+
 ⭐ a obsidian-git push error: 
 it's a remote repo's fault. but not a specific one. it's when i set remote origin with 2 (push) remote repo, obsidian-git plugin fails.  
 ![[Pasted image 20250906201412.png]]
