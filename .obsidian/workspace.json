@@ -108,7 +108,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -257,7 +258,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "682092ebea337827",
+  "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
     "Phys/Basic Phys/Electrodynamics.md",
     "Phys/Basic Phys/普通物理-Thermodynamics.md",
