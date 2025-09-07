@@ -273,7 +273,7 @@ $$
 
 ### Selection Rule
 
-- [‎Gemini - Atomic Transition Selection Rules Explained](https://g.co/gemini/share/3e23e7795548)
+- [‎Gemini - Atomic Transition Selection Rules Explained](https://g.co/gemini/share/3e23e7795548) ⭐
 
 $$
 \begin{align}
