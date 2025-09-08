@@ -20,3 +20,9 @@
 
 - 物理过去是、现在是、将来也会继续是一门实验科学. 
 	[zhihu - 2024年你的物理研究或学习有什么收获和感悟？ The-Force 关于物理品味的回答](https://www.zhihu.com/question/664886288?share_code=TpSKkqrJhToY&utm_psn=1943400749808727642) 
+
+- 物理研究需要广泛与学者交流. 
+	[zhihu - 2024年你的物理研究或学习有什么收获和感悟？ 一童天下 关于学术交流的回答](https://www.zhihu.com/question/664886288?share_code=TpSKkqrJhToY&utm_psn=1943400749808727642)  
+
+- 新奇的现象存在于已有规律的反例之中. 
+	- 
