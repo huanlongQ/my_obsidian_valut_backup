@@ -1,5 +1,5 @@
 {
-  "commitMessage": "\"\\\"W478 PC end:{{date}}\\\"\"",
+  "commitMessage": "\"W478 PC end:{{date}}\"",
   "autoCommitMessage": "vault backup: {{date}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
