@@ -5,6 +5,10 @@
       "path": "LOG/log2025.md"
     },
     {
+      "basename": "2025秋季学期课程计划",
+      "path": "non-Daily Work/2025秋季学期课程/2025秋季学期课程计划.md"
+    },
+    {
       "basename": "Electrodynamics",
       "path": "Phys/Basic Phys/Electrodynamics.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "sortspec",
       "path": "Phys/sortspec.md"
-    },
-    {
-      "basename": "2025秋季学期课程计划",
-      "path": "non-Daily Work/2025秋季学期课程/2025秋季学期课程计划.md"
     },
     {
       "basename": "D.J.Griffiths  Introduction to Quantum Mechanics",
