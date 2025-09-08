@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "interfaceFontFamily": "Times New Roman",
   "textFontFamily": "Times New Roman",
-  "baseFontSize": 15,
+  "baseFontSize": 24,
   "baseFontSizeAction": true,
   "enabledCssSnippets": []
 }
