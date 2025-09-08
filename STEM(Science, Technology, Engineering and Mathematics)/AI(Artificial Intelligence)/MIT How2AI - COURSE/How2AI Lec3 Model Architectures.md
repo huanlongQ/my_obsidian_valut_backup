@@ -3,3 +3,15 @@
 
 
 ## data invariance and data equivariance 
+1)  data invariance 
+
+$$
+\begin{align}
+f(g \circ x)=f(x)
+\end{align}
+$$2) data equivariance 
+$$
+\begin{align}
+f(g\circ x)
+\end{align}
+$$
