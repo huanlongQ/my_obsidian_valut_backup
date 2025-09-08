@@ -94,7 +94,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -243,10 +244,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "843a5c458ca9cd9c",
+  "active": "3b3ca681ca4e9744",
   "lastOpenFiles": [
-    "LOG/log2025.md",
     "conflict-files-obsidian-git.md",
+    "LOG/log2025.md",
     "non-Daily Work/物院各院系保研材料/保研经验分享 郏梓翔(1).pptx",
     "non-Daily Work/物院各院系保研材料/20250423夏令营面试分享.pptx",
     "non-Daily Work/物院各院系保研材料/对吕安祺同学的采访.md",
