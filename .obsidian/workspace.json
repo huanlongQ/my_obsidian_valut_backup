@@ -94,8 +94,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -244,10 +243,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "682092ebea337827",
+  "active": "843a5c458ca9cd9c",
   "lastOpenFiles": [
-    "non-Daily Work/2025秋季学期课程/2025秋季学期课程计划.md",
     "LOG/log2025.md",
+    "conflict-files-obsidian-git.md",
+    "non-Daily Work/物院各院系保研材料/保研经验分享 郏梓翔(1).pptx",
+    "non-Daily Work/物院各院系保研材料/20250423夏令营面试分享.pptx",
+    "non-Daily Work/物院各院系保研材料/对吕安祺同学的采访.md",
+    "non-Daily Work/物院各院系保研材料",
+    "non-Daily Work/2025秋季学期课程/2025秋季学期课程计划.md",
     "Phys/Basic Phys/Electrodynamics.md",
     "Phys/Basic Phys/普通物理-Thermodynamics.md",
     "Phys/Basic Phys/Analytical Mechanics - Theoretical Physics.md",
@@ -284,14 +288,9 @@
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/cmd, powershell and linux - Command Line Interface(CLI).md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI shortcut setting.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)/CLI proxy.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/OS (Operating System)/System32, Path and env variables.md",
-    "STEM(Science, Technology, Engineering and Mathematics)/AI(Artificial Intelligence)/深度学习知识.md",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/OS (Operating System)",
     "STEM(Science, Technology, Engineering and Mathematics)/EECS Category(Electronic Engineering and Computer Science)/CLI (Command Line Interface)",
     "Industries",
-    "non-STEM/_Good Videos",
-    "zzzhe_Archive",
-    "zzzhe_Attachments/CursorFreeVIP_1.10.02_windows.exe",
     "non-Daily Work/教培项目/云的希 canvas.canvas",
     "my_first_canvas.canvas"
   ]

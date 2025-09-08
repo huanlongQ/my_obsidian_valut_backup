@@ -8,7 +8,7 @@
 
 ## `config setting` 
 
-```powershell
+```shell
 //alias
 git config --global alias.co checkout
 git config --global alias.br branch
@@ -65,19 +65,27 @@ git config --global core.longpaths true // give validity to long name files
 - [‎Gemini - git lfs install and remote](https://g.co/gemini/share/f9d2a3ba9a26) 
 - [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
 
+```shell
+git lfs track "*.png"
+git lfs ls-files --all
+git lfs push --all origin
+```
+
 ⭐ a obsidian-git push error: 
 it's a remote repo's fault. but not a specific one. it's when i set remote origin with 2 (push) remote repo, obsidian-git plugin fails.  
 ![[Pasted image 20250906201412.png]]
 **Solution**: 
 ```shell
+// this one is right. 
 git remote -v
 backup  https://github.com/huanlongQ/my_obsidian_valut_backup.git (fetch)
 backup  https://github.com/huanlongQ/my_obsidian_valut_backup.git (push)
-backup  https://github.com/huanlongQ/my_obsidian_valut_backup_2.git (push)
+backup_2        https://github.com/huanlongQ/my_obsidian_valut_backup_2.git (fetch)
+backup_2        https://github.com/huanlongQ/my_obsidian_valut_backup_2.git (push)
 origin  https://github.com/huanlongQ/my_obsidian_valut.git (fetch)
 origin  https://github.com/huanlongQ/my_obsidian_valut.git (push)
 
-// not like this
+// not like this, this fails.
 git remote -v
 >origin  https://github.com/huanlongQ/my_obsidian_valut.git (push)
 >origin  https://github.com/huanlongQ/my_obsidian_valut.git (fetch)
