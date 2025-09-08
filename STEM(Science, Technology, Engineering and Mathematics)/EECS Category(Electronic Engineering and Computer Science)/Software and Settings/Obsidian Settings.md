@@ -1,3 +1,5 @@
+- [Git ignore: some obsidian-plugin files](https://g.co/gemini/share/b61f4bd05927) 
+
 # 0. Plugins 
 
 - 更新一下Obsidian的plugins  
