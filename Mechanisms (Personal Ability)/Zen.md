@@ -10,3 +10,4 @@
 
 - 应当成为一个理想爱人的对位人, 才可以拥有理想爱人. 
 	[磕拉了!【高圆圆 赵又廷】高甜恋爱全过程\_哔哩哔哩\_bilibili](https://b23.tv/G4Bq4FY?share_medium=android&share_source=weixin&bbid=XX818818DFA1E422E14EC5881868902E71808&ts=1757336727525) 
+	礼、乐、射、御、书、数. 
