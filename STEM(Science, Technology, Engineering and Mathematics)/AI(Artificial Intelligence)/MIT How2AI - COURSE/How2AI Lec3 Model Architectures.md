@@ -17,4 +17,10 @@ f(g\circ x) = g\circ f(x)
 \end{align}
 $$
 asdas
+<<<<<<< HEAD
 aa
+=======
+
+
+asdasdasdasd
+>>>>>>> origin/main
