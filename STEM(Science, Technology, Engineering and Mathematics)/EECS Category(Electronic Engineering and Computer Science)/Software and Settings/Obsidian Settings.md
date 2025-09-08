@@ -377,3 +377,18 @@ or use `'-' + 'Tab'`
         return output;
     }, options: "mA", description: "N x N identity matrix"},
 ]
+```
+
+# 6. Disable Spell Check
+
+Disable the Spell Checker
+
+The most direct way to eliminate the red lines is to turn off the spell checker entirely.
+
+1. Open **Settings** in Obsidian (the gear icon at the bottom of the left sidebar).
+    
+2. Go to the **Editor** section.
+    
+3. Scroll down to the **Behavior** section.
+    
+4. Toggle off the **Spellcheck** option.

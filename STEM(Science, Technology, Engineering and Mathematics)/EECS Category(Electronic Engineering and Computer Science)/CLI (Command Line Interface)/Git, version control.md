@@ -3,6 +3,7 @@
 * [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html) 
 - [Gemini - Git 与 GitHub 仓库连接指南, 包括credentials manager, multi remote push](https://g.co/gemini/share/42fd27030128)
 - [gemini - git lfs manual](https://g.co/gemini/share/9d663482bbbd) 
+- [Git ignore: some obsidian-plugin files](https://g.co/gemini/share/b61f4bd05927)
 
 # Summary
 
@@ -28,6 +29,16 @@ git config --global https.proxy http://127.0.0.1:10809
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 git config --global core.longpaths true // give validity to long name files
+```
+
+```gitignore
+//.gitignore
+
+.obsidian/plugins/obsidian-git/data.json 
+.obsidian/plugins/recent-files-obsidian/data.json 
+.obsidian/workspace.json
+.trash/*
+.obsidian/cache 
 ```
 
 ## `checkout`
