@@ -7,4 +7,3 @@ we have different type of fusion:
 - tensor fusion ($\to$ low rank tensor fusion) 
 - gated fusion
 - Modality-shifted fusion
-- 

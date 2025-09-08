@@ -285,6 +285,7 @@ $$
 $$
 
 ## Fermi Golden Rule 
+
 $$
 \begin{align}
 R=\frac{2\pi}{\hbar}|\frac{V_{if}}{2}|^{2}\rho(E_{f})
@@ -344,4 +345,20 @@ $$
 
 # Variations Principle  
 
+# Angular Momentum Theory
 
+-  [Modern Quantum Mechanics and Modern Phys Frontiers](https://www.zhihu.com/question/570329330/answer/3435913143) Angular Momentum Theory $\to$ Atomic Phys
+
+# Symmetry and Group in Quamtum Mechanics
+
+# Scattering Theory
+
+-  [Modern Quantum Mechanics and Modern Phys Frontiers](https://www.zhihu.com/question/570329330/answer/3435913143) Scattering Theory $\to$ hep
+
+# Density Matrix Representation 
+
+-  [Modern Quantum Mechanics and Modern Phys Frontiers](https://www.zhihu.com/question/570329330/answer/3435913143) Density Matrix Representation $\to$ CMT
+
+# Quantum Infomation Theory
+
+-  [Modern Quantum Mechanics and Modern Phys Frontiers](https://www.zhihu.com/question/570329330/answer/3435913143) Quantum Infomation Theory $\to$ Quantum Infomation Theory
