@@ -343,7 +343,7 @@ git push -u origin main
 * [Windows系统下设置cmd命令行(终端)走代理的方法 - zhuibo6 - 博客园](https://www.cnblogs.com/yerenwz/p/15925848.html) 
 *  [Gemini - Git Line Endings and Filename Errors](https://g.co/gemini/share/3ac13b269887)
 
-```powershell
+```shell
 //alias
 git config --global alias.co checkout
 git config --global alias.br branch
@@ -468,7 +468,7 @@ git config --global core.longpaths true // give validity to long name files
     
     这是在不同的开发故事线之间跳转。
 
-    ```
+    ```shell
     # 从当前分支切换到 'develop' 分支
     git checkout develop
     ```
@@ -477,7 +477,7 @@ git config --global core.longpaths true // give validity to long name files
     
     这是“创建分支”和“切换分支”两个动作的合并，非常高效。
 
-    ```
+    ```shell
     # 基于当前位置，创建一个名为 'new-feature' 的新分支，并立刻切换过去
     git checkout -b new-feature
     ```
@@ -486,7 +486,7 @@ git config --global core.longpaths true // give validity to long name files
     
     这是回到过去某个精确的时间点进行查看或测试，会导致“分离头指针”(Detached HEAD)状态。
 
-    ```
+    ```shell
     # 切换到 commit id 为 a8b4b8e 的历史状态
     git checkout a8b4b8e
     ```
@@ -512,7 +512,7 @@ git config --global core.longpaths true // give validity to long name files
     
     将某个文件恢复到它在暂存区或上一次 commit 时的状态，**会删除所有未保存的本地修改**。
 
-    ```
+    ```shell
     # 撤销对 'config.yml' 的所有修改
     git checkout -- config.yml
     ```
@@ -523,7 +523,7 @@ git config --global core.longpaths true // give validity to long name files
     
     这是一个非常强大的功能，可以让你在不切换整个项目的情况下，只把某一个文件的特定版本取过来。
 
-    ```
+    ```shell
     # 将 'main' 分支的 'main.py' 文件内容，覆盖到我当前的分支中
     git checkout main -- main.py
     
@@ -548,7 +548,7 @@ git config --global core.longpaths true // give validity to long name files
 
 - #### 场景：合并 `feature` 分支到 `main` 时，`app.js` 文件冲突了
 
-    ```
+    ```shell
     # 选择使用我们自己的版本（即合并前 main 分支上的版本）
     git checkout --ours -- app.js
     
@@ -590,4 +590,13 @@ git config --global core.longpaths true // give validity to long name files
 | `git pull`    | `git pull origin main`<br>`git pull origin main --allow-unrelated-histories`                                                                                                               | 从远程仓库获取最新历史记录并**自动合并**到你当前的分支 (`fetch` + `merge`)。                                                                                                                                 |
 | `git push`    | `git push origin main` <br>`git push -u origin local_main:remote_main`                                                                                                                     | 将本地分支的提交**推送**到远程仓库。`-u` 用于首次推送时建立本地与远程分支的关联。<br>`git push -u origin master`(`--set-upstream`)的作用是设置上游分支，这样之后你只需要简单地使用 `git push` 和 `git pull` 即可，Git 会知道要推送到哪个远程分支。               |
 
-# `git conflicts solving` 
+# `git conflicts resolving` 
+
+- [gemini - Git Conflicts Resolving](https://g.co/gemini/share/20a9a6e8d596) 
+
+```shell
+git co --ours ...
+git co --theirs ...
+git add ...
+git ci  -m "... merged."
+```
