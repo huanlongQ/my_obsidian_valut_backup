@@ -464,8 +464,8 @@ The most direct way to eliminate the red lines is to turn off the spell checker 
 
 # 8. Appearance 
 
-![[Pasted image 20250909185739.png]] 
+![[Pasted image 20250909185739.png|671]] 
 
 # 9. Checklist
 
-![[Pasted image 20250909185750.png]] 
+![[Pasted image 20250909185750.png|688]] 
