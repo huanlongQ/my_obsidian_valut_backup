@@ -115,7 +115,38 @@
 }
 ```
 
-``
+`checklist data.json`
+```json
+{
+  "todoPageName": "todo",
+  "showChecked": false,
+  "showAllTodos": false,
+  "showOnlyActiveFile": false,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "page",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "new->old",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "",
+  "lookAndFeel": "compact",
+  "_collapsedSections": [
+    "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
+  ],
+  "_hiddenTags": []
+}
+```
+
+`appearance.json`
+```json
+{
+  "interfaceFontFamily": "Times New Roman",
+  "textFontFamily": "Times New Roman",
+  "monospaceFontFamily": "",
+  "baseFontSizeAction": true
+}
+``` 
+
 # 2. picture sync
 
 * 图床搭建: https://zhuanlan.zhihu.com/p/689603478
