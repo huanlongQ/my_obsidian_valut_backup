@@ -36,6 +36,86 @@
 * zhihu **Foldersync**: https://www.zhihu.com/question/475280128/answer/2824365636 
 * Onedrive is the cloud storage
 
+```gitignore
+.obsidian/plugins/obsidian-git/data.json 
+.obsidian/plugins/recent-files-obsidian/data.json 
+.obsidian/plugins/obsidian-checklist-plugin/data.json 
+.obsidian/appearance.json 
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json 
+.obsidian/workspace-LAPTOP-V7OJEVKD.json 
+.obsidian/workspace-LAPTOP-V7OJEVKD-2.json 
+.trash/*
+.obsidian/cache 
+```
+
+`git plugin data.json` 
+```json
+{
+  "commitMessage": "dorm PC end:{{date}}",
+  "autoCommitMessage": "dorm PC end:{{date}}",
+  "commitMessageScript": "",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "autoSaveInterval": 5,
+  "autoPushInterval": 0,
+  "autoPullInterval": 0,
+  "autoPullOnBoot": true,
+  "autoCommitOnlyStaged": false,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "disablePopups": true,
+  "showErrorNotices": true,
+  "disablePopupsForNoChanges": false,
+  "listChangedFilesInMessageBody": false,
+  "showStatusBar": true,
+  "updateSubmodules": false,
+  "syncMethod": "merge",
+  "customMessageOnAutoBackup": false,
+  "autoBackupAfterFileChange": false,
+  "treeStructure": true,
+  "refreshSourceControl": true,
+  "basePath": "",
+  "differentIntervalCommitAndPush": false,
+  "changedFilesInStatusBar": false,
+  "showedMobileNotice": true,
+  "refreshSourceControlTimer": 7000,
+  "showBranchStatusBar": true,
+  "setLastSaveToLastCommit": false,
+  "submoduleRecurseCheckout": false,
+  "gitDir": "",
+  "showFileMenu": true,
+  "authorInHistoryView": "hide",
+  "dateInHistoryView": false,
+  "diffStyle": "split",
+  "lineAuthor": {
+    "show": false,
+    "followMovement": "inactive",
+    "authorDisplay": "initials",
+    "showCommitHash": false,
+    "dateTimeFormatOptions": "date",
+    "dateTimeFormatCustomString": "YYYY-MM-DD HH:mm",
+    "dateTimeTimezone": "viewer-local",
+    "coloringMaxAge": "1y",
+    "colorNew": {
+      "r": 255,
+      "g": 150,
+      "b": 150
+    },
+    "colorOld": {
+      "r": 120,
+      "g": 160,
+      "b": 255
+    },
+    "textColorCss": "var(--text-muted)",
+    "ignoreWhitespace": false,
+    "gutterSpacingFallbackLength": 12,
+    "lastShownAuthorDisplay": "initials",
+    "lastShownDateTimeFormatOptions": "date"
+  }
+}
+```
+
+``
 # 2. picture sync
 
 * 图床搭建: https://zhuanlan.zhihu.com/p/689603478

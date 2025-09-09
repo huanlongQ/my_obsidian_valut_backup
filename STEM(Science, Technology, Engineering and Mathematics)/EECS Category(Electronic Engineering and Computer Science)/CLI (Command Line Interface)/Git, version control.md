@@ -31,8 +31,8 @@ git config --global --unset https.proxy
 git config --global core.longpaths true // give validity to long name files
 ```
 
-```gitignore
-//.gitignore
+```gitignore 
+//.gitignore example
 
 .obsidian/plugins/obsidian-git/data.json 
 .obsidian/plugins/recent-files-obsidian/data.json 
