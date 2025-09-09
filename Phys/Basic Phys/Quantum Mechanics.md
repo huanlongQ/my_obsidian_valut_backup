@@ -365,15 +365,19 @@ $$
 $$
 
 ## $\hat{x},\hat{p}$ 
-$$ 
+
+$$
+ 
 \begin{align} 
 & \text{group element:} & \mathcal{G}_{i}(\mathrm{d}x_{i}) & =  1 + i \Omega_{i} \mathrm{d}x_{i} \\
 & \text{from canonical transformation:} & \Omega  & = \frac{p_{i}}{\hbar}\\
-& \text{then:} &  & \begin{cases}
-\bra{x}x\mathcal{G}(\mathrm{d}x)\ket{\psi} = \bra{x}x\mathcal{G}(\mathrm{d}x)\ket{}
-\end{cases}
+& \text{then:} &      
+\underset{ \text{with or without } }{\underline{\underline{\underline{(\bra{x})}}}} x\mathcal{G}(\mathrm{d}x)\ket{\psi}  & = \underset{ \text{doesnot matter} }{\underline{\underline{\underline{(\bra{x})}}}} \mathcal{G}(\mathrm{d}x), (x+\mathrm{d}x)\ket{\psi}, \\
+& \text{classical counterpart utlize:} & \underset{ \text{matters!} }{\underline{\underline{\underline{\bra{x}}}}} \mathcal{G}\ket{}
+ 
 \end{align} 
 $$
+
 ## $\hat{H}$
 
 ## $\hat{L}_{i}$ 
