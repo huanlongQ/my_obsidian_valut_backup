@@ -37,6 +37,8 @@
 * Onedrive is the cloud storage
 
 ```gitignore
+
+// for sake nonsense changes caused git auto-sync, we ignore these data.json items and other .json, their settings is recorded below. 
 .obsidian/plugins/obsidian-git/data.json 
 .obsidian/plugins/recent-files-obsidian/data.json 
 .obsidian/plugins/obsidian-checklist-plugin/data.json 
