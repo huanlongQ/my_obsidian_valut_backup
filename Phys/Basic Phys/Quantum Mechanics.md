@@ -353,8 +353,8 @@ $$
 
 $$
 \begin{align}
- & \text{for operator }(\hat{x},\hat{p}),\hat{H},\hat{L}_{i},\hat{S}_{i}: \text{ Symmetry and Group} \overset{\text{Canonical Transformation}}{\to } \text{operator form}\overset{\text{Group Property}}{\to } \text{Commutor} \\
-\hbar\text{is }
+ \text{for operator }(\hat{x},\hat{p}),\hat{H},\hat{L}_{i},\hat{S}_{i}: &  \text{ Symmetry and Group}   \overset{\text{Canonical Transformation}}{\to } \text{operator form}\overset{\text{Group Property}}{\to } \text{Commutor} \\
+ & \boxed{\pmb{\hbar\text{ is a universal const for sake matching marcoscopic phys}}}
 \end{align}
 $$
 
