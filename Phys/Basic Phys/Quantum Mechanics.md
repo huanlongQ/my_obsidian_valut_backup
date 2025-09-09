@@ -390,6 +390,9 @@ $$
 \end{align}
 $$
 However, it seems hard to derive the exact math form of $S_{i}$, here i want to try: 
+No you cannot, cuz you have no first principle derivation (actually, classical counterpart) similar to before to know how $\mathcal{G}_{z}$ works on a spin state. 
+therefore, **without classical counterpart, we cannot conclude a specific math form for Spin operators $S_{i}$.** 
+and a interesting thing is that we do have non spin-$\frac{1}{2}$ sys like Bayons: [继续使用前须知](https://g.co/gemini/share/c2a3c1465bba)
 
 # Scattering Theory
 
