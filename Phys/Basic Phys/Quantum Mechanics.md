@@ -348,7 +348,7 @@ $$
 # Angular Momentum Theory
 
 -  [Modern Quantum Mechanics and Modern Phys Frontiers](https://www.zhihu.com/question/570329330/answer/3435913143) Angular Momentum Theory $\to$ Atomic Phys
-
+- [继续使用前须知](https://g.co/gemini/share/52c807882f92) **the direct sum direct product transformation is a particular proper**
 # Symmetry and Group in Quamtum Mechanics
 
 $$
