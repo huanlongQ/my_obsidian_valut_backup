@@ -461,3 +461,8 @@ The most direct way to eliminate the red lines is to turn off the spell checker 
   }
 }
 ```
+
+# 8. Appearance 
+
+![[Pasted image 20250909185739.png]] 
+# 9. Checklist
