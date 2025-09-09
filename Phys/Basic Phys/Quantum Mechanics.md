@@ -348,7 +348,8 @@ $$
 # Angular Momentum Theory
 
 -  [Modern Quantum Mechanics and Modern Phys Frontiers](https://www.zhihu.com/question/570329330/answer/3435913143) Angular Momentum Theory $\to$ Atomic Phys
-- [Direct Product Direct Sum Transformation](https://g.co/gemini/share/52c807882f92) **the direct sum $\iff$ direct product transformation is a particular property of rotation group.**  
+- [Direct Product Direct Sum Transformation](https://g.co/gemini/share/ec859a740b1f) **the direct sum $\iff$ direct product transformation is a particular property of rotation group.**  
+	**if same group, then tensor product reps $\implies$ direct sum irreps transformation valid.**
 
 # Symmetry and Group in Quamtum Mechanics
 
