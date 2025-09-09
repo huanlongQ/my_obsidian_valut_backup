@@ -374,7 +374,13 @@ $$
 Rotation Group: $\text{SU(2)}$ (same to $\text{SO(3)}$): 
 $$
 \begin{align} 
-& \text{group element:} & \mathbb{
+& \text{group element:} & \mathcal{G} & =  1 + i \Omega t \\
+& \text{then:} &  & \begin{cases}
+\bra{S}S_{z}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}S_{z}\ket{S} \\
+\bra{S}S_{x}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}S_{x}\ket{S}\cos \phi -\bra{S}S_{y}\ket{S}\sin \phi \\
+\bra{S}S_{y}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}S_{x}\ket{S}\sin \phi +\bra{S}S_{y}\ket{S}\cos \phi \\
+\end{cases}  \\
+& \text{then:} & 
 \end{align}
 $$
 
