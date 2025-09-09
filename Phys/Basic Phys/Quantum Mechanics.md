@@ -371,9 +371,12 @@ $$
 
 ## $\hat{S}_{i}$ 
 
-Rotation Group: $\text{SU(2)}$ (same to $\text{SO(3)}$)
-
-
+Rotation Group: $\text{SU(2)}$ (same to $\text{SO(3)}$): 
+$$
+\begin{align} 
+& \text{group element:} & \mathbb{
+\end{align}
+$$
 
 # Scattering Theory
 
