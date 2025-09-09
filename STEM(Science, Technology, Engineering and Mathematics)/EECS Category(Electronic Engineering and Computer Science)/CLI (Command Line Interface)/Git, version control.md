@@ -367,7 +367,7 @@ git config --global core.longpaths true // give validity to long name files
 
 # `git` version control 
 
-- `git checkout commitID`
+- `git checkout commitID` 
 
 ### Git 常用命令大全 (按功能分类)
 
@@ -589,3 +589,5 @@ git config --global core.longpaths true // give validity to long name files
 | `git fetch`   | `git fetch origin`                                                                                                                                                                         | 从远程仓库**获取**最新的历史记录，但**不合并**到你本地的分支。                                                                                                                                                |
 | `git pull`    | `git pull origin main`<br>`git pull origin main --allow-unrelated-histories`                                                                                                               | 从远程仓库获取最新历史记录并**自动合并**到你当前的分支 (`fetch` + `merge`)。                                                                                                                                 |
 | `git push`    | `git push origin main` <br>`git push -u origin local_main:remote_main`                                                                                                                     | 将本地分支的提交**推送**到远程仓库。`-u` 用于首次推送时建立本地与远程分支的关联。<br>`git push -u origin master`(`--set-upstream`)的作用是设置上游分支，这样之后你只需要简单地使用 `git push` 和 `git pull` 即可，Git 会知道要推送到哪个远程分支。               |
+
+# `git conflicts solving` 
