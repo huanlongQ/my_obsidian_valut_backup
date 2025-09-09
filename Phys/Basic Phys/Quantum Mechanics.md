@@ -351,6 +351,13 @@ $$
 
 # Symmetry and Group in Quamtum Mechanics
 
+$$
+\begin{align}
+ & \text{for operator:}\hat{}\text{Symmetry and Group} \to \text{Commutor}\to  \text{}
+\end{align}
+$$
+
+
 # Scattering Theory
 
 -  [Modern Quantum Mechanics and Modern Phys Frontiers](https://www.zhihu.com/question/570329330/answer/3435913143) Scattering Theory $\to$ hep
