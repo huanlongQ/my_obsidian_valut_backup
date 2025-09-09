@@ -345,13 +345,15 @@ $$
 
 # Variations Principle  
 
+-  [Ritz Varitional Method](https://www.zhihu.com/question/646614368/answer/3430195987)
+
 # WKB approximation
 
 regard $V(x)$ as local constant and give out semi-momentum eigenstate state. 
 
 $$
 \begin{align}
-\psi(x)\propto \exp(i)
+\psi(x)\propto \exp\left( i\underset{  {p}/\hbar }{\underline{\underline{\underline{\sqrt{ 2m(E-V(x)) }}}}} x-i\frac{E}{\hbar}t \right)
 \end{align}
 $$
 
