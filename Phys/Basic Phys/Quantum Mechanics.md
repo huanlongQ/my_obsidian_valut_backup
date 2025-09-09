@@ -353,10 +353,10 @@ $$
 
 $$
 \begin{align}
- & \text{for operator:}\hat{}\text{Symmetry and Group} \to \text{Commutor}\to  \text{}
+ & \text{for operator }(\hat{x},\hat{p}),\hat{H},\hat{L}_{i},\hat{S}_{i}: \text{ Symmetry and Group} \overset{\text{Canonical Transformation}}{\to } \text{operator form}\overset{\text{Group Property}}{\to } \text{Commutor} \\
+\hbar\text{is }
 \end{align}
 $$
-
 
 # Scattering Theory
 
