@@ -371,7 +371,7 @@ $$
 
 ## $\hat{S}_{i}$ 
 
-Rotation Group: $\text{SU(2)}$ (same to $\text{SO(3)}$)
+Rotation Group is $\text{SU(2)}$ (same to $\text{SO(3)}$), then we have a common reasoning here: 
 $$
 \begin{align} 
 & \text{group element:} & \mathcal{G}_{i}(\mathrm{d}\phi_{i}) & =  1 + i \Omega_{i} \mathrm{d}\phi_{i} \\
@@ -381,13 +381,15 @@ $$
 \bra{S}S_{x}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\cos \mathrm{d}\phi -\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\sin \mathrm{d}\phi \\
 \bra{S}S_{y}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\sin \mathrm{d}\phi +\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\cos \mathrm{d}\phi \\
 \end{cases}  \\
-& \text{then:} &  & \begin{cases}
-\bra{S}S_{z}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{z}\ket{S} \\
-\bra{S}S_{x}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\cos \mathrm{d}\phi -\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\sin \mathrm{d}\phi \\
-\bra{S}S_{y}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\sin \mathrm{d}\phi +\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\cos \mathrm{d}\phi \\
-\end{cases}
 \end{align}
 $$
+then we have commutation relations: 
+$$
+\begin{align}
+[S_{i},S_{j}]=i\hbar\epsilon_{ijk}S_{k}
+\end{align}
+$$
+However, it seems hard to derive the exact math form of $S_{i}$, here i want to try: 
 
 # Scattering Theory
 
