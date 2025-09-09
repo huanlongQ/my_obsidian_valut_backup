@@ -122,7 +122,7 @@
 {
   "todoPageName": "todo",
   "showChecked": false,
-  "showAllTodos": false,
+  "showAllTodos": true, // this great choice 
   "showOnlyActiveFile": false,
   "autoRefresh": true,
   "subGroups": false,
@@ -133,6 +133,7 @@
   "includeFiles": "",
   "lookAndFeel": "compact",
   "_collapsedSections": [
+    "non-STEM/锻炼计划 exercise plan/下颌线锻炼.md",
     "Mechanisms (Personal Ability)/Reading, Learning and Neuroscience Mechanism.md"
   ],
   "_hiddenTags": []
