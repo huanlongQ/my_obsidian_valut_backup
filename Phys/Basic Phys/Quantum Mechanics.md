@@ -345,6 +345,16 @@ $$
 
 # Variations Principle  
 
+# WKB approximation
+
+regard $V(x)$ as local constant and give out semi-momentum eigenstate state. 
+
+$$
+\begin{align}
+\psi(x)\propto \exp(i)
+\end{align}
+$$
+
 # Angular Momentum Theory
 
 -  [Modern Quantum Mechanics and Modern Phys Frontiers](https://www.zhihu.com/question/570329330/answer/3435913143) Angular Momentum Theory $\to$ Atomic Phys
