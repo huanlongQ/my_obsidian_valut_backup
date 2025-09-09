@@ -357,7 +357,7 @@ $$
 \begin{align}
  \text{for operator }(\hat{x},\hat{p}),\hat{H},\hat{L}_{i},\hat{S}_{i}:   &    \text{ Symmetry and Group}  \begin{cases}
 \overset{\text{Canonical Transformation}}{\implies  } &  \text{group }\sim \text{ operator relation} \\
-  \overset{\text{Group Property}}{\implies  } &  \text{operator commutor}  \\
+  \overset{\text{Group Essential Property}}{\implies  } &  \text{operator commutor}  \\
 \overset{\text{Classical Counterpart}}{\implies } & \text{exact math form of operator}
 \end{cases}\\
   & \boxed{\pmb{\hbar\text{ is a universal const for sake matching marcoscopic phys}}}  
@@ -373,14 +373,20 @@ $$
 & \text{from canonical transformation:} & \Omega  & = \frac{p_{i}}{\hbar}\\
 & \text{then:} &      
 \underset{ \text{with or without } }{\underline{\underline{\underline{(\bra{x})}}}} x\mathcal{G}(\mathrm{d}x)\ket{\psi}  & = \underset{ \text{doesnot matter} }{\underline{\underline{\underline{(\bra{x})}}}} \mathcal{G}(\mathrm{d}x), (x+\mathrm{d}x)\ket{\psi}, \\
-& \text{classical counterpart utlize:} & \underset{ \text{matters!} }{\underline{\underline{\underline{\bra{x}}}}} \mathcal{G}\ket{}
+& \text{classical counterpart utlize:} & \underset{ \text{matters!} }{\underline{\underline{\underline{\bra{x}}}}} \mathcal{G}(\mathrm{d}x) \ket{\psi} & = \bra{x-\mathrm{d}x}\ket{\psi} \\
+ &  &  & = \langle x\ket{\psi} -   \frac{ \partial  }{ \partial x } \langle x\ket{\psi}  \\
+& \text{then:} & \hat{p} & =\boxed{\pmb{-i\hbar \frac{ \partial  }{ \partial x }  }}
  
 \end{align} 
 $$
 
-## $\hat{H}$
+## $\hat{H}$ 
+
+similar 
 
 ## $\hat{L}_{i}$ 
+
+similar 
 
 ## $\hat{S}_{i}$ 
 
@@ -390,7 +396,7 @@ $$
 & \text{group element:} & \mathcal{G}_{i}(\mathrm{d}\phi_{i}) & =  1 + i \Omega_{i} \mathrm{d}\phi_{i} \\
 & \text{from canonical transformation:} & \Omega  & = \frac{S_{i}}{\hbar}\\
 & \text{then:} &  & \begin{cases}
-\bra{S}S_{z}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{z}\ket{S} \\
+\underset{ \text{matters!} }{\underline{\underline{\underline{\bra{S}}}}} S_{z}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{z}\ket{S} \\
 \bra{S}S_{x}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\cos \mathrm{d}\phi -\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\sin \mathrm{d}\phi \\
 \bra{S}S_{y}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\sin \mathrm{d}\phi +\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\cos \mathrm{d}\phi \\
 \end{cases}  \\
