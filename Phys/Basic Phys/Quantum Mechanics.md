@@ -357,14 +357,23 @@ $$
 \begin{align}
  \text{for operator }(\hat{x},\hat{p}),\hat{H},\hat{L}_{i},\hat{S}_{i}:   &    \text{ Symmetry and Group}  \begin{cases}
 \overset{\text{Canonical Transformation}}{\implies  } &  \text{group }\sim \text{ operator relation} \\
-  \overset{\text{Group Property}}{\implies  } &  \text{operator commutor} 
+  \overset{\text{Group Property}}{\implies  } &  \text{operator commutor}  \\
+\overset{\text{Classical Counterpart}}{\implies } & \text{exact math form of operator}
 \end{cases}\\
   & \boxed{\pmb{\hbar\text{ is a universal const for sake matching marcoscopic phys}}}  
 \end{align}
 $$
 
 ## $\hat{x},\hat{p}$ 
-
+$$ 
+\begin{align} 
+& \text{group element:} & \mathcal{G}_{i}(\mathrm{d}x_{i}) & =  1 + i \Omega_{i} \mathrm{d}x_{i} \\
+& \text{from canonical transformation:} & \Omega  & = \frac{p_{i}}{\hbar}\\
+& \text{then:} &  & \begin{cases}
+\bra{x}x\mathcal{G}(\mathrm{d}x)\ket{\psi} = \bra{x}x\mathcal{G}(\mathrm{d}x)\ket{}
+\end{cases}
+\end{align} 
+$$
 ## $\hat{H}$
 
 ## $\hat{L}_{i}$ 
@@ -392,7 +401,7 @@ $$
 However, it seems hard to derive the exact math form of $S_{i}$, here i want to try: 
 No you cannot, cuz you have no first principle derivation (actually, classical counterpart) similar to before to know how $\mathcal{G}_{z}$ works on a spin state. 
 therefore, **without classical counterpart, we cannot conclude a specific math form for Spin operators $S_{i}$.** 
-and a interesting thing is that we do have non spin-$\frac{1}{2}$ sys like Bayons: [继续使用前须知](https://g.co/gemini/share/c2a3c1465bba)
+and a interesting thing is that we do have non spin-$\frac{1}{2}$ sys like Bayons with Spin-$\frac{3}{2}$: [Spin-3/2 sys](https://g.co/gemini/share/c2a3c1465bba) despite this make nosense to give a $\hat{L}=\hat{r}\times \hat{p}$ level "specific math form". 
 
 # Scattering Theory
 
