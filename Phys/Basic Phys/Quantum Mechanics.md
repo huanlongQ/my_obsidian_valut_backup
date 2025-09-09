@@ -371,16 +371,21 @@ $$
 
 ## $\hat{S}_{i}$ 
 
-Rotation Group: $\text{SU(2)}$ (same to $\text{SO(3)}$): 
+Rotation Group: $\text{SU(2)}$ (same to $\text{SO(3)}$)
 $$
 \begin{align} 
-& \text{group element:} & \mathcal{G} & =  1 + i \Omega t \\
+& \text{group element:} & \mathcal{G}_{i}(\mathrm{d}\phi_{i}) & =  1 + i \Omega_{i} \mathrm{d}\phi_{i} \\
+& \text{from canonical transformation:} & \Omega  & = \frac{S_{i}}{\hbar}\\
 & \text{then:} &  & \begin{cases}
-\bra{S}S_{z}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}S_{z}\ket{S} \\
-\bra{S}S_{x}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}S_{x}\ket{S}\cos \phi -\bra{S}S_{y}\ket{S}\sin \phi \\
-\bra{S}S_{y}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}S_{x}\ket{S}\sin \phi +\bra{S}S_{y}\ket{S}\cos \phi \\
+\bra{S}S_{z}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{z}\ket{S} \\
+\bra{S}S_{x}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\cos \mathrm{d}\phi -\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\sin \mathrm{d}\phi \\
+\bra{S}S_{y}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\sin \mathrm{d}\phi +\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\cos \mathrm{d}\phi \\
 \end{cases}  \\
-& \text{then:} & 
+& \text{then:} &  & \begin{cases}
+\bra{S}S_{z}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{z}\ket{S} \\
+\bra{S}S_{x}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\cos \mathrm{d}\phi -\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\sin \mathrm{d}\phi \\
+\bra{S}S_{y}\mathcal{G}_{z}(\mathrm{d}\phi)\ket{S} & = \bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{x}\ket{S}\sin \mathrm{d}\phi +\bra{S}\mathcal{G}_{z}(\mathrm{d}\phi)S_{y}\ket{S}\cos \mathrm{d}\phi \\
+\end{cases}
 \end{align}
 $$
 
