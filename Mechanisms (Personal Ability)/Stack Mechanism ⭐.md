@@ -65,3 +65,5 @@ even more importanti a factor is that i need a effective method to **distinguish
 	在李强公司做的[华为矩形反射谱需求]项目中, 我尝试非polynomial chirp modulation function时, 发现输出的loss数值与nomalized spectrum plot不一致, 这是一个sus-point. 
 	- 最终我们发现问题在于我的可视化阶段将chirp modulation function固定设置为了polynomial性质, 只改变`coeffs:np.ndarray`传参没有意义. 
 - 面对ply, 应该如何处理关系. 这是一个重要的sus-point. 
+- [[Zen|@Zen]] 's **做自己能力边界上的事情**
+	能力边界上的事情由sus-point组成. 
