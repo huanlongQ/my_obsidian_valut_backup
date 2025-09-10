@@ -1,0 +1,1 @@
+-  [一个步骤让这些AI编程工具cursor具备项目化的思维和开发经验。大模型cursor\_哔哩哔哩\_bilibili](https://b23.tv/fYycKov?share_medium=android&share_source=weixin&bbid=XX818818DFA1E422E14EC5881868902E71808&ts=1756476218138) 6A项目编写法则. 

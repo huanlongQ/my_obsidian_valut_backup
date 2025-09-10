@@ -29,3 +29,6 @@
 	- $\vec{k}=\vec{k}_{r}+i\vec{k}_{i}$ in Berry phase. 
 
 # Zen of Science Research 
+
+- 做自己能力边界上的事. 
+	[如何做出令自己满意的科研工作](https://www.zhihu.com/question/382826337?share_code=eUajXguofyVb&utm_psn=1948748371075536323) 
