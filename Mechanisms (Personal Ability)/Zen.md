@@ -27,3 +27,5 @@
 - 新奇的现象存在于已有规律的反例之中. swim in the gap! 
 	- [Gemini - BKT phase transition and Mermin-Wagner Theorem](https://g.co/gemini/share/897ca21c926f) 
 	- $\vec{k}=\vec{k}_{r}+i\vec{k}_{i}$ in Berry phase. 
+
+# Zen of Science Research 
