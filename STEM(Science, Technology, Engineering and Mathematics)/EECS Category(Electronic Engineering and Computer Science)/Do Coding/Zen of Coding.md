@@ -49,7 +49,7 @@
 	    
 	    return x_freq, freq_sig_batch
     ```
-- **接口传参依赖于抽象, 而不应该依赖于具体.** 
+- **接口传参依赖于抽象, 而不应该依赖于具体.** [[6A proj management|@6A proj management]] 's Architecture step. 
 	依赖于抽象的点有:
 	1) 数值计算中, 应当把整个数据结构(如Gaussian函数ndarray)传输出来, 而不是数据结构的参数(Gaussian $\sigma$)传输出来, 以便于更换函数.  
 	2) 使用`dict[string->types.FunctionType]`传输函数时, 换函数不需要换一大堆具体参数`arg`. 
